@@ -1,0 +1,65 @@
+\subsection{Metaheuristics}
+Every process has a potential to be optimized. the vast majority of companies is involved in solving optimization problems. Indeed, many challenging applications in science and industry can be formulated as optimization problems.
+Metaheuristics are a branch of optimization in computer science and applied mathematics
+that are related to algorithms and computational complexity theory. metaheuristics are raising a large interest in diverse technologies, industries, and services since they proved to be efficient algorithms in solving a wide range of  complex real-life optimization problems in different domains.
+
+\subsubsection{Classical Optimization Models}
+Optimization problems are encountered in many domains: BigData, engineering, logistics, and business. An optimization problem may be defined by the couple $(S, f )$, where $S$ represents the set of feasible solutions, and $f : S \implies {\rm I\!R}$ the objective function to optimize. The objective function assigns to every solution
+$s \in S$ of the search space a real number indicating its worth. The objective function
+$f$ allows to define a total order relation between any pair of solutions in the search
+space.\\
+
+The global optimum is defined as  a solution $s^* \in S$ and it has a better objective function than all solutions of the search space, that is, $\forall  s \in  S$, $f(s^*) 	\leq f(s)$.\\
+
+The main goal in solving an optimization problem is to find a global optimal solution $s^*$.
+
+\begin{figure}[!h]
+\centering
+\begin{tikzpicture}[node distance=0.5cm][!h]
+\centering
+\node (pro1) [mybox] {
+	\begin{minipage}{0.50\textwidth}
+		 \begin{itemize}
+		 	\item{Complexity and difficulty of the problem}
+			\begin{itemize}
+				\item{NP-completeness}
+				\item{NP-completeness}
+				\item{NP-completeness}
+			\end{itemize}	
+			\item{Requirements of the application}
+		 \end{itemize}
+		 
+	\end{minipage}
+};
+\node[fancytitle, right=10pt] at (pro1.north west) {Model of the problem};
+
+\node (pro2) [process, below of=pro1, yshift=-1.0cm] {When using metaheuristics?};
+\node (pro3) [process, below of=pro2, yshift=-1.0cm] {Design of a metaheuristic};
+\node (pro4) [process, below of=pro3, yshift=-1.0cm] {Implementation of the metaheuristic};
+\node (pro5) [process, below of=pro4, yshift=-1.0cm] {Parameter tuning}; 
+
+
+\draw [arrow] (pro1) -- (pro2);
+\draw [arrow] (pro2) -- (pro3);
+\draw [arrow] (pro3) -- (pro4);
+\draw [arrow] (pro4) -- (pro5);
+
+\end{tikzpicture}
+\caption{Guidelines for solving SCP.}\label{fig:GuideSolvingSCP}
+\end{figure}
+
+\subsection{Main goal}
+Solving the SCP using the Binary Global-Best HS metaheuristic algorithm.
+
+\subsection{Specific objectives}
+\begin{itemize}
+\item Solve the SCP with the BGBHS metaheuristic and compare the results with benchmark of Beasley	\cite{citeulike:921349}	
+%Solve the SCP with the HS metaheuristic and compare the results of unicost SCP using the same technique
+\item Introduce new operators that make the results more close to the global optimum.
+\item Search nearest optimal solutions to problems in the SCP.
+\item Compare and analyze the results using different resolution strategies.
+\end{itemize}
+
+
+
+

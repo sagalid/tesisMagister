@@ -1,0 +1,141 @@
+%author: Agustín Salas [juan.salas.f@mail.pucv.cl]
+\documentclass[11pt]{article}
+%\usepackage[spanish]{babel}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage{fancybox}
+\usepackage{xcolor}
+\usepackage{color}  
+\usepackage{array}
+%Ploteo de tablas
+\usepackage{pgfplots}
+%Funciones matemáticas
+\usepackage{amsmath}	
+%Uso de super indice Prima
+\usepackage{flexisym}
+%Numeración ordenada de citas, sin comprimir
+\usepackage[sort,nocompress]{cite}
+%Eliminar espacio entre figuras y texto para usar: \squeezeup
+\newcommand{\squeezeup}{\vspace{-0.5mm}} 
+%Manejo de tablas en secciones. Para que aparezcan correctamente 
+\usepackage{float}
+\restylefloat{table}
+%Construcción de diagramas de flujos.
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows,snakes}
+%Estilos para las cajas de los diagramas de flujo
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=1cm, minimum height=1cm,text centered, draw=black, fill=blue!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=1cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process} = [rectangle, minimum width=1cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{decision} = [diamond, minimum width=1cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{mybox} = [draw=red, fill=blue!20, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
+\tikzstyle{fancytitle} =[fill=red, text=white]
+
+%=============================================================================
+% Redefining paragraph
+
+\makeatletter % needed to recognize '@' as a normal char
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}{-3.25ex \@plus
+-1ex \@minus -.2ex}{1.5ex \@plus .2ex}{\normalfont\normalsize\bfseries}}
+\makeatother % needed to recognize '@' as a special char
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+
+%=============================================================================
+% Document
+
+\begin{document}
+
+\renewcommand{\tablename}{Tabla}
+
+\thispagestyle{empty}
+\input{Portada/portada.tex}
+\newpage
+
+\thispagestyle{empty}
+\input{SegundaPortada/SegundaPortada2.tex}
+\newpage
+
+\pagenumbering{roman}
+
+%%=============================================================================
+%% Abstract
+
+\input{Resumen/resumen.tex}
+\newpage
+
+%%=============================================================================
+%% Table of Contents
+
+\tableofcontents
+\newpage
+
+
+%%=============================================================================
+%% List of Figures
+
+\renewcommand{\listfigurename}{List of Figures}
+\listoffigures
+\newpage
+
+%%=============================================================================
+%% List of Tables
+
+\renewcommand{\listtablename}{List of Tables} 
+\listoftables
+\newpage
+
+%%=============================================================================
+%% Body of the document
+
+\pagenumbering{arabic}
+
+  \section{Introduction}\label{sec:introduccion}
+  \input{Introduccion/introduccion.tex}
+  \newpage
+  
+  \section{Definitions }\label{sec:definitions}
+  \input{Definitions/definitions.tex}
+  \newpage
+  
+  \section{Theoretical Framework}\label{sec:marcoTeorico}
+  \input{MarcoTeorico/marcoTeorico.tex}
+  \newpage
+
+  \section{Methodological Framework}\label{sec:marcoMetodologico}
+  \input{MarcoMetodologico/marcoMetodologico.tex}
+  \newpage
+
+  \section{Results}\label{sec:Resultados}
+  \input{Resultados/Resultados.tex}
+  \newpage
+  
+  \section{Conclusion}\label{sec:Conclusión}
+  \input{Conclusion/Conclusion.tex}
+  \newpage
+
+  \section{Appendix}\label{sec:Anexo}
+  \input{Anexo/Anexo.tex}
+  \newpage
+  
+% \section{Capítulo 1}\label{sec:cap1}
+%   \input{Capitulo_1/capitulo_1.tex}
+%   \newpage
+%
+% \section{Capítulo 2}\label{sec:cap2}
+%   \input{Capitulo_2/capitulo_2.tex}
+%   \newpage
+
+
+%%=============================================================================
+%% Biblio
+
+\bibliographystyle{ieeetr}
+%\bibliographystyle{alpha}
+\bibliography{bibliography}	
+
+\end{document}

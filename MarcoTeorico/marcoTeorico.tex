@@ -1,0 +1,234 @@
+%\subsection{Conceptual Framework}
+%In this section, the relevant concepts that will be used are listed throughout this research, and %how they are currently used.
+\subsection{Set Covering Problem}
+\subsubsection{SCP formulation}
+The Set Covering Problem (SCP) is a well-known mathematical problem, which tries to cover a set of needs at the lowest possible cost. The SCP was included in the list of 21  $\mathcal{N} \mathcal{P}$-\textit{complet} problems of Karp \cite{DBLP:books/daglib/p/Karp10}. There are many practical uses for this problem, such as: crew scheduling \cite{ref02, ref08}, location of emergency facilities \cite{ref51,Vasko198485}, production planning in industry \cite{Vasko:1987:OSI:40299.40301,ref48, ref50}, vehicle routing \cite{ref07, ref27}, ship scheduling \cite{ref26, ref13}, network attack or defense \cite{ref14}, assembly line balancing \cite{ref28, ref41}, traffic assignment in satellite communication systems \cite{ref37, ceriaetal1998}, simplifying boolean expressions \cite{ref16}, the calculation of bounds in integer programs \cite{ref18}, information retrieval \cite{ref20}, political districting \cite{ref29}, crew scheduling problems in airlines \cite{doi:10.1287/inte.27.5.68}, among others.
+The SCP can be formulated as follows:
+
+\begin{equation} \label{ec:set-covering-1}  
+\mbox{Minimize} \quad Z = \sum_{j = 1}^{n} c_j x_j
+\end{equation}
+Subject to:
+\begin{equation} \label{ec:set-covering-2} 
+\sum_{j = 1}^{n} a_{ij} x_j \geq 1 \quad  \forall i \in I
+\end{equation}
+\begin{equation} \label{ec:set-covering-3} 
+x_j \in \{0,1\} \quad  \forall j \in J 
+\end{equation}	
+
+
+Let $A = (a_{ij})$ be a $m \times n$ 0-1 matrix with $I = \{ 1,\dots, m\}$ and $J = \{ 1,\dots, n\}$ be the row and column sets respectively. We say that column $j$ can be cover a row $i$ if $a_{ij} = 1$. Where $c_j$ is a nonnegative value that represents the cost of selecting the column $j$ and $x_j$ is a decision variable, it can be 1 if column $j$ is selected or 0 otherwise. The objective is to find a minimum cost subset $S \subseteq J$, such that each row $i \in I$ is covered by at least one column $j \in S$. 
+\vspace{0mm}\\
+
+In the following section, we present a simple way to understand the SCP, through an example:\\
+
+\subsubsection{SCP sample solution}
+Imagine that an ambulance station can meet the needs of an geographic zone. Similarly the ambulance station can cover all the needs of the nearby areas. For example, if a station is built in Zone 1 (Figure~\ref{fig:SetCovering}) ambulance station can meet the needs of neighboring areas, that is, it could also cover: Zone 1, Zone 2, Zone 3 and Zone 4.  This can be appreciated in equation (\ref{ec:rest1}).
+
+In this example, we must fulfill the need to cover the geographical areas defined in accordance with the restrictions.
+
+The restriction of this case is that all areas must be covered by at least one ambulance station and the goal is to minimize the number of stations built, the cost of building a station is the same for all areas. The $x_j$ variable represents the area $j$ which is $1$ if the ambulance station is built, and will be $0$ if not. As above, it can be formulated as follows:
+
+\squeezeup
+\begin{figure}[!http]
+	\begin{center}
+		\includegraphics[width=0.8\linewidth]{Introduccion/imagenes/SetCovering.png}
+		\caption{Set Covering Problem example.}\label{fig:SetCovering}
+	\end{center}
+\end{figure}
+\squeezeup
+
+\scriptsize
+\begin{equation} \label{ec:SetCoveringExample} 
+\mbox{Min} \quad c_{1}x_{1} + c_{2}x_{2} + c_{3}x_{3} + c_{4}x_{4} + c_{5}x_{5} + c_{6}x_{6} + c_{7}x_{7} + c_{8}x_{8} + c_{9}x_{9} + c_{10}x_{10} + c_{11}x_{11}
+\end{equation}
+
+Subject to:
+\begin{align}
+x_{1} & + & x_{2} & + & x_{3} & + & x_{4} &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \geq  1 \label{ec:rest1}  \\
+x_{1} & + & x_{2} & + & x_{3} &  &  & + & x_{5} &  &  &  &  &  &  &  &  &  &  &  &  & \geq  1 \\
+x_{1} & + & x_{2} & + & x_{3} & + & x_{4} & + & x_{5} & + & x_{6} &  &  &  &  &  &  &  &  &  &  & \geq  1 \\
+x_{1} &  &  & + & x_{3} & + & x_{4} &  &  & + & x_{6} & + & x_{7} &  &  &  &  &  &  &  &  & \geq  1 \\
+& & x_{2} & + & x_{3} &  &  & + & x_{5} & + & x_{6} &  &  & + & x_{8} & + & x_{9} &  &  &  &  & \geq  1 \\
+& & & & x_{3} & + & x_{4} & + & x_{5} & + & x_{6} & + & x_{7} & + & x_{8} &  &  &  &  &  &  & \geq  1 \\
+& & & & & & x_{4} & & & + & x_{6} & + & x_{7} & + & x_{8} & & & & & & & \geq  1 \\
+& & & & & & & & x_{5} & + & x_{6} & + & x_{7} & + & x_{8} & + & x_{9} & + & x_{10} & & & \geq  1 \\
+& & & & & & & & x_{5} & & & & & + & x_{8} & + & x_{9} & + & x_{10} & + & x_{11} & \geq  1 \\
+& & & & & & & & & & & & & & x_{8} & + & x_{9} & + & x_{10} & + & x_{11} & \geq  1 \\
+& & & & & & & & & & & & & & & & x_{9} & + & x_{10} & + & x_{11} & \geq  1 
+\end{align}
+\normalsize
+
+The first constraint (\ref{ec:rest1}) indicates that to cover zone 1, it is possible to locate a station in the same area or in the border. The following restriction is for zone 2 and so on. One possible optimal solution for this problem is to locate ambulance stations in zones 3, 8 and 9. That is, $x_{3} = x_8 = x_9 = 1$ y $x_{1} = x_{2} = x_{4} = x_{5} = x_{6} = x_{7} = x_{10} = x_{11} = 0$. As shown in (Figure~\ref{fig:SetCovering2}).
+
+\squeezeup
+\begin{figure}[!http]
+	\begin{center}
+		\includegraphics[width=0.8\linewidth]{Introduccion/imagenes/SetCoveringSolved.png}
+		\caption{Set Covering Problem solution.}\label{fig:SetCovering2}
+	\end{center}	
+\end{figure}
+\squeezeup
+
+%\subsection{Unicost SCP}
+%The Unicost \cite{DBLP:conf/ieaaie/Musliu06,DBLP:journals/eor/AzimiTG10} is a variation of the SCP where the cost of each decision variable is 1. This indicates that it does not matter which one is active, what matters is to comply with the restrictions.
+
+
+We propose solve the SCP, with a variation metaheuristic Harmony Search (HS) called Binary Global-Best Harmony Search to obtain satisfactory solutions within a reasonable time. HS mimics the process of musical improvisation, where musicians make adjustments in tone to achieve aesthetic harmony.
+
+\subsubsection{Harmony Search Metaheuristic}
+Harmony Search (HS) is a population-based metaheuristic algorithm inspired from the musical process of searching for a perfect state of Harmony or Aesthetic Quality of a Harmony (AQH). The HS was proposed by Z. W. Geem et al.\cite{DBLP:journals/simulation/GeemKL01}.
+
+In other words, the main idea of the HS metaheuristic is to mimic the process performed by musicians when they try to play a beautiful harmony.
+
+For the purpose of properly understand what is looking like a good solution in this metaheuristic, we must know the meaning of AQH, this concept and others are defined below.
+
+The AQH in an instrument it is essentially determined by its pitch (or frequency), sound quality, and amplitude (or loudness). The sound quality is mainly determined by the harmonic content that is in turn determined by the waveforms or modulations of the sound signal. However, the harmonics that it can generate will largely depend on the pitch or frequency range of the particular instrument \cite{Geem:2009:MHS:1643438}.
+
+Different notes have different frequencies. For example, the note A  has a fundamental frequency of $f_0=440 Hz$. The fundamental frequency of each note can be seen in (Table~\ref{fig:musical_notes}). 
+
+Given the above, it is established that a good harmony has good AQH.
+
+The pitch of each musical instrument determines the AQH, just as the fitness function values determines the quality of the decision variables.
+
+In the music improvisation process, all musicians sound pitches within possible range together to make one harmony.
+
+If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony in increased next time. The same thing in optimization, the initial solution is generated randomly from decision variables within the possible range.
+
+If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
+
+\begin{table}[]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Musical Note} & \textbf{Frequency} \\ \hline
+C                     & 261,625565 Hz      \\ \hline
+D                     & 293,664768 Hz      \\ \hline
+E                     & 329,627557 Hz      \\ \hline
+F                     & 349,228231 Hz      \\ \hline
+G                     & 391,995436 Hz      \\ \hline
+A                     & 440,000000 Hz      \\ \hline
+B                     & 493,883301 Hz      \\ \hline
+\end{tabular}
+\caption{HS - Musical Notes}\label{fig:musical_notes}
+\end{table}
+
+
+In this document, we focus on studying the classical SCP problem (equation \ref{ec:set-covering-1}), where we want minimize the cost.
+
+\subsubsection{HS operation in depth}
+In general, the procedure for HS metaheuristic, consists of the following four steps.\\ \\
+
+\emph{Step 1: Initialization parameters} \\
+The parameters required to solve the optimization problem are speci?ed in this step, an initial HM is filled with a population of  Harmony Memory Size (HMS), harmonies are generated randomly.\\ 
+In addition, the parameters of HS, that is, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) determines the probability of local improvement and number of improvisations (NI) are given when the metaheuristic begins.\\ \\
+\emph{Step 2: New Harmony} \\
+Improvise a new harmony from the current HM.\\ \\%The details of this procedure are given in Algorithm \ref{alg:newHarmonyGreedy}.
+\emph{Step 3: Replace worst Harmony in HM} \\
+If the new generated harmony is better than the worst one in HM, then replace the worst harmony with the new one; otherwise, go to the next step. \\ \\
+\emph{Step 4: Check the stop criteria} \\
+If a stopping criterion is not satisfied, go to Step 2.
+
+%TABLA (musician - > decision variables)
+\squeezeup
+\begin{table}[]
+\centering
+\begin{tabular}{|m{3.5cm}|m{8cm}|}
+\hline
+\includegraphics[width=30mm,scale=0.05]{MarcoTeorico/imagenes/musicos.png} & 
+Each musician represents a decision variable,
+according to the example shown, there would be 11 musicians, 	
+since there are 11 decision variables $x_1\dots x_{11}$. \\ \hline
+\end{tabular}
+\caption{HS components - Musician}\label{fig:harmony_process_musician}
+\end{table}
+\squeezeup
+
+%--VIOLIN (Instrument Pitch Range - > Range Value of decision variable)
+\begin{table}[]
+\centering
+\begin{tabular}{|m{3.5cm}|m{8cm}|}
+\hline
+\includegraphics[width=15mm,scale=0.02]{MarcoTeorico/imagenes/violin.png} & The pitch range of the instrument represents the range of values that can take a decision variable. Given the nature of the problem, the possible values are ${\{0,1\}}$ \\  \hline\end{tabular}
+\caption{HS components - Pitch range}\label{fig:harmony_process_pitch_range}
+\end{table}
+
+
+%--NOTA MUSICAL (Armonia -> Solucion)
+\begin{table}[]
+\centering
+\begin{tabular}{|m{3.5cm}|m{8cm}|}
+\hline
+\includegraphics[width=15mm,scale=0.0005]{MarcoTeorico/imagenes/nota.png} & Musical harmony at a certain time, corresponds to a solution at a certain iteration.\\ \hline
+
+\end{tabular}
+\caption{HS components - Solution}\label{fig:harmony_process_solution}
+\end{table}
+
+
+% CALIDAD ESTETICA (Calidad de la armonia -> Calidad de la solución)
+\begin{table}[]
+\centering
+\begin{tabular}{|m{3.5cm}|m{8cm}|}
+\hline
+%$f=440\times2^{{(p_n-{69})}/12}$ & Aesthetics audience, judges whether harmony is good or not.  In the problem it refers to the objective function. \\ \hline
+
+\includegraphics[width=30mm,scale=0.02]{MarcoTeorico/imagenes/audience.png} & Aesthetics audience, judges whether harmony is good or not.  In the problem it refers to the objective function.\\ \hline
+
+\end{tabular}
+\caption{HS components - Aesthetics audience}\label{fig:harmony_process_aesthetics}
+\end{table}
+
+%FIN TABLAS
+
+\subsubsection{Global-Best Harmony Search Metaheuristic}
+To further improve the convergence performance of HS and overcome some shortcomings of HS, a new variant of HS, called  Global-Best Harmony Search (GHS), was proposed by Omran and Mahdavi \cite{DBLP:journals/amc/OmranM08}. 
+First, the GHS dynamically updates parameter PAR according to equation (\ref{ec:PAR-T}):
+
+\begin{equation} \label{ec:PAR-T}
+PAR(t) = PAR_{min}+\frac{PAR_{max} - PAR_{min}}{NI}t
+\end{equation}
+
+where $PAR(t)$ represents the pitch adjusting rate at generation $t$, $PAR_{min}$ and $PAR_{max}$  are the minimum and maximum adjusting rate, respectively.
+The parameter $t$ is the iterative variable, and parameter $NI$ is the number of improvisations.
+
+
+\subsubsection{Binary Global-Best Harmony Search Metaheuristic}
+
+The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is imbalance between the exploration and the exploitation of HS. Furthermore, HS designed for continuous space cannot be directly used to solve discrete combinatorial optimization problems.
+
+In order to overcome the drawbacks of HS, a novel binary global-best harmony search (BGHS) is designed for binary optimization problems.
+
+Owing to better performance of GHS, some modifications to GHS are introduced to further enhance the convergence performance of GHS. Then a novel binary coded GHS, a two-phase repair operator, and a greedy selection mechanism are integrated into the BGHS. And they are described in detail as follows.
+
+
+
+.
+.
+.
+.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {subsection}{\numberline {1.1}Metaheuristics}{1}
+\contentsline {subsubsection}{\numberline {1.1.1}Classical Optimization Models}{1}
+\contentsline {subsection}{\numberline {1.2}Main goal}{2}
+\contentsline {subsection}{\numberline {1.3}Specific objectives}{3}
+\contentsline {section}{\numberline {2}Definitions }{4}
+\contentsline {subsection}{\numberline {2.1}Operator:}{4}
+\contentsline {subsection}{\numberline {2.2}Solution:}{4}
+\contentsline {subsection}{\numberline {2.3}Constrain:}{4}
+\contentsline {subsection}{\numberline {2.4}Benchmark:}{4}
+\contentsline {subsection}{\numberline {2.5}Objective Function:}{4}
+\contentsline {subsection}{\numberline {2.6}Fitness:}{4}
+\contentsline {subsection}{\numberline {2.7}Matrix of Costs:}{4}
+\contentsline {subsection}{\numberline {2.8}Optimal Value:}{4}
+\contentsline {subsection}{\numberline {2.9}Domain:}{4}
+\contentsline {subsection}{\numberline {2.10}Matrix A:}{5}
+\contentsline {subsection}{\numberline {2.11}RPD:}{5}
+\contentsline {subsection}{\numberline {2.12}Harmony Memory:}{5}
+\contentsline {subsection}{\numberline {2.13}Harmony Memory Size:}{5}
+\contentsline {subsection}{\numberline {2.14}Harmony Memory Consideration Rate (HMCR):}{5}
+\contentsline {subsection}{\numberline {2.15}Pitch Adjusting Rate (PAR):}{5}
+\contentsline {section}{\numberline {3}Theoretical Framework}{6}
+\contentsline {subsection}{\numberline {3.1}Set Covering Problem}{6}
+\contentsline {subsubsection}{\numberline {3.1.1}SCP formulation}{6}
+\contentsline {subsubsection}{\numberline {3.1.2}SCP sample solution}{6}
+\contentsline {subsubsection}{\numberline {3.1.3}Harmony Search Metaheuristic}{9}
+\contentsline {subsubsection}{\numberline {3.1.4}HS operation in depth}{9}
+\contentsline {subsubsection}{\numberline {3.1.5}Global-Best Harmony Search Metaheuristic}{11}
+\contentsline {subsubsection}{\numberline {3.1.6}Binary Global-Best Harmony Search Metaheuristic}{11}
+\contentsline {section}{\numberline {4}Methodological Framework}{13}
+\contentsline {subsection}{\numberline {4.1}Binary Global-Best Harmony Search Algorithm}{13}
+\contentsline {section}{\numberline {5}Results}{14}
+\contentsline {section}{\numberline {6}Conclusion}{15}
+\contentsline {section}{\numberline {7}Appendix}{16}
+\contentsline {subsection}{\numberline {7.1}Instance 4.1}{16}
+\contentsline {subsection}{\numberline {7.2}Instance 4.2}{17}
+\contentsline {subsection}{\numberline {7.3}Instance 4.3}{18}
+\contentsline {subsection}{\numberline {7.4}Instance 4.4}{19}
+\contentsline {subsection}{\numberline {7.5}Instance 4.5}{20}
+\contentsline {subsection}{\numberline {7.6}Instance 4.6}{21}
+\contentsline {subsection}{\numberline {7.7}Instance 4.7}{22}
+\contentsline {subsection}{\numberline {7.8}Instance 4.8}{23}
+\contentsline {subsection}{\numberline {7.9}Instance 4.9}{24}
+\contentsline {subsection}{\numberline {7.10}Instance 4.10}{25}
+\contentsline {subsection}{\numberline {7.11}Instance 5.1}{26}
+\contentsline {subsection}{\numberline {7.12}Instance 5.2}{27}
+\contentsline {subsection}{\numberline {7.13}Instance 5.3}{28}
+\contentsline {subsection}{\numberline {7.14}Instance 5.4}{29}
+\contentsline {subsection}{\numberline {7.15}Instance 5.5}{30}
+\contentsline {subsection}{\numberline {7.16}Instance 5.6}{31}
+\contentsline {subsection}{\numberline {7.17}Instance 5.7}{32}
+\contentsline {subsection}{\numberline {7.18}Instance 5.8}{33}
+\contentsline {subsection}{\numberline {7.19}Instance 5.9}{34}
+\contentsline {subsection}{\numberline {7.20}Instance 5.10}{35}
+\contentsline {subsection}{\numberline {7.21}Instance 6.1}{36}
+\contentsline {subsection}{\numberline {7.22}Instance 6.2}{37}
+\contentsline {subsection}{\numberline {7.23}Instance 6.3}{38}
+\contentsline {subsection}{\numberline {7.24}Instance 6.4}{39}
+\contentsline {subsection}{\numberline {7.25}Instance 6.5}{40}
+\contentsline {subsection}{\numberline {7.26}Instance A.1}{41}
+\contentsline {subsection}{\numberline {7.27}Instance A.2}{42}
+\contentsline {subsection}{\numberline {7.28}Instance A.3}{43}
+\contentsline {subsection}{\numberline {7.29}Instance A.4}{44}
+\contentsline {subsection}{\numberline {7.30}Instance A.5}{45}
+\contentsline {subsection}{\numberline {7.31}Instance B.1}{46}
+\contentsline {subsection}{\numberline {7.32}Instance B.2}{47}
+\contentsline {subsection}{\numberline {7.33}Instance B.3}{48}
+\contentsline {subsection}{\numberline {7.34}Instance B.4}{49}
+\contentsline {subsection}{\numberline {7.35}Instance B.5}{50}
+\contentsline {subsection}{\numberline {7.36}Instance C.1}{51}
+\contentsline {subsection}{\numberline {7.37}Instance C.2}{52}
+\contentsline {subsection}{\numberline {7.38}Instance C.3}{53}
+\contentsline {subsection}{\numberline {7.39}Instance C.4}{54}
+\contentsline {subsection}{\numberline {7.40}Instance C.5}{55}
+\contentsline {subsection}{\numberline {7.41}Instance D.1}{56}
+\contentsline {subsection}{\numberline {7.42}Instance D.2}{57}
+\contentsline {subsection}{\numberline {7.43}Instance D.3}{58}
+\contentsline {subsection}{\numberline {7.44}Instance D.4}{59}
+\contentsline {subsection}{\numberline {7.45}Instance D.5}{60}
