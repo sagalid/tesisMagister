@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: informeFinal.aux
+The style file: unsrt.bst
+Database file #1: bibliography.bib
+A bad cross reference---entry "DBLP:books/daglib/p/Karp10"
+refers to entry "DBLP:books/daglib/0023873", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:books/daglib/0023873"
+Warning--empty publisher in DBLP:books/daglib/p/Karp10
+You've used 27 entries,
+            1791 wiz_defined-function locations,
+            625 strings with 7551 characters,
+and the built_in function-call counts, 6449 in all, are:
+= -- 631
+> -- 213
+< -- 1
++ -- 83
+- -- 56
+* -- 499
+:= -- 1006
+add.period$ -- 82
+call.type$ -- 27
+change.case$ -- 27
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 257
+empty$ -- 648
+format.name$ -- 56
+if$ -- 1406
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 28
+newline$ -- 138
+num.names$ -- 27
+pop$ -- 38
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 100
+stack$ -- 0
+substring$ -- 627
+swap$ -- 36
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 77
+width$ -- 29
+write$ -- 299
+(There was 1 error message)

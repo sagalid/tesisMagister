@@ -13,41 +13,6 @@ The global optimum is defined as  a solution $s^* \in S$ and it has a better obj
 
 The main goal in solving an optimization problem is to find a global optimal solution $s^*$.
 
-\begin{figure}[!h]
-\centering
-\begin{tikzpicture}[node distance=0.5cm][!h]
-\centering
-\node (pro1) [mybox] {
-	\begin{minipage}{0.50\textwidth}
-		 \begin{itemize}
-		 	\item{Complexity and difficulty of the problem}
-			\begin{itemize}
-				\item{NP-completeness}
-				\item{NP-completeness}
-				\item{NP-completeness}
-			\end{itemize}	
-			\item{Requirements of the application}
-		 \end{itemize}
-		 
-	\end{minipage}
-};
-\node[fancytitle, right=10pt] at (pro1.north west) {Model of the problem};
-
-\node (pro2) [process, below of=pro1, yshift=-1.0cm] {When using metaheuristics?};
-\node (pro3) [process, below of=pro2, yshift=-1.0cm] {Design of a metaheuristic};
-\node (pro4) [process, below of=pro3, yshift=-1.0cm] {Implementation of the metaheuristic};
-\node (pro5) [process, below of=pro4, yshift=-1.0cm] {Parameter tuning}; 
-
-
-\draw [arrow] (pro1) -- (pro2);
-\draw [arrow] (pro2) -- (pro3);
-\draw [arrow] (pro3) -- (pro4);
-\draw [arrow] (pro4) -- (pro5);
-
-\end{tikzpicture}
-\caption{Guidelines for solving SCP.}\label{fig:GuideSolvingSCP}
-\end{figure}
-
 \subsection{Main goal}
 Solving the SCP using the Binary Global-Best HS metaheuristic algorithm.
 

@@ -24,7 +24,7 @@
 \restylefloat{table}
 %Construcción de diagramas de flujos.
 \usepackage{tikz}
-\usetikzlibrary{shapes, arrows,snakes}
+\usetikzlibrary{shapes, arrows.meta,snakes}
 %Estilos para las cajas de los diagramas de flujo
 \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=1cm, minimum height=1cm,text centered, draw=black, fill=blue!30]
 \tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=1cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
@@ -98,8 +98,12 @@
   \input{Introduccion/introduccion.tex}
   \newpage
   
-  \section{Definitions }\label{sec:definitions}
-  \input{Definitions/definitions.tex}
+%  \section{Definitions }\label{sec:definitions}
+%  \input{Definitions/definitions.tex}
+%  \newpage
+  
+  \section{Conceptual Framework}\label{sec:marcoConceptual}
+   \input{MarcoConceptual/marcoConceptual.tex}
   \newpage
   
   \section{Theoretical Framework}\label{sec:marcoTeorico}
@@ -134,7 +138,8 @@
 %%=============================================================================
 %% Biblio
 
-\bibliographystyle{ieeetr}
+\bibliographystyle{abbrv}
+%\bibliographystyle{ieeetr}
 %\bibliographystyle{alpha}
 \bibliography{bibliography}	
 

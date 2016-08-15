@@ -1,5 +1,103 @@
 %\subsection{Conceptual Framework}
 %In this section, the relevant concepts that will be used are listed throughout this research, and %how they are currently used.
+\subsection{}
+\squeezeup
+\begin{figure}
+\centering
+\begin{tikzpicture}[node distance=0.5cm]
+
+%Nodo 1==============================================
+\node (pro1) [mybox] {
+	\begin{minipage}{0.70\textwidth}
+	\scriptsize
+		 \begin{itemize}
+		 	\item{Understand complexity and difficulty of the problem}
+			\begin{itemize}
+				\item{$NP$-completeness, size of the problem and structure.}
+			\end{itemize}	
+			\item{Set requirements of the application}
+			\begin{itemize}
+				\item{Search time, quality of solutions and robustness.}
+			\end{itemize}	
+		 \end{itemize}
+		 
+	\end{minipage}
+};
+\node[fancytitle, right=10pt] at (pro1.north west) {1.-Model of the problem};
+
+%Nodo 2==============================================
+\node (pro2) [mybox, below of=pro1, yshift=-4.2cm] {
+	\begin{minipage}{0.80\textwidth}
+		\scriptsize
+		 \begin{itemize}
+		 	\item{It should take into consideration the following elements in the process of designing a metaheuristic}
+			\begin{itemize}
+				\item{Representation}
+				\item{Guiding objective function}
+				\item{Constraint handling}
+			\end{itemize}
+			\item{Select categories of metaheuristics: Trajectory-based metaheuristics or Population-based metaheuristics}
+		 \end{itemize}
+		 
+	\end{minipage}
+};
+\node[fancytitle, right=10pt] at (pro2.north west) {2.-Design of a metaheuristic};
+
+%Nodo 3============================================
+\node (pro3) [mybox, below of=pro2, yshift=-4.3cm] {
+	\begin{minipage}{0.80\textwidth}
+		\scriptsize
+		 \begin{itemize}
+		 \item{When a metaheuristic is implemented , they must be taken into cosideration the strategy that will be used in the development process}
+		 \begin{itemize}
+		 	\item{From scratch or no reuse (nondesirable),Code reuse,Design and code reuse (e.g., software framework ParadisEO)}
+			\item{Code reuse}
+			\item{Design and code reuse (e.g., software framework ParadisEO)}
+		 \end{itemize}
+		\end{itemize}
+	\end{minipage}
+};
+\node[fancytitle, right=10pt] at (pro3.north west) {3.-Implementation};
+
+%Nodo 4=============================================
+\node (pro4) [mybox,below of=pro3, yshift=-4.2cm, xshift=-4.0cm] {
+	\begin{minipage}{0.50\textwidth}
+		\scriptsize
+		 \begin{itemize}
+		 	\item{Off-line: Design of experiments or meta-optimization}
+		 	\item{Online: Dynamic, adaptive or self-adaptive}
+		 \end{itemize}
+		 
+	\end{minipage}
+}; 
+\node[fancytitle, right=10pt] at (pro4.north west) {4.-Parameter tuning};
+
+%Nodo 5==============================================
+\node (pro5) [mybox,below of=pro3, yshift=-4.2cm, xshift=4.0cm] {
+	\begin{minipage}{0.50\textwidth}
+		\scriptsize
+		 \begin{itemize}
+		 	\item{Experimental design}
+			\item{Measurements}
+			\item{Reporting}
+		 \end{itemize}
+		 
+	\end{minipage}
+}; 
+\node[fancytitle, right=75pt] at (pro5.north west) {5.-Performance evaluation};
+%==============================================
+\draw [arrow] (pro1) --  (pro2);
+\draw [arrow] (pro2) -- (pro3);
+\draw [arrow] (pro3) -- (pro4);
+\draw [arrow] (pro3) -- (pro5);
+\draw [arrow] (pro5.east) to [bend right=30] (pro1.east);
+\draw [arrow] (pro5.east) to [bend right=30] (pro2.east);
+\draw [arrow] (pro5.east) to [bend right=60] (pro3.east);
+\end{tikzpicture}
+\caption{Guidelines for solving SCP.}\label{fig:GuideSolvingSCP}
+\end{figure}
+
+
 \subsection{Set Covering Problem}
 \subsubsection{SCP formulation}
 The Set Covering Problem (SCP) is a well-known mathematical problem, which tries to cover a set of needs at the lowest possible cost. The SCP was included in the list of 21  $\mathcal{N} \mathcal{P}$-\textit{complet} problems of Karp \cite{DBLP:books/daglib/p/Karp10}. There are many practical uses for this problem, such as: crew scheduling \cite{ref02, ref08}, location of emergency facilities \cite{ref51,Vasko198485}, production planning in industry \cite{Vasko:1987:OSI:40299.40301,ref48, ref50}, vehicle routing \cite{ref07, ref27}, ship scheduling \cite{ref26, ref13}, network attack or defense \cite{ref14}, assembly line balancing \cite{ref28, ref41}, traffic assignment in satellite communication systems \cite{ref37, ceriaetal1998}, simplifying boolean expressions \cite{ref16}, the calculation of bounds in integer programs \cite{ref18}, information retrieval \cite{ref20}, political districting \cite{ref29}, crew scheduling problems in airlines \cite{doi:10.1287/inte.27.5.68}, among others.
