@@ -1,8 +1,33 @@
 \subsection{Metaheuristics}
-A metaheuristic will be successful on a given optimizaction problem if it can provide a balance between exploration and exploitation. 
+
 \subsubsection{Definition}
+The $meta$ and $heuristic$ are Greek words, $meta$ it means $higher level$ and $heuristics$ means $to$ $find$, $to$ $know$ or $to$ $discover$. Metaheuristics are a set of intelligent strategies to enhance the efficiency of heuristic procedures.\\
+
+A metaheuristic will be successful on a given optimizaction problem if it can provide a balance between exploration and exploitation. Exploration means to generate diverse solutions so as to explore the search space on the global scale, while exploitation means search in a local region by exploiting the information that a current good solution is found in this region.
+exploration, often by use of randomization, which enables an algorithm to have the ability to jump out of any local optimum so as to explore the search globally.
+
 \subsubsection{Clasification}
-\subsection{Important terms}
+The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}.
+
+A majority of these algorithms has a stochastic behavior and mimics biological or  physical processes.
+
+\paragraph{Trajectory methods vs. discontinuous methods}
+The different between this metaheuristics is whether they follow one single search trajectory
+corresponding to a closed walk on the neighborhood graph or whether larger
+jumps in the neighborhood graph are allowed. Examples of this clasificaction are: tabu search and simulated annealing. These methods usually allow moves to worse solutions to be able to escape from local minima.\\
+
+The generation of starting solutions corresponds to jumps in the search space; these algorithms, in general, follow a discontinuous walk with respect to the neighborhood graph used in the local
+search.
+\paragraph{Population-based vs. single-point search}
+
+\paragraph{Memory usage vs. memoryless methods}
+
+\paragraph{One vs. various neighborhood structures}
+
+\paragraph{Dynamic vs. static objective function}
+
+\subsection{Nature-inspired vs. non-nature inspiration }
+
 \subsubsection{Operator} 
 Unitary procedure for transforming information or implement the behavior of the algrithm.
 
@@ -16,7 +41,7 @@ Conditions to be met to find a viable solution.
 Optimal set of known problem instances to validate the propose algorithm.
 
 \subsubsection{Objective Function}  
-Implements the mathematical expression representing the problem to solve.
+Implements the mathematical expression representing the problem to solve. The guiding objective function is related to the goal to achieve.
 
 \subsubsection{Fitness} 
 Value resulting by applying the objective function to solution.
