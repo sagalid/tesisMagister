@@ -43,24 +43,21 @@
 %Elimina indentación para todo el documento.
 \setlength\parindent{0pt}
 
-
 %=============================================================================
 % Redefining paragraph
-
-\makeatletter % needed to recognize '@' as a normal char
-\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}{-3.25ex \@plus
--1ex \@minus -.2ex}{1.5ex \@plus .2ex}{\normalfont\normalsize\bfseries}}
-\makeatother % needed to recognize '@' as a special char
-\setcounter{secnumdepth}{4}
-\setcounter{tocdepth}{3}
-
-%=============================================================================
+%\makeatletter % needed to recognize '@' as a normal char
+%\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}{-3.25ex \@plus
+%-1ex \@minus -.2ex}{1.5ex \@plus .2ex}{\normalfont\normalsize\bfseries}}
+%\makeatother % needed to recognize '@' as a special char
+%\setcounter{secnumdepth}{4}
+%\setcounter{tocdepth}{3}
+%%=============================================================================
 % Covers
+\pagestyle{plain}
+\pagenumbering{arabic}
 
 \begin{document}
-
 \renewcommand{\tablename}{Tabla}
-
 \thispagestyle{empty}
 \input{Portada/portada.tex}
 \newpage

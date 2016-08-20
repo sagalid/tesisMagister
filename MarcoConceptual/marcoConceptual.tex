@@ -1,3 +1,10 @@
+Optimization problems are encountered in many domains: BigData, engineering, logistics, and business. An optimization problem may be defined by the couple $(S, f )$, where $S$ represents the set of feasible solutions, and $f : S \implies {\rm I\!R}$ the objective function to optimize. The objective function assigns to every solution
+$s \in S$ of the search space a real number indicating its worth. The objective function
+$f$ allows to define a total order relation between any pair of solutions in the search
+space.\\
+
+The global optimum is defined as  a solution $s^* \in S$ and it has a better objective function than all solutions of the search space, that is, $\forall  s \in  S$, $f(s^*) 	\leq f(s)$.\\
+
 \subsection{Metaheuristics}
 
 \subsubsection{Definition}
@@ -7,9 +14,9 @@ A metaheuristic will be successful on a given optimizaction problem if it can pr
 exploration, often by use of randomization, which enables an algorithm to have the ability to jump out of any local optimum so as to explore the search globally.
 
 \subsubsection{Clasification}
-The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}.
+The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}. A majority of these algorithms has a stochastic behavior and mimics biological or  physical processes.\\
 
-A majority of these algorithms has a stochastic behavior and mimics biological or  physical processes.
+The classification presented was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the Fig.\ref{fig:classification-of-mh}.
 
 \paragraph{Trajectory methods vs. discontinuous methods}
 The different between this metaheuristics is whether they follow one single search trajectory
@@ -27,6 +34,25 @@ search.
 \paragraph{Dynamic vs. static objective function}
 
 \subsection{Nature-inspired vs. non-nature inspiration }
+
+%Imagen Classification of Metaheuristic
+%\squeezeup
+%\includegraphics[]{MarcoConceptual/images/classification_mh.png} 
+%\caption{Classification of Metaheuristic}\label{fig:classification-of-mh}
+%\squeezeup
+
+%TABLA (musician - > decision variables)
+\squeezeup
+
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=0.55\textwidth]{MarcoConceptual/images/classification_mh.png}
+	\caption{Classification of Metaheuristic}\label{fig:classification-of-mh}
+\end{figure}
+
+\squeezeup
+
 
 \subsubsection{Operator} 
 Unitary procedure for transforming information or implement the behavior of the algrithm.
