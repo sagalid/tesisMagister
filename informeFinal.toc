@@ -13,7 +13,7 @@
 \contentsline {paragraph}{Dynamic vs. static objective function}{2}
 \contentsline {subsection}{\numberline {2.2}Nature-inspired vs. non-nature inspiration }{2}
 \contentsline {subsubsection}{Operator}{2}
-\contentsline {subsubsection}{Solution}{2}
+\contentsline {subsubsection}{Solution}{3}
 \contentsline {subsubsection}{Constrain}{3}
 \contentsline {subsubsection}{Benchmark}{3}
 \contentsline {subsubsection}{Objective Function}{3}
@@ -24,7 +24,7 @@
 \contentsline {subsubsection}{Matrix A}{3}
 \contentsline {subsubsection}{RPD}{3}
 \contentsline {subsubsection}{Harmony Memory}{3}
-\contentsline {subsubsection}{Harmony Memory Size}{3}
+\contentsline {subsubsection}{Harmony Memory Size}{4}
 \contentsline {subsubsection}{Harmony Memory Consideration Rate (HMCR)}{4}
 \contentsline {subsubsection}{Pitch Adjusting Rate (PAR)}{4}
 \contentsline {section}{\numberline {3}Theoretical Framework}{5}
