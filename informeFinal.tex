@@ -6,8 +6,6 @@
 \setmarginsrb{2.5cm}{2cm}{2.5cm}{2cm}{10pt}{1cm}{0pt}{1cm}
 \usepackage{times}
 \usepackage{multirow}
-\bibliographystyle{siam}
-
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -42,6 +40,10 @@
     rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
 \tikzstyle{fancytitle} =[fill=red, text=white]
 
+%Elimina indentación para todo el documento.
+\setlength\parindent{0pt}
+
+
 %=============================================================================
 % Redefining paragraph
 
@@ -53,7 +55,7 @@
 \setcounter{tocdepth}{3}
 
 %=============================================================================
-% Document
+% Covers
 
 \begin{document}
 
@@ -71,7 +73,6 @@
 
 %%=============================================================================
 %% Abstract
-
 \input{Resumen/resumen.tex}
 \newpage
 
@@ -104,11 +105,7 @@
   \section{Introduction}\label{sec:introduccion}
   \input{Introduccion/introduccion.tex}
   \newpage
-  
-%  \section{Definitions }\label{sec:definitions}
-%  \input{Definitions/definitions.tex}
-%  \newpage
-  
+
   \section{Conceptual Framework}\label{sec:marcoConceptual}
    \input{MarcoConceptual/marcoConceptual.tex}
   \newpage
