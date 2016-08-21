@@ -16,46 +16,39 @@ A metaheuristic will be successful on a given optimizaction problem if it can pr
 exploration, often by use of randomization, which enables an algorithm to have the ability to jump out of any local optimum so as to explore the search globally.
 
 \subsubsection{Clasification}
-The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}. A majority of these algorithms has a stochastic behavior and mimics biological or  physical processes.\\
+The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}. A majority of these algorithms has a stochastic behavior and mimics biological or  physical processes. The classification presented was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the (Figure \ref{fig:classification-of-mh}).
 
-The classification presented was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the (Figure \ref{fig:classification-of-mh}).
-
-\subsection{Nature-inspired vs. non-nature inspiration }
+\paragraph{Nature-inspired vs. non-nature inspiration }
 This class is based on the origin of algorithm. The majority of meta-heuristics are nature-inspired algorithms such as Black Hole (BH) \cite{Rubio2016}, Particle Swarm Optimization (PSO) \cite{Duran:2010:CPS:1645454.1645859} and Genetic Algorithms (GA) \cite{DBLP:conf/icsi/CrawfordSPJPO14}. Also, some of them are non-nature-inspired algorithms like Iterated Local Search (ILS) \cite{DBLP:journals/networks/AringhieriGHS16} and TabuSearch (TS) \cite{DBLP:journals/eswa/SotoCGMP13}.
 
-\paragraph{Trajectory methods vs. discontinuous methods}
-The different between this metaheuristics is whether they follow one single search trajectory
-corresponding to a closed walk on the neighborhood graph or whether larger
-jumps in the neighborhood graph are allowed. Examples of this clasificaction are: tabu search and simulated annealing. These methods usually allow moves to worse solutions to be able to escape from local minima.\\
-
-The generation of starting solutions corresponds to jumps in the search space; these algorithms, in general, follow a discontinuous walk with respect to the neighborhood graph used in the local
-search.
 \paragraph{Population-based vs. single-point search}
-
-\paragraph{Memory usage vs. memoryless methods}
-
-\paragraph{One vs. various neighborhood structures}
+There is a certain group of metaheuristics, which can be classified by the number of solutions in the lifecycle or execution, such as Trajectory methods, which are the algorithms working based on a single solution at any time (Figure \ref{fig:trajectory-method}). On the other hand Population-based algorithms perform search with multiple initial points in a parallel style. Examples of these metaheuristics can be: Harmony Search (HS) \cite{DBLP:conf/ccece/Al-AjmiE14}, GA \cite{Aupetit2008} and PSO. 
 
 \paragraph{Dynamic vs. static objective function}
+Another way of classifying metaheuristics, is by the way of utilizing the objective function, some algorithms maintain the objective function intact throughout the execution cycle, while others modify the objective function according to information collected at runtime.\\
+An example of the second case presented, is Guided Local Search (GLS) \cite{DBLP:journals/eor/VansteenwegenSBO09}.  The idea behind this approach is to escape from local optima by changing the search landscape. 
 
-%Imagen Classification of Metaheuristic
-%\squeezeup
-%\includegraphics[]{MarcoConceptual/images/classification_mh.png} 
-%\caption{Classification of Metaheuristic}\label{fig:classification-of-mh}
-%\squeezeup
+\paragraph{One vs. various neighborhood structures}
+The majority of metaheuristic algorithms apply one single neighborhood structure. The fitness landscape topology does not alter in the course of the algorithm while others, like Variable Neighborhood Search (VNS) \cite{DBLP:journals/anor/SarasolaDSA16}, employ a set of neighborhood structures. This latter structure gives the possibility to diversify the search by swapping between different fitness landscapes.
 
-%TABLA (musician - > decision variables)
+\paragraph{Memory usage vs. memoryless methods}
+One of the most interesting variables to classify a metaheuristic is undoubtedly use of memory. Short term usually is different from long term memory. The first kind usually keeps track of recently performed moves, or decisions taken. The second is usually an accumulation of synthetic parameters about the search. 
+
 \squeezeup
-
-
 \begin{figure}[ht]
 	\centering
-  \includegraphics[width=0.55\textwidth]{MarcoTeorico/imagenes/classification_mh.png}
-	\caption{Classification of Metaheuristic}\label{fig:classification-of-mh}
+  \includegraphics[width=0.70\textwidth]{MarcoTeorico/imagenes/classification_mh.png}
+	\caption{Classification of metaheuristic}\label{fig:classification-of-mh}
 \end{figure}
-
 \squeezeup
 
+\squeezeup
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=0.55\textwidth]{MarcoTeorico/imagenes/trajectory-mh.png}
+	\caption{Trajectory-based method}\label{fig:trajectory-method}
+\end{figure}
+\squeezeup
 
 \subsubsection{Operator} 
 Unitary procedure for transforming information or implement the behavior of the algrithm.

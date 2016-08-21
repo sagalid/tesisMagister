@@ -57,6 +57,27 @@ R.~Soto, B.~Crawford, C.~Galleguillos, E.~Monfroy, and F.~Paredes, ``A hybrid
   ac3-tabu search algorithm for solving sudoku puzzles,'' {\em Expert Syst.
   Appl.}, vol.~40, no.~15, pp.~5817--5821, 2013.
 
+\bibitem{DBLP:conf/ccece/Al-AjmiE14}
+K.~Al{-}Ajmi and M.~El{-}Abd, ``Implementing a population-based harmony search
+  algorithm on graphic processing units,'' in {\em {IEEE} 27th Canadian
+  Conference on Electrical and Computer Engineering, {CCECE} 2014, Toronto, ON,
+  Canada, May 4-7, 2014}, pp.~1--5, {IEEE}, 2014.
+
+\bibitem{Aupetit2008}
+S.~Aupetit, N.~Monmarch{\'e}, and M.~Slimane, {\em Hidden Markov Models
+  Training Using Population-based Metaheuristics}, pp.~415--438.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2008.
+
+\bibitem{DBLP:journals/eor/VansteenwegenSBO09}
+P.~Vansteenwegen, W.~Souffriau, G.~V. Berghe, and D.~V. Oudheusden, ``A guided
+  local search metaheuristic for the team orienteering problem,'' {\em European
+  Journal of Operational Research}, vol.~196, no.~1, pp.~118--127, 2009.
+
+\bibitem{DBLP:journals/anor/SarasolaDSA16}
+B.~Sarasola, K.~F. Doerner, V.~Schmid, and E.~Alba, ``Variable neighborhood
+  search for the stochastic and dynamic vehicle routing problem,'' {\em Annals
+  {OR}}, vol.~236, no.~2, pp.~425--461, 2016.
+
 \bibitem{DBLP:books/daglib/p/Karp10}
 R.~M. Karp, ``Reducibility among combinatorial problems,'' in {\em 50 Years of
   Integer Programming 1958-2008 - From the Early Years to the State-of-the-Art}

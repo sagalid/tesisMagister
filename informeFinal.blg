@@ -4,45 +4,46 @@ The top-level auxiliary file: informeFinal.aux
 The style file: ieeetr.bst
 Database file #1: bibliography.bib
 Warning--can't use both author and editor fields in Rubio2016
-You've used 36 entries,
+Warning--can't use both author and editor fields in Aupetit2008
+You've used 40 entries,
             1876 wiz_defined-function locations,
-            722 strings with 10703 characters,
-and the built_in function-call counts, 11949 in all, are:
-= -- 1254
-> -- 425
+            751 strings with 11789 characters,
+and the built_in function-call counts, 13304 in all, are:
+= -- 1396
+> -- 472
 < -- 0
-+ -- 155
-- -- 119
-* -- 882
-:= -- 1629
-add.period$ -- 38
-call.type$ -- 36
-change.case$ -- 34
++ -- 172
+- -- 132
+* -- 979
+:= -- 1807
+add.period$ -- 43
+call.type$ -- 40
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 585
-empty$ -- 1065
-format.name$ -- 119
-if$ -- 2925
+cite$ -- 42
+duplicate$ -- 654
+empty$ -- 1192
+format.name$ -- 132
+if$ -- 3261
 int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 38
-newline$ -- 114
-num.names$ -- 42
-pop$ -- 70
+int.to.str$ -- 40
+missing$ -- 43
+newline$ -- 127
+num.names$ -- 46
+pop$ -- 83
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 477
+skip$ -- 529
 stack$ -- 0
-substring$ -- 1020
-swap$ -- 295
+substring$ -- 1132
+swap$ -- 328
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 135
-width$ -- 38
-write$ -- 379
-(There was 1 warning)
+warning$ -- 2
+while$ -- 151
+width$ -- 42
+write$ -- 421
+(There were 2 warnings)
