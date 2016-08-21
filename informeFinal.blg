@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: informeFinal.aux
 The style file: ieeetr.bst
 Database file #1: bibliography.bib
-You've used 30 entries,
+Warning--can't use both author and editor fields in Rubio2016
+You've used 36 entries,
             1876 wiz_defined-function locations,
-            675 strings with 8683 characters,
-and the built_in function-call counts, 9775 in all, are:
-= -- 1039
-> -- 325
+            722 strings with 10703 characters,
+and the built_in function-call counts, 11949 in all, are:
+= -- 1254
+> -- 425
 < -- 0
-+ -- 120
-- -- 90
-* -- 712
-:= -- 1332
-add.period$ -- 30
-call.type$ -- 30
-change.case$ -- 30
++ -- 155
+- -- 119
+* -- 882
+:= -- 1629
+add.period$ -- 38
+call.type$ -- 36
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 483
-empty$ -- 876
-format.name$ -- 90
-if$ -- 2400
+cite$ -- 37
+duplicate$ -- 585
+empty$ -- 1065
+format.name$ -- 119
+if$ -- 2925
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 30
-newline$ -- 94
-num.names$ -- 34
-pop$ -- 51
+int.to.str$ -- 36
+missing$ -- 38
+newline$ -- 114
+num.names$ -- 42
+pop$ -- 70
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 399
+skip$ -- 477
 stack$ -- 0
-substring$ -- 844
-swap$ -- 243
+substring$ -- 1020
+swap$ -- 295
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 113
-width$ -- 32
-write$ -- 317
+warning$ -- 1
+while$ -- 135
+width$ -- 38
+write$ -- 379
+(There was 1 warning)
