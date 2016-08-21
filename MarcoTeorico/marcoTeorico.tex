@@ -50,49 +50,50 @@ One of the most interesting variables to classify a metaheuristic is undoubtedly
 \end{figure}
 \squeezeup
 
-\subsubsection{Operator} 
+\subsubsection{Related terms}
+\paragraph{Operator} 
 Unitary procedure for transforming information or implement the behavior of the algrithm.
 
-\subsubsection{Solution} 
+\paragraph{Solution} 
 Array of $n$ columns containing a solution for a given problem. In the binary case, the posible values are $0$ and $1$.
 
-\subsubsection{Constrain} 
+\paragraph{Constrain} 
 Conditions to be met to find a viable solution.
 
-\subsubsection{Benchmark} 
+\paragraph{Benchmark} 
 Optimal set of known problem instances to validate the propose algorithm.
 
-\subsubsection{Objective Function}  
+\paragraph{Objective Function}  
 Implements the mathematical expression representing the problem to solve. The guiding objective function is related to the goal to achieve.
 
-\subsubsection{Fitness} 
+\paragraph{Fitness} 
 Value resulting by applying the objective function to solution.
 
-\subsubsection{Matrix of Costs} 
+\paragraph{Matrix of Costs} 
 Consist of $n$ columns vector containing the cost associated with each problem variable.
 
-\subsubsection{Optimal Value} 
+\paragraph{Optimal Value} 
 Solution with the best fitness.
 
-\subsubsection{Domain} 
+\paragraph{Domain} 
 Set of possible values for the variable.
 
-\subsubsection{Matrix A} 
+\paragraph{Matrix A} 
 Matrix containing the restrictions for the given problem.
 
-\subsubsection{RPD} 
+\paragraph{RPD} 
 Relative Percentage Deviation.
 
-\subsubsection{Harmony Memory} 
+\paragraph{Harmony Memory} 
 Memory space which includes the population of the solution vectors.
 
-\subsubsection{Harmony Memory Size} 
+\paragraph{Harmony Memory Size} 
 Defines the amount of harmonies that can be stored in HM.
 
-\subsubsection{Harmony Memory Consideration Rate (HMCR)} 
+\paragraph{Harmony Memory Consideration Rate (HMCR)} 
 In memory consideration, the value of decision variable ${x\textprime}_1$ is randomly selected from the historical values, other decision variables, $({x\textprime}_2, {x\textprime}_3,\dots,{x\textprime}_N)$ are sequentially selected in the same manner with probability where HMCR $\in$ (0,1).
 
-\subsubsection{Pitch Adjusting Rate (PAR)} 
+\paragraph{Pitch Adjusting Rate (PAR)} 
 Each decision variable ${x\textprime}_i$ assigned a value by memory considerations is pitch adjusted with the probability of PAR where PAR $\in$ (0,1).
 
 \squeezeup
@@ -100,9 +101,14 @@ Each decision variable ${x\textprime}_i$ assigned a value by memory consideratio
 \centering
 \begin{tikzpicture}[node distance=0.5cm]
 
+
+
+%==============================================
+%Grafico de framework de trabajo 
+%==============================================
 %Nodo 1==============================================
 \node (pro1) [mybox] {
-	\begin{minipage}{0.70\textwidth}
+	\begin{minipage}{0.50\textwidth}
 	\scriptsize
 		 \begin{itemize}
 		 	\item{Understand complexity and difficulty of the problem}
@@ -120,8 +126,8 @@ Each decision variable ${x\textprime}_i$ assigned a value by memory consideratio
 \node[fancytitle, right=10pt] at (pro1.north west) {1.-Model of the problem};
 
 %Nodo 2==============================================
-\node (pro2) [mybox, below of=pro1, yshift=-4.2cm] {
-	\begin{minipage}{0.80\textwidth}
+\node (pro2) [mybox, below of=pro1, yshift=-3.2cm] {
+	\begin{minipage}{0.60\textwidth}
 		\scriptsize
 		 \begin{itemize}
 		 	\item{It should take into consideration the following elements in the process of designing a metaheuristic}
@@ -138,8 +144,8 @@ Each decision variable ${x\textprime}_i$ assigned a value by memory consideratio
 \node[fancytitle, right=10pt] at (pro2.north west) {2.-Design of a metaheuristic};
 
 %Nodo 3============================================
-\node (pro3) [mybox, below of=pro2, yshift=-4.3cm] {
-	\begin{minipage}{0.80\textwidth}
+\node (pro3) [mybox, below of=pro2, yshift=-3.3cm] {
+	\begin{minipage}{0.50\textwidth}
 		\scriptsize
 		 \begin{itemize}
 		 \item{When a metaheuristic is implemented , they must be taken into cosideration the strategy that will be used in the development process}
@@ -154,8 +160,8 @@ Each decision variable ${x\textprime}_i$ assigned a value by memory consideratio
 \node[fancytitle, right=10pt] at (pro3.north west) {3.-Implementation};
 
 %Nodo 4=============================================
-\node (pro4) [mybox,below of=pro3, yshift=-4.2cm, xshift=-4.0cm] {
-	\begin{minipage}{0.50\textwidth}
+\node (pro4) [mybox,below of=pro3, yshift=-3.2cm, xshift=-4.0cm] {
+	\begin{minipage}{0.30\textwidth}
 		\scriptsize
 		 \begin{itemize}
 		 	\item{Off-line: Design of experiments or meta-optimization}
@@ -167,8 +173,8 @@ Each decision variable ${x\textprime}_i$ assigned a value by memory consideratio
 \node[fancytitle, right=10pt] at (pro4.north west) {4.-Parameter tuning};
 
 %Nodo 5==============================================
-\node (pro5) [mybox,below of=pro3, yshift=-4.2cm, xshift=4.0cm] {
-	\begin{minipage}{0.50\textwidth}
+\node (pro5) [mybox,below of=pro3, yshift=-3.2cm, xshift=4.0cm] {
+	\begin{minipage}{0.35\textwidth}
 		\scriptsize
 		 \begin{itemize}
 		 	\item{Experimental design}
