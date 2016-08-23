@@ -1,280 +1,17 @@
-%\subsection{Conceptual Framework}
-%In this section, the relevant concepts that will be used are listed throughout this research, and %how they are currently used.
 Optimization problems are encountered in many domains: BigData, engineering, logistics, and business. An optimization problem may be defined by the couple $(S, f )$, where $S$ represents the set of feasible solutions, and $f : S \implies {\rm I\!R}$ the objective function to optimize. The objective function assigns to every solution
 $s \in S$ of the search space a real number indicating its worth. The objective function
 $f$ allows to define a total order relation between any pair of solutions in the search
 space.\\
+The global optimum is defined as  a solution $s^* \in S$ and it has a better objective function than all solutions of the search space, that is, $\forall  s \in  S$, $f(s^*) 	\leq f(s)$.
 
-The global optimum is defined as  a solution $s^* \in S$ and it has a better objective function than all solutions of the search space, that is, $\forall  s \in  S$, $f(s^*) 	\leq f(s)$.\\
+%Definición y clasificación y conceptos asociados a la MH
+\input{MarcoTeorico/MH/mh.tex} 
+%Definición formal / matemática del SCP y un ejemplo de solución
+\input{MarcoTeorico/SCP/scp.tex}
+%Diagrama de trabajo
+\input{MarcoTeorico/FrameWorkMH/frameWorkMH.tex}
 
-\subsection{Metaheuristics}
-
-\subsubsection{Definition}
-The $meta$ and $heuristic$ are Greek words, $meta$ it means $higher level$ and $heuristics$ means $to$ $find$, $to$ $know$ or $to$ $discover$. Metaheuristics are a set of intelligent strategies to enhance the efficiency of heuristic procedures.\\
-
-A metaheuristic will be successful on a given optimizaction problem if it can provide a balance between exploration and exploitation. Exploration means to generate diverse solutions so as to explore the search space on the global scale, while exploitation means search in a local region by exploiting the information that a current good solution is found in this region.
-exploration, often by use of randomization, which enables an algorithm to have the ability to jump out of any local optimum so as to explore the search globally.
-
-\subsubsection{Clasification}
-The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}. A majority of these algorithms has a stochastic behavior and mimics biological or  physical processes. The classification presented was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the (Figure \ref{fig:classification-of-mh}).
-
-\paragraph{Nature-inspired vs. non-nature inspiration }
-This class is based on the origin of algorithm. The majority of meta-heuristics are nature-inspired algorithms such as Black Hole (BH) \cite{Rubio2016}, Particle Swarm Optimization (PSO) \cite{Duran:2010:CPS:1645454.1645859} and Genetic Algorithms (GA) \cite{DBLP:conf/icsi/CrawfordSPJPO14}. Also, some of them are non-nature-inspired algorithms like Iterated Local Search (ILS) \cite{DBLP:journals/networks/AringhieriGHS16} and TabuSearch (TS) \cite{DBLP:journals/eswa/SotoCGMP13}.
-
-\paragraph{Population-based vs. single-point search}
-There is a certain group of metaheuristics, which can be classified by the number of solutions in the lifecycle or execution, such as Trajectory methods, which are the algorithms working based on a single solution at any time (Figure \ref{fig:trajectory-method}). On the other hand Population-based algorithms perform search with multiple initial points in a parallel style. Examples of these metaheuristics can be: Harmony Search (HS) \cite{DBLP:conf/ccece/Al-AjmiE14}, GA \cite{Aupetit2008} and PSO. 
-
-\paragraph{Dynamic vs. static objective function}
-Another way of classifying metaheuristics, is by the way of utilizing the objective function, some algorithms maintain the objective function intact throughout the execution cycle, while others modify the objective function according to information collected at runtime.\\
-An example of the second case presented, is Guided Local Search (GLS) \cite{DBLP:journals/eor/VansteenwegenSBO09}.  The idea behind this approach is to escape from local optima by changing the search landscape. 
-
-\paragraph{One vs. various neighborhood structures}
-The majority of metaheuristic algorithms apply one single neighborhood structure. The fitness landscape topology does not alter in the course of the algorithm while others, like Variable Neighborhood Search (VNS) \cite{DBLP:journals/anor/SarasolaDSA16}, employ a set of neighborhood structures. This latter structure gives the possibility to diversify the search by swapping between different fitness landscapes.
-
-\paragraph{Memory usage vs. memoryless methods}
-One of the most interesting variables to classify a metaheuristic is undoubtedly use of memory. Short term usually is different from long term memory. The first kind usually keeps track of recently performed moves, or decisions taken. The second is usually an accumulation of synthetic parameters about the search. 
-
-\squeezeup
-\begin{figure}[ht]
-	\centering
-  \includegraphics[width=0.70\textwidth]{MarcoTeorico/imagenes/classification_mh.png}
-	\caption{Classification of metaheuristic}\label{fig:classification-of-mh}
-\end{figure}
-\squeezeup
-
-\squeezeup
-\begin{figure}[ht]
-	\centering
-  \includegraphics[width=0.55\textwidth]{MarcoTeorico/imagenes/trajectory-mh.png}
-	\caption{Trajectory-based method}\label{fig:trajectory-method}
-\end{figure}
-\squeezeup
-
-\subsubsection{Related terms}
-\paragraph{Operator} 
-Unitary procedure for transforming information or implement the behavior of the algrithm.
-
-\paragraph{Solution} 
-Array of $n$ columns containing a solution for a given problem. In the binary case, the posible values are $0$ and $1$.
-
-\paragraph{Constrain} 
-Conditions to be met to find a viable solution.
-
-\paragraph{Benchmark} 
-Optimal set of known problem instances to validate the propose algorithm.
-
-\paragraph{Objective Function}  
-Implements the mathematical expression representing the problem to solve. The guiding objective function is related to the goal to achieve.
-
-\paragraph{Fitness} 
-Value resulting by applying the objective function to solution.
-
-\paragraph{Matrix of Costs} 
-Consist of $n$ columns vector containing the cost associated with each problem variable.
-
-\paragraph{Optimal Value} 
-Solution with the best fitness.
-
-\paragraph{Domain} 
-Set of possible values for the variable.
-
-\paragraph{Matrix A} 
-Matrix containing the restrictions for the given problem.
-
-\paragraph{RPD} 
-Relative Percentage Deviation.
-
-\paragraph{Harmony Memory} 
-Memory space which includes the population of the solution vectors.
-
-\paragraph{Harmony Memory Size} 
-Defines the amount of harmonies that can be stored in HM.
-
-\paragraph{Harmony Memory Consideration Rate (HMCR)} 
-In memory consideration, the value of decision variable ${x\textprime}_1$ is randomly selected from the historical values, other decision variables, $({x\textprime}_2, {x\textprime}_3,\dots,{x\textprime}_N)$ are sequentially selected in the same manner with probability where HMCR $\in$ (0,1).
-
-\paragraph{Pitch Adjusting Rate (PAR)} 
-Each decision variable ${x\textprime}_i$ assigned a value by memory considerations is pitch adjusted with the probability of PAR where PAR $\in$ (0,1).
-
-\squeezeup
-\begin{figure}
-\centering
-\begin{tikzpicture}[node distance=0.5cm]
-
-
-
-%==============================================
-%Grafico de framework de trabajo 
-%==============================================
-%Nodo 1==============================================
-\node (pro1) [mybox] {
-	\begin{minipage}{0.50\textwidth}
-	\scriptsize
-		 \begin{itemize}
-		 	\item{Understand complexity and difficulty of the problem}
-			\begin{itemize}
-				\item{$NP$-completeness, size of the problem and structure.}
-			\end{itemize}	
-			\item{Set requirements of the application}
-			\begin{itemize}
-				\item{Search time, quality of solutions and robustness.}
-			\end{itemize}	
-		 \end{itemize}
-		 
-	\end{minipage}
-};
-\node[fancytitle, right=10pt] at (pro1.north west) {1.-Model of the problem};
-
-%Nodo 2==============================================
-\node (pro2) [mybox, below of=pro1, yshift=-3.2cm] {
-	\begin{minipage}{0.60\textwidth}
-		\scriptsize
-		 \begin{itemize}
-		 	\item{It should take into consideration the following elements in the process of designing a metaheuristic}
-			\begin{itemize}
-				\item{Representation}
-				\item{Guiding objective function}
-				\item{Constraint handling}
-			\end{itemize}
-			\item{Select categories of metaheuristics: Trajectory-based metaheuristics or Population-based metaheuristics}
-		 \end{itemize}
-		 
-	\end{minipage}
-};
-\node[fancytitle, right=10pt] at (pro2.north west) {2.-Design of a metaheuristic};
-
-%Nodo 3============================================
-\node (pro3) [mybox, below of=pro2, yshift=-3.3cm] {
-	\begin{minipage}{0.50\textwidth}
-		\scriptsize
-		 \begin{itemize}
-		 \item{When a metaheuristic is implemented , they must be taken into cosideration the strategy that will be used in the development process}
-		 \begin{itemize}
-		 	\item{From scratch or no reuse (nondesirable),Code reuse,Design and code reuse (e.g., software framework ParadisEO)}
-			\item{Code reuse}
-			\item{Design and code reuse (e.g., software framework ParadisEO)}
-		 \end{itemize}
-		\end{itemize}
-	\end{minipage}
-};
-\node[fancytitle, right=10pt] at (pro3.north west) {3.-Implementation};
-
-%Nodo 4=============================================
-\node (pro4) [mybox,below of=pro3, yshift=-3.2cm, xshift=-4.0cm] {
-	\begin{minipage}{0.30\textwidth}
-		\scriptsize
-		 \begin{itemize}
-		 	\item{Off-line: Design of experiments or meta-optimization}
-		 	\item{Online: Dynamic, adaptive or self-adaptive}
-		 \end{itemize}
-		 
-	\end{minipage}
-}; 
-\node[fancytitle, right=10pt] at (pro4.north west) {4.-Parameter tuning};
-
-%Nodo 5==============================================
-\node (pro5) [mybox,below of=pro3, yshift=-3.2cm, xshift=4.0cm] {
-	\begin{minipage}{0.35\textwidth}
-		\scriptsize
-		 \begin{itemize}
-		 	\item{Experimental design}
-			\item{Measurements}
-			\item{Reporting}
-		 \end{itemize}
-		 
-	\end{minipage}
-}; 
-\node[fancytitle, right=75pt] at (pro5.north west) {5.-Performance evaluation};
-%==============================================
-\draw [arrow] (pro1) --  (pro2);
-\draw [arrow] (pro2) -- (pro3);
-\draw [arrow] (pro3) -- (pro4);
-\draw [arrow] (pro3) -- (pro5);
-\draw [arrow] (pro5.east) to [bend right=30] (pro1.east);
-\draw [arrow] (pro5.east) to [bend right=30] (pro2.east);
-\draw [arrow] (pro5.east) to [bend right=60] (pro3.east);
-\end{tikzpicture}
-\caption{Guidelines for solving SCP.}\label{fig:GuideSolvingSCP}
-\end{figure}
-
-
-\subsection{Set Covering Problem}
-\subsubsection{SCP formulation}
-The SCP is a well-known mathematical problem, which tries to cover a set of needs at the lowest possible cost. The SCP was included in the list of 21  $\mathcal{N} \mathcal{P}$-\textit{complet} problems of Karp \cite{DBLP:books/daglib/p/Karp10}. There are many practical uses for this problem, such as: crew scheduling \cite{ref02, ref08}, location of emergency facilities \cite{ref51,Vasko198485}, production planning in industry \cite{Vasko:1987:OSI:40299.40301,ref48, ref50}, vehicle routing \cite{ref07, ref27}, ship scheduling \cite{ref26, ref13}, network attack or defense \cite{ref14}, assembly line balancing \cite{ref28, ref41}, traffic assignment in satellite communication systems \cite{ref37, ceriaetal1998}, simplifying boolean expressions \cite{ref16}, the calculation of bounds in integer programs \cite{ref18}, information retrieval \cite{ref20}, political districting \cite{ref29}, crew scheduling problems in airlines \cite{doi:10.1287/inte.27.5.68}, among others.
-The SCP can be formulated as follows:
-
-\begin{equation} \label{ec:set-covering-1}  
-\mbox{Minimize} \quad Z = \sum_{j = 1}^{n} c_j x_j
-\end{equation}
-Subject to:
-\begin{equation} \label{ec:set-covering-2} 
-\sum_{j = 1}^{n} a_{ij} x_j \geq 1 \quad  \forall i \in I
-\end{equation}
-\begin{equation} \label{ec:set-covering-3} 
-x_j \in \{0,1\} \quad  \forall j \in J 
-\end{equation}	
-
-
-Let $A = (a_{ij})$ be a $m \times n$ 0-1 matrix with $I = \{ 1,\dots, m\}$ and $J = \{ 1,\dots, n\}$ be the row and column sets respectively. We say that column $j$ can be cover a row $i$ if $a_{ij} = 1$. Where $c_j$ is a nonnegative value that represents the cost of selecting the column $j$ and $x_j$ is a decision variable, it can be 1 if column $j$ is selected or 0 otherwise. The objective is to find a minimum cost subset $S \subseteq J$, such that each row $i \in I$ is covered by at least one column $j \in S$. 
-\vspace{0mm}\\
-
-In the following section, we present a simple way to understand the SCP, through an example:\\
-
-\subsubsection{SCP sample solution}
-Imagine that an ambulance station can meet the needs of an geographic zone. Similarly the ambulance station can cover all the needs of the nearby areas. For example, if a station is built in Zone 1 (Figure~\ref{fig:SetCovering}) ambulance station can meet the needs of neighboring areas, that is, it could also cover: Zone 1, Zone 2, Zone 3 and Zone 4.  This can be appreciated in equation (\ref{ec:rest1}).
-
-In this example, we must fulfill the need to cover the geographical areas defined in accordance with the restrictions.
-
-The restriction of this case is that all areas must be covered by at least one ambulance station and the goal is to minimize the number of stations built, the cost of building a station is the same for all areas. The $x_j$ variable represents the area $j$ which is $1$ if the ambulance station is built, and will be $0$ if not. As above, it can be formulated as follows:
-
-\squeezeup
-\begin{figure}[!http]
-	\begin{center}
-		\includegraphics[width=0.8\linewidth]{Introduccion/imagenes/SetCovering.png}
-		\caption{Set Covering Problem example.}\label{fig:SetCovering}
-	\end{center}
-\end{figure}
-\squeezeup
-
-\scriptsize
-\begin{equation} \label{ec:SetCoveringExample} 
-\mbox{Min} \quad c_{1}x_{1} + c_{2}x_{2} + c_{3}x_{3} + c_{4}x_{4} + c_{5}x_{5} + c_{6}x_{6} + c_{7}x_{7} + c_{8}x_{8} + c_{9}x_{9} + c_{10}x_{10} + c_{11}x_{11}
-\end{equation}
-
-Subject to:
-\begin{align}
-x_{1} & + & x_{2} & + & x_{3} & + & x_{4} &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \geq  1 \label{ec:rest1}  \\
-x_{1} & + & x_{2} & + & x_{3} &  &  & + & x_{5} &  &  &  &  &  &  &  &  &  &  &  &  & \geq  1 \\
-x_{1} & + & x_{2} & + & x_{3} & + & x_{4} & + & x_{5} & + & x_{6} &  &  &  &  &  &  &  &  &  &  & \geq  1 \\
-x_{1} &  &  & + & x_{3} & + & x_{4} &  &  & + & x_{6} & + & x_{7} &  &  &  &  &  &  &  &  & \geq  1 \\
-& & x_{2} & + & x_{3} &  &  & + & x_{5} & + & x_{6} &  &  & + & x_{8} & + & x_{9} &  &  &  &  & \geq  1 \\
-& & & & x_{3} & + & x_{4} & + & x_{5} & + & x_{6} & + & x_{7} & + & x_{8} &  &  &  &  &  &  & \geq  1 \\
-& & & & & & x_{4} & & & + & x_{6} & + & x_{7} & + & x_{8} & & & & & & & \geq  1 \\
-& & & & & & & & x_{5} & + & x_{6} & + & x_{7} & + & x_{8} & + & x_{9} & + & x_{10} & & & \geq  1 \\
-& & & & & & & & x_{5} & & & & & + & x_{8} & + & x_{9} & + & x_{10} & + & x_{11} & \geq  1 \\
-& & & & & & & & & & & & & & x_{8} & + & x_{9} & + & x_{10} & + & x_{11} & \geq  1 \\
-& & & & & & & & & & & & & & & & x_{9} & + & x_{10} & + & x_{11} & \geq  1 
-\end{align}
-\normalsize
-
-The first constraint (\ref{ec:rest1}) indicates that to cover zone 1, it is possible to locate a station in the same area or in the border. The following restriction is for zone 2 and so on. One possible optimal solution for this problem is to locate ambulance stations in zones 3, 8 and 9. That is, $x_{3} = x_8 = x_9 = 1$ y $x_{1} = x_{2} = x_{4} = x_{5} = x_{6} = x_{7} = x_{10} = x_{11} = 0$. As shown in (Figure~\ref{fig:SetCovering2}).
-
-\squeezeup
-\begin{figure}[!http]
-	\begin{center}
-		\includegraphics[width=0.8\linewidth]{Introduccion/imagenes/SetCoveringSolved.png}
-		\caption{Set Covering Problem solution.}\label{fig:SetCovering2}
-	\end{center}	
-\end{figure}
-\squeezeup
-
-%\subsection{Unicost SCP}
-%The Unicost \cite{DBLP:conf/ieaaie/Musliu06,DBLP:journals/eor/AzimiTG10} is a variation of the SCP where the cost of each decision variable is 1. This indicates that it does not matter which one is active, what matters is to comply with the restrictions.
-
-
-We propose solve the SCP, with a variation metaheuristic Harmony Search (HS) called Binary Global-Best Harmony Search to obtain satisfactory solutions within a reasonable time. HS mimics the process of musical improvisation, where musicians make adjustments in tone to achieve aesthetic harmony.
-
-\subsubsection{Harmony Search Metaheuristic}
+\subsection{Harmony Search Metaheuristic}
 Harmony Search (HS) is a population-based metaheuristic algorithm inspired from the musical process of searching for a perfect state of Harmony or Aesthetic Quality of a Harmony (AQH). The HS was proposed by Z. W. Geem et al.\cite{DBLP:journals/simulation/GeemKL01}.
 
 In other words, the main idea of the HS metaheuristic is to mimic the process performed by musicians when they try to play a beautiful harmony.
@@ -284,16 +21,6 @@ For the purpose of properly understand what is looking like a good solution in t
 The AQH in an instrument it is essentially determined by its pitch (or frequency), sound quality, and amplitude (or loudness). The sound quality is mainly determined by the harmonic content that is in turn determined by the waveforms or modulations of the sound signal. However, the harmonics that it can generate will largely depend on the pitch or frequency range of the particular instrument \cite{Geem:2009:MHS:1643438}.
 
 Different notes have different frequencies. For example, the note A  has a fundamental frequency of $f_0=440 Hz$. The fundamental frequency of each note can be seen in (Table~\ref{fig:musical_notes}). 
-
-Given the above, it is established that a good harmony has good AQH.
-
-The pitch of each musical instrument determines the AQH, just as the fitness function values determines the quality of the decision variables.
-
-In the music improvisation process, all musicians sound pitches within possible range together to make one harmony.
-
-If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony in increased next time. The same thing in optimization, the initial solution is generated randomly from decision variables within the possible range.
-
-If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
 
 \begin{table}[]
 \centering
@@ -311,14 +38,23 @@ B                     & 493,883301 Hz      \\ \hline
 \caption{HS - Musical Notes}\label{fig:musical_notes}
 \end{table}
 
+Given the above, it is established that a good harmony has good AQH.
 
-In this document, we focus on studying the classical SCP problem (equation \ref{ec:set-covering-1}), where we want minimize the cost.
+The pitch of each musical instrument determines the AQH, just as the fitness function values determines the quality of the decision variables.
+
+In the music improvisation process, all musicians sound pitches within possible range together to make one harmony.
+
+If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony in increased next time. The same thing in optimization, the initial solution is generated randomly from decision variables within the possible range.
+
+If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
+
+In this document, we focus on studying the classical SCP problem equation (\ref{ec:set-covering-1}), where we want minimize the cost.
 
 \subsubsection{HS operation in depth}
 In general, the procedure for HS metaheuristic, consists of the following four steps.\\ \\
 
 \emph{Step 1: Initialization parameters} \\
-The parameters required to solve the optimization problem are speci?ed in this step, an initial HM is filled with a population of  Harmony Memory Size (HMS), harmonies are generated randomly.\\ 
+The parameters required to solve the optimization problem are specified in this step, an initial HM is filled with a population of  Harmony Memory Size (HMS), harmonies are generated randomly.\\ 
 In addition, the parameters of HS, that is, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) determines the probability of local improvement and number of improvisations (NI) are given when the metaheuristic begins.\\ \\
 \emph{Step 2: New Harmony} \\
 Improvise a new harmony from the current HM.\\ \\%The details of this procedure are given in Algorithm \ref{alg:newHarmonyGreedy}.
@@ -399,14 +135,6 @@ In order to overcome the drawbacks of HS, a novel binary global-best harmony sea
 
 Owing to better performance of GHS, some modifications to GHS are introduced to further enhance the convergence performance of GHS. Then a novel binary coded GHS, a two-phase repair operator, and a greedy selection mechanism are integrated into the BGHS. And they are described in detail as follows.
 
-
-
-.
-.
-.
-.
-
- 
 
 
 
