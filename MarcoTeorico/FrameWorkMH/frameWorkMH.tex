@@ -1,14 +1,14 @@
 \squeezeup
-\begin{figure}
+\begin{figure}[H]
 \centering
-\begin{tikzpicture}[node distance=0.5cm]
+\begin{tikzpicture}[]
 
 %==============================================
 %Grafico de framework de trabajo 
 %==============================================
 %Nodo 1==============================================
 \node (pro1) [mybox] {
-	\begin{minipage}{0.50\textwidth}
+	\begin{minipage}{0.60\textwidth}
 	\scriptsize
 		 \begin{itemize}
 		 	\item{Understand complexity and difficulty of the problem}
@@ -26,8 +26,8 @@
 \node[fancytitle, right=10pt] at (pro1.north west) {1.-Model of the problem};
 
 %Nodo 2==============================================
-\node (pro2) [mybox, below of=pro1, yshift=-3.2cm] {
-	\begin{minipage}{0.60\textwidth}
+\node (pro2) [mybox, below of=pro1, yshift=-2.2cm] {
+	\begin{minipage}{0.70\textwidth}
 		\scriptsize
 		 \begin{itemize}
 		 	\item{It should take into consideration the following elements in the process of designing a metaheuristic}
@@ -44,8 +44,8 @@
 \node[fancytitle, right=10pt] at (pro2.north west) {2.-Design of a metaheuristic};
 
 %Nodo 3============================================
-\node (pro3) [mybox, below of=pro2, yshift=-3.3cm] {
-	\begin{minipage}{0.50\textwidth}
+\node (pro3) [mybox, below of=pro2, yshift=-2.3cm] {
+	\begin{minipage}{0.80\textwidth}
 		\scriptsize
 		 \begin{itemize}
 		 \item{When a metaheuristic is implemented , they must be taken into cosideration the strategy that will be used in the development process}
@@ -60,7 +60,7 @@
 \node[fancytitle, right=10pt] at (pro3.north west) {3.-Implementation};
 
 %Nodo 4=============================================
-\node (pro4) [mybox,below of=pro3, yshift=-3.2cm, xshift=-4.0cm] {
+\node (pro4) [mybox,below of=pro3, yshift=-2.5cm, xshift=-4.0cm] {
 	\begin{minipage}{0.30\textwidth}
 		\scriptsize
 		 \begin{itemize}
@@ -73,7 +73,7 @@
 \node[fancytitle, right=10pt] at (pro4.north west) {4.-Parameter tuning};
 
 %Nodo 5==============================================
-\node (pro5) [mybox,below of=pro3, yshift=-3.2cm, xshift=4.0cm] {
+\node (pro5) [mybox,below of=pro3, yshift=-2.5cm, xshift=4.0cm] {
 	\begin{minipage}{0.35\textwidth}
 		\scriptsize
 		 \begin{itemize}
