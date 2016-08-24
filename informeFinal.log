@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 AUG 2016 08:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 AUG 2016 08:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1172,19 +1172,19 @@ LaTeX Warning: Label `tblscpA3' multiply defined.
 )
 \openout1 = `informeFinal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 60.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -1254,7 +1254,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
 your preamble.
- on input line 59.
+ on input line 60.
 
 (./Portada/portada.tex
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/latin1.def
@@ -1285,7 +1285,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  [3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 87.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 88.
  (./informeFinal.lof)
 \tf@lof=\write6
 \openout6 = `informeFinal.lof'.
@@ -1315,6 +1315,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 ) [1] (./MarcoTeorico/marcoTeorico.tex (./MarcoTeorico/MH/mh.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--8
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2--8
 
  []
@@ -1457,22 +1462,25 @@ File: Introduccion/imagenes/SetCovering.png Graphic file (type png)
 <use Introduccion/imagenes/SetCovering.png>
 Package pdftex.def Info: Introduccion/imagenes/SetCovering.png used on input li
 ne 33.
-(pdftex.def)             Requested size: 377.62642pt x 232.23122pt.
+(pdftex.def)             Requested size: 236.01561pt x 145.14552pt.
 
 <Introduccion/imagenes/SetCoveringSolved.png, id=63, 874.01532pt x 537.50812pt>
 File: Introduccion/imagenes/SetCoveringSolved.png Graphic file (type png)
 <use Introduccion/imagenes/SetCoveringSolved.png>
 Package pdftex.def Info: Introduccion/imagenes/SetCoveringSolved.png used on in
 put line 66.
-(pdftex.def)             Requested size: 377.62642pt x 232.23122pt.
+(pdftex.def)             Requested size: 236.01561pt x 145.14552pt.
 )
 (./MarcoTeorico/FrameWorkMH/frameWorkMH.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
- [6 <./Introduccion/imagenes/SetCovering.png>])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+)
+Underfull \vbox (badness 1721) has occurred while \output is active []
 
- [7 <./Introduccion/imagenes/SetCoveringSolved.png>] [8]
+ [6 <./Introduccion/imagenes/SetCovering.png>]
+Underfull \vbox (badness 1092) has occurred while \output is active []
+
+ [7 <./Introduccion/imagenes/SetCoveringSolved.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
@@ -1497,6 +1505,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--65
 
  []
 
+[8]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 68.
@@ -1543,9 +1552,9 @@ File: MarcoTeorico/imagenes/audience.png Graphic file (type png)
 Package pdftex.def Info: MarcoTeorico/imagenes/audience.png used on input line 
 110.
 (pdftex.def)             Requested size: 10.76247pt x 6.84702pt.
- [9 <./MarcoTeorico/imagenes/musicos.png>]) [10 <./MarcoTeorico/imagenes/violin
-.png> <./MarcoTeorico/imagenes/nota.png> <./MarcoTeorico/imagenes/audience.png>
-] (./Resultados/Resultados.tex)
+ [9 <./MarcoTeorico/imagenes/musicos.png> <./MarcoTeorico/imagenes/violin.png> 
+<./MarcoTeorico/imagenes/nota.png>])
+[10 <./MarcoTeorico/imagenes/audience.png>] (./Resultados/Resultados.tex)
 [11] (./Conclusion/Conclusion.tex) [12] (./Anexo/Anexo.tex [13] [14] [15]
 [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
 [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45]
@@ -1558,7 +1567,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  30928 strings out of 493089
  748651 string characters out of 6134842
- 897138 words of memory out of 5000000
+ 897135 words of memory out of 5000000
  33836 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1575,7 +1584,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on informeFinal.pdf (67 pages, 950430 bytes).
+Output written on informeFinal.pdf (67 pages, 950512 bytes).
 PDF statistics:
  286 PDF objects out of 1000 (max. 8388607)
  188 compressed objects within 2 object streams
