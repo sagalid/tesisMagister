@@ -18,7 +18,7 @@ x_j \in \{0,1\} \quad  \forall j \in J
 Let $A = (a_{ij})$ be a $m \times n$ 0-1 matrix with $I = \{ 1,\dots, m\}$ and $J = \{ 1,\dots, n\}$ be the row and column sets respectively. We say that column $j$ can be cover a row $i$ if $a_{ij} = 1$. Where $c_j$ is a nonnegative value that represents the cost of selecting the column $j$ and $x_j$ is a decision variable, it can be 1 if column $j$ is selected or 0 otherwise. The objective is to find a minimum cost subset $S \subseteq J$, such that each row $i \in I$ is covered by at least one column $j \in S$. 
 \vspace{0mm}\\
 
-In the following section, we present a simple way to understand the SCP, through an example:\\
+In the following section, we present a simple way to understand the SCP, through an example.\\
 
 \subsubsection{SCP sample solution}
 Imagine that an ambulance station can meet the needs of an geographic zone. Similarly the ambulance station can cover all the needs of the nearby areas. For example, if a station is built in Zone 1 (Figure~\ref{fig:SetCovering}) ambulance station can meet the needs of neighboring areas, that is, it could also cover: Zone 1, Zone 2, Zone 3 and Zone 4.  This can be appreciated in equation (\ref{ec:rest1}).
@@ -30,7 +30,7 @@ The restriction of this case is that all areas must be covered by at least one a
 \squeezeup
 \begin{figure}[!http]
 	\begin{center}
-		\includegraphics[width=0.5\linewidth]{Introduccion/imagenes/SetCovering.png}
+		\includegraphics[scale=0.30]{Introduccion/imagenes/SetCovering.png} %width=0.5\linewidth 
 		\caption{Set Covering Problem example.}\label{fig:SetCovering}
 	\end{center}
 \end{figure}
@@ -61,9 +61,9 @@ x_{1} &  &  & + & x_{3} & + & x_{4} &  &  & + & x_{6} & + & x_{7} &  &  &  &  & 
 The first constraint (\ref{ec:rest1}) indicates that to cover zone 1, it is possible to locate a station in the same area or in the border. The following restriction is for zone 2 and so on. One possible optimal solution for this problem is to locate ambulance stations in zones 3, 8 and 9. That is, $x_{3} = x_8 = x_9 = 1$ y $x_{1} = x_{2} = x_{4} = x_{5} = x_{6} = x_{7} = x_{10} = x_{11} = 0$. As shown in (Figure~\ref{fig:SetCovering2}).
 
 \squeezeup
-\begin{figure}[!http]
+\begin{figure}[H]%!http
 	\begin{center}
-		\includegraphics[width=0.5\linewidth]{Introduccion/imagenes/SetCoveringSolved.png}
+		\includegraphics[scale=0.35]{Introduccion/imagenes/SetCoveringSolved.png}%width=0.5\linewidth
 		\caption{Set Covering Problem solution.}\label{fig:SetCovering2}
 	\end{center}	
 \end{figure}

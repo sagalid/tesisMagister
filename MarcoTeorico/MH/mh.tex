@@ -12,7 +12,7 @@ exploration, often by use of randomization, which enables an algorithm to have t
 The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}. A majority of these algorithms has a stochastic behavior and mimics biological or  physical processes. The classification presented was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the (Figure \ref{fig:classification-of-mh}).
 
 \squeezeup
-\begin{figure}[ht]
+\begin{figure}[ht] %ht
 	\centering
   \includegraphics[width=0.70\textwidth]{MarcoTeorico/imagenes/classification_mh.png}
 	\caption{Classification of metaheuristic}\label{fig:classification-of-mh}
@@ -29,7 +29,7 @@ This class is based on the origin of algorithm. The majority of meta-heuristics 
 There is a certain group of metaheuristics, which can be classified by the number of solutions in the lifecycle or execution, such as Trajectory methods, which are the algorithms working based on a single solution at any time (Figure \ref{fig:trajectory-method}). On the other hand Population-based algorithms perform search with multiple initial points in a parallel style. Examples of these metaheuristics can be: Harmony Search (HS) \cite{DBLP:conf/ccece/Al-AjmiE14}, GA \cite{Aupetit2008} and PSO. 
 
 \squeezeup
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
   \includegraphics[width=0.4\textwidth]{MarcoTeorico/imagenes/trajectory-mh.png}
 	\caption{Trajectory-based method}\label{fig:trajectory-method}
@@ -54,59 +54,45 @@ One of the most interesting variables to classify a metaheuristic is undoubtedly
 \textbf{Operator:} 
 Unitary procedure for transforming information or implement the behavior of the algrithm.
 
-~\\~\\
 \textbf{Solution:} 
 Array of $n$ columns containing a solution for a given problem. In the binary case, the posible values are $0$ and $1$.
 
-~\\~\\
 \textbf{Constrain:} 
 Conditions to be met to find a viable solution.
 
-~\\~\\
 \textbf{Benchmark:} 
 Optimal set of known problem instances to validate the propose algorithm.
 
-~\\~\\
 \textbf{Objective Function:}  
 Implements the mathematical expression representing the problem to solve. The guiding objective function is related to the goal to achieve.
 
-~\\~\\
 \textbf{Fitness:} 
 Value resulting by applying the objective function to solution.
 
-~\\~\\
 \textbf{Matrix of Costs:} 
 Consist of $n$ columns vector containing the cost associated with each problem variable.
 
-~\\~\\
 \textbf{Optimal Value:} 
 Solution with the best fitness.
 
-~\\~\\
 \textbf{Domain:} 
 Set of possible values for the variable.
 
-~\\~\\
 \textbf{Matrix A:} 
 Matrix containing the restrictions for the given problem.
 
-~\\~\\
 \textbf{RPD:} 
 Relative Percentage Deviation.
 
-~\\~\\
 \textbf{Harmony Memory:} 
 Memory space which includes the population of the solution vectors.
 
-~\\~\\
 \textbf{Harmony Memory Size:} 
 Defines the amount of harmonies that can be stored in HM.
 
-~\\~\\
 \textbf{Harmony Memory Consideration Rate (HMCR):} 
 In memory consideration, the value of decision variable ${x\textprime}_1$ is randomly selected from the historical values, other decision variables, $({x\textprime}_2, {x\textprime}_3,\dots,{x\textprime}_N)$ are sequentially selected in the same manner with probability where HMCR $\in$ (0,1).
 
-~\\~\\
 \textbf{Pitch Adjusting Rate (PAR):} 
 Each decision variable ${x\textprime}_i$ assigned a value by memory considerations is pitch adjusted with the probability of PAR where PAR $\in$ (0,1).
 
