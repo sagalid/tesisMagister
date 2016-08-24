@@ -12,15 +12,9 @@ The global optimum is defined as  a solution $s^* \in S$ and it has a better obj
 \input{MarcoTeorico/FrameWorkMH/frameWorkMH.tex}
 
 \subsection{Harmony Search Metaheuristic}
-Harmony Search (HS) is a population-based metaheuristic algorithm inspired from the musical process of searching for a perfect state of Harmony or Aesthetic Quality of a Harmony (AQH). The HS was proposed by Z. W. Geem et al.\cite{DBLP:journals/simulation/GeemKL01}.
+Harmony Search (HS) is a population-based metaheuristic algorithm inspired from the musical process of searching for a perfect state of Harmony or Aesthetic Quality of a Harmony (AQH). The HS was proposed by Z. W. Geem et al.\cite{DBLP:journals/simulation/GeemKL01}. In other words, the main idea of the HS metaheuristic is to mimic the process performed by musicians when they try to play a beautiful harmony.
 
-In other words, the main idea of the HS metaheuristic is to mimic the process performed by musicians when they try to play a beautiful harmony.
-
-For the purpose of properly understand what is looking like a good solution in this metaheuristic, we must know the meaning of AQH, this concept and others are defined below.
-
-The AQH in an instrument it is essentially determined by its pitch (or frequency), sound quality, and amplitude (or loudness). The sound quality is mainly determined by the harmonic content that is in turn determined by the waveforms or modulations of the sound signal. However, the harmonics that it can generate will largely depend on the pitch or frequency range of the particular instrument \cite{Geem:2009:MHS:1643438}.
-
-Different notes have different frequencies. For example, the note A  has a fundamental frequency of $f_0=440 Hz$. The fundamental frequency of each note can be seen in (Table~\ref{fig:musical_notes}). 
+For the purpose of properly understand what is looking like a good solution in this metaheuristic, we must know the meaning of AQH. The AQH in an instrument it is essentially determined by its pitch (or frequency), sound quality, and amplitude (or loudness). The sound quality is mainly determined by the harmonic content that is in turn determined by the waveforms or modulations of the sound signal. However, the harmonics that it can generate will largely depend on the pitch or frequency range of the particular instrument \cite{Geem:2009:MHS:1643438}. Different notes have different frequencies. For example, the note A  has a fundamental frequency $f_0=440 Hz$. The fundamental frequency of each note can be seen in (Table~\ref{fig:musical_notes}). 
 
 \begin{table}[H]
 \centering
@@ -38,29 +32,23 @@ B                     & 493,883301 Hz      \\ \hline
 \caption{HS - Musical Notes}\label{fig:musical_notes}
 \end{table}
 
-Given the above, it is established that a good harmony has good AQH.
+Given the above, it is established that a good harmony has good AQH. The pitch of each musical instrument determines the AQH, just as the fitness function values determines the quality of the decision variables.
 
-The pitch of each musical instrument determines the AQH, just as the fitness function values determines the quality of the decision variables.
+In the music improvisation process, all musicians sound pitches within possible range together to make one harmony, If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony in increased next time. The same thing in optimization, the initial solution is generated randomly from decision variables within the possible range, If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
 
-In the music improvisation process, all musicians sound pitches within possible range together to make one harmony.
-
-If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony in increased next time. The same thing in optimization, the initial solution is generated randomly from decision variables within the possible range.
-
-If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
-
-In this document, we focus on studying the classical SCP problem equation (\ref{ec:set-covering-1}), where we want minimize the cost.
+In this document, the researcher set its focus on studying the classical SCP problem, given by equation (\ref{ec:set-covering-1}), where we want minimize the cost of solution.
 
 \subsubsection{HS operation in depth}
-In general, the procedure for HS metaheuristic, consists of the following four steps.\\ \\
+The traditional HS metaheuristic has 4 steps, they will be reviewed in detail and then will be proposed the change to the original metaheuristic.\\ \\
 
-\emph{Step 1: Initialization parameters} \\
+\textbf{Step 1: Initialization parameters} \\
 The parameters required to solve the optimization problem are specified in this step, an initial HM is filled with a population of  Harmony Memory Size (HMS), harmonies are generated randomly.\\ 
 In addition, the parameters of HS, that is, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) determines the probability of local improvement and number of improvisations (NI) are given when the metaheuristic begins.\\ \\
-\emph{Step 2: New Harmony} \\
+\textbf{Step 2: New Harmony} \\
 Improvise a new harmony from the current HM.\\ \\%The details of this procedure are given in Algorithm \ref{alg:newHarmonyGreedy}.
-\emph{Step 3: Replace worst Harmony in HM} \\
+\textbf{Step 3: Replace worst Harmony in HM} \\
 If the new generated harmony is better than the worst one in HM, then replace the worst harmony with the new one; otherwise, go to the next step. \\ \\
-\emph{Step 4: Check the stop criteria} \\
+\textbf{Step 4: Check the stop criteria} \\
 If a stopping criterion is not satisfied, go to Step 2.
 
 %TABLA (musician - > decision variables)
