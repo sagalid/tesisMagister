@@ -36,11 +36,12 @@ Given the above, it is established that a good harmony has good AQH. The pitch o
 
 In the music improvisation process, all musicians sound pitches within possible range together to make one harmony, If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony in increased next time. The same thing in optimization, the initial solution is generated randomly from decision variables within the possible range, If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
 
-In this document, the researcher set its focus on studying the classical SCP problem, given by equation (\ref{ec:set-covering-1}), where we want minimize the cost of solution.\\
+In this document, the researcher set its focus on studying the classical SCP problem, given by equation \eqref{ec:set-covering-1}, where we want minimize the cost of solution.\\
 
 The traditional HS metaheuristic has 4 steps, they will be reviewed in detail and then will be proposed the change to the original metaheuristic.\\ \\
 
 \textbf{Step 1:  Initialize the problem and algorithm parameters.} \\
+The optimization problem is defined as show in equation \eqref{ec:set-covering-1} where the goal is minimize $Z$ subjecto to \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}
 The parameters required to solve the optimization problem are specified in this step, an initial HM is filled with a population of  Harmony Memory Size (HMS), harmonies are generated randomly.\\ 
 In addition, the parameters of HS, that is, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) determines the probability of local improvement and number of improvisations (NI) are given when the metaheuristic begins.\\ \\
 \textbf{Step 2: Initialize the harmony memory.} \\
