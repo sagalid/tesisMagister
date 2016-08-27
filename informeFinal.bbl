@@ -192,6 +192,11 @@ Z.~W. Geem, {\em Music-Inspired Harmony Search Algorithm: Theory and
   Applications}.
 \newblock Springer Publishing Company, Incorporated, 1st~ed., 2009.
 
+\bibitem{DBLP:journals/asc/ZouGLW11}
+D.~Zou, L.~Gao, S.~Li, and J.~Wu, ``Solving 0-1 knapsack problem by a novel
+  global harmony search algorithm,'' {\em Appl. Soft Comput.}, vol.~11, no.~2,
+  pp.~1556--1564, 2011.
+
 \bibitem{DBLP:journals/amc/OmranM08}
 M.~G.~H. Omran and M.~Mahdavi, ``Global-best harmony search,'' {\em Applied
   Mathematics and Computation}, vol.~198, no.~2, pp.~643--656, 2008.
