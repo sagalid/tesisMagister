@@ -45,7 +45,15 @@ The optimization problem is defined as show in equation \eqref{ec:set-covering-1
 The parameters required to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
 
 \textbf{Step 2: Initialize the harmony memory.} \\
- an initial HM is filled with a population of  Harmony Memory Size (HMS), harmonies are generated randomly and the details of the procedure can be given in Algorithm 
+ an initial HM is filled with a population of  Harmony Memory Size (HMS), harmonies are generated randomly and the details of the procedure can be given in Algorithm \ref{alg:impr_new_harmony}. According to the process seen above , vectors are generated as follows $(x^1,\ldots,x^{hms})$
+ 
+ $$
+ \begin{bmatrix}
+x_1^1 & \ldots & x_n^{1}\\ 
+\vdots & \ddots & \vdots \\ 
+x_1^{hms} & \ldots  & x_n^{hms}
+\end{bmatrix}
+$$
 
 \textbf{Step 3:  Improvise a new harmony.} \\
 
@@ -86,7 +94,7 @@ If a stopping criterion is not satisfied, go to Step 2.
 %      {
 %        return Euclid$(b,a\mod b)$\;
 %      }
-    \caption{Generating new harmony}
+    \caption{Generating new harmony}\label{alg:impr_new_harmony}
 \end{algorithm}
 %__________________________________________________________
 
