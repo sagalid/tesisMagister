@@ -3,13 +3,13 @@
 ~\\
 ~\\
 The $meta$ and $heuristic$ are Greek words, $meta$ it means $higher level$ and $heuristics$ means $to$ $find$, $to$ $know$ or $to$ $discover$. Metaheuristics are a set of intelligent strategies to enhance the efficiency of heuristic procedures.\\
-A metaheuristic will be successful on a given optimizaction problem if it can provide a balance between exploration and exploitation. Exploration means to generate diverse solutions so as to explore the search space on the global scale, while exploitation means search in a local region by exploiting the information that a current good solution is found in this region.
-exploration, often by use of randomization, which enables an algorithm to have the ability to jump out of any local optimum so as to explore the search globally.\\
+A metaheuristic will be successful on a given optimizaction problem if it can provide a balance between exploration and exploitation. Exploration means to generate diverse solutions, associating them to different points of the search space on the global scale, while exploitation means to search in a local region by exploiting the information that a current good solution has been found in this region.
+Exploration is often directed by use of randomization, which enables an algorithm to have the ability to jump between different bounded spaces and gives to the algorithm the capability to search optimal solutions globally.\\
 
 \textbf{Clasification}
 ~\\
 ~\\
-The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}. A majority of these algorithms has a stochastic behavior and mimics biological or  physical processes. The classification presented was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the (Figure \ref{fig:classification-of-mh}).
+The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}. The majority of these algorithms has a stochastic behavior and mimics biological or  physical processes. This presented classification was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the (Figure \ref{fig:classification-of-mh}).
 
 \squeezeup
 \begin{figure}[ht] %ht
@@ -26,7 +26,7 @@ This class is based on the origin of algorithm. The majority of meta-heuristics 
 
 ~\\
 \textbf{Population-based vs. single-point search}
-There is a certain group of metaheuristics, which can be classified by the number of solutions in the lifecycle or execution, such as Trajectory methods, which are the algorithms working based on a single solution at any time (Figure \ref{fig:trajectory-method}). On the other hand Population-based algorithms perform search with multiple initial points in a parallel style. Examples of these metaheuristics can be: Harmony Search (HS) \cite{DBLP:conf/ccece/Al-AjmiE14}, GA \cite{Aupetit2008} and PSO. 
+There is a certain group of metaheuristics, that can be classified by the number of solutions in their lifecycle or execution, such as Trajectory methods, which are algorithms working based on a single solution at any time (Figure \ref{fig:trajectory-method}). On the other hand, Population-based algorithms perform searches with multiple initial points in a parallel style. Examples of these metaheuristics can be: Harmony Search (HS) \cite{DBLP:conf/ccece/Al-AjmiE14}, GA \cite{Aupetit2008} and PSO. 
 
 \squeezeup
 \begin{figure}[ht]
@@ -38,24 +38,24 @@ There is a certain group of metaheuristics, which can be classified by the numbe
 
 ~\\
 \textbf{Dynamic vs. static objective function}
-Another way of classifying metaheuristics, is by the way of utilizing the objective function, some algorithms maintain the objective function intact throughout the execution cycle, while others modify the objective function according to information collected at runtime.\\
+Another way of classifying metaheuristics, is by the way of utilizing the objective function. Some algorithms maintain the objective function intact throughout the execution cycle, while others modify the objective function according to information collected at runtime.\\
 An example of the second case presented, is Guided Local Search (GLS) \cite{DBLP:journals/eor/VansteenwegenSBO09}.  The idea behind this approach is to escape from local optima by changing the search landscape. 
 
 ~\\
 \textbf{One vs. various neighborhood structures}
-The majority of metaheuristic algorithms apply one single neighborhood structure. The fitness landscape topology does not alter in the course of the algorithm while others, like Variable Neighborhood Search (VNS) \cite{DBLP:journals/anor/SarasolaDSA16}, employ a set of neighborhood structures. This latter structure gives the possibility to diversify the search by swapping between different fitness landscapes.
+The majority of metaheuristic algorithms apply one single neighborhood structure. The fitness landscape topology remain unaltered thru the course of the algorithm while others, like Variable Neighborhood Search (VNS) \cite{DBLP:journals/anor/SarasolaDSA16}, employ a set of neighborhood structures. This latter structure gives the possibility to diversify the search by swapping between different fitness landscapes.
 
 ~\\
 \textbf{Memory usage vs. memoryless methods}
-One of the most interesting variables to classify a metaheuristic is undoubtedly use of memory. Short term usually is different from long term memory. The first kind usually keeps track of recently performed moves, or decisions taken. The second is usually an accumulation of synthetic parameters about the search. 
+One of the most interesting variables to classify a metaheuristic is undoubtedly use of memory. Short term usually is different from long term memory. The first kind usually keeps track of recently performed moves, or taken decisions. The second is usually an accumulation of synthetic parameters about the search. 
 
 \subsubsection{Related terms}
 ~\\~\\
 \textbf{Operator:} 
-Unitary procedure for transforming information or implement the behavior of the algrithm.
+Unitary procedure for transforming information or implement the behavior of the algorithm.
 
 \textbf{Solution:} 
-Array of $n$ columns containing a solution for a given problem. In the binary case, the posible values are $0$ and $1$.
+Array of $n$ columns containing a solution for a given problem. In binary case, posible values are $0$ and $1$.
 
 \textbf{Constrain:} 
 Conditions to be met to find a viable solution.
@@ -67,16 +67,16 @@ Optimal set of known problem instances to validate the propose algorithm.
 Implements the mathematical expression representing the problem to solve. The guiding objective function is related to the goal to achieve.
 
 \textbf{Fitness:} 
-Value resulting by applying the objective function to solution.
+Value resulting by applying the objective function to a found solution.
 
 \textbf{Matrix of Costs:} 
-Consist of $n$ columns vector containing the cost associated with each problem variable.
+Consist of $n$ columns vector containing the cost associated to each problem variable.
 
 \textbf{Optimal Value:} 
 Solution with the best fitness.
 
 \textbf{Domain:} 
-Set of possible values for the variable.
+Set of feasible values for the variable.
 
 \textbf{Matrix A:} 
 Matrix containing the restrictions for the given problem.
