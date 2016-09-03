@@ -14,7 +14,7 @@ The global optimum is defined as  a solution $s^* \in S$ and it has a better obj
 \subsection{Harmony Search Metaheuristic}
 Harmony Search (HS) is a population-based metaheuristic algorithm inspired from the musical process of searching for a perfect state of Harmony or Aesthetic Quality of a Harmony (AQH). The HS was proposed by Z. W. Geem et al.\cite{DBLP:journals/simulation/GeemKL01}. In other words, the main idea of the HS metaheuristic is to mimic the process performed by musicians when they try to play a beautiful harmony.
 
-For the purpose of properly understand what is looking like a good solution in this metaheuristic, we must know the meaning of AQH. The AQH in an instrument it is essentially determined by its pitch (or frequency), sound quality, and amplitude (or loudness). The sound quality is mainly determined by the harmonic content that is in turn determined by the waveforms or modulations of the sound signal. However, the harmonics that it can generate will largely depend on the pitch or frequency range of the particular instrument \cite{Geem:2009:MHS:1643438}. Different notes have different frequencies. For example, the note A  has a fundamental frequency $f_0=440 Hz$. The fundamental frequency of each note can be seen in (Table~\ref{fig:musical_notes}). 
+For the purpose of properly understand what is looking like a good solution in this metaheuristic, we must know the meaning of AQH. The AQH in an instrument is essentially determined by its pitch (or frequency), sound quality, and amplitude (or loudness). The sound quality is mainly determined by the harmonic content that is in turn, determined by the waveforms or modulations of the sound signal. However, the harmonics that it can generate will largely depend on the pitch or frequency range of the particular instrument \cite{Geem:2009:MHS:1643438}. Different notes have different frequencies. For example, the note A  has a fundamental frequency $f_0=440 Hz$. The fundamental frequency of each note can be seen in (Table~\ref{fig:musical_notes}). 
 
 \begin{table}[H]
 \centering
@@ -34,18 +34,18 @@ B                     & 493,883301 Hz      \\ \hline
 
 Given the above, it is established that a good harmony has good AQH. The pitch of each musical instrument determines the AQH, just as the fitness function values determines the quality of solution.
 
-In the music improvisation process, all musicians sound pitches within possible range together to make one harmony, If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony in increased next time. The same thing in optimization, the initial solution is generated randomly from decision variables within the possible range, If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
+In the music improvisation process, all musicians sound pitches within possible range together to make one harmony, If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony in increased next time. The same thing in optimization: the initial solution is generated randomly from decision variables within the possible range, If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
 
 In this document, the researcher set its focus on studying the classical SCP problem, given by equation \eqref{ec:set-covering-1}, where we want minimize the cost of solution.\\
 
-The traditional HS metaheuristic has 5 steps \cite{DBLP:journals/asc/ZouGLW11}, they will be reviewed in detail and then will be proposed the change to the original metaheuristic.\\ \\
+The traditional HS metaheuristic has 5 steps \cite{DBLP:journals/asc/ZouGLW11}. They will be reviewed in detail and then will be proposed the change to the original metaheuristic.\\ \\
 
 \textbf{Step 1:  Initialize the problem and algorithm parameters.} \\
-The optimization problem is defined as show in equation \eqref{ec:set-covering-1} where the goal is minimize $Z$ subjecto to \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}.\\~\\
-The parameters required to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
+The optimization problem is defined as shown in equation \eqref{ec:set-covering-1} where the goal is to minimize $Z$ subjec to \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}.\\~\\
+The required parameters to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) which determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
 
 \textbf{Step 2: Initialize the harmony memory.} \\
- an initial HM is filled with a population of  Harmony Memory Size (HMS), harmonies are generated randomly and the details of the procedure can be given in Algorithm \ref{alg:impr_new_harmony}. According to the process seen above , vectors are generated as follows $(x^1,\ldots,x^{hms})$
+ An initial HM is filled with a population of  Harmony Memory Size (HMS). Harmonies are generated randomly and the details of the procedure can be given in Algorithm \ref{alg:impr_new_harmony}. According to the process seen above , vectors are generated as follows $(x^1,\ldots,x^{hms})$
  
  $$
  \begin{bmatrix}
@@ -166,11 +166,11 @@ The parameter $t$ is the iterative variable, and parameter $NI$ is the number of
 
 \subsubsection{Binary Global-Best Harmony Search Metaheuristic}
 
-The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is imbalance between the exploration and the exploitation of HS. Furthermore, HS designed for continuous space cannot be directly used to solve discrete combinatorial optimization problems.
+The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation of HS. Furthermore, HS designed for continuous space cannot be directly used to solve discrete combinatorial optimization problems.
 
 In order to overcome the drawbacks of HS, a novel binary global-best harmony search (BGHS) is designed for binary optimization problems.
 
-Owing to better performance of GHS, some modifications to GHS are introduced to further enhance the convergence performance of GHS. Then a novel binary coded GHS, a two-phase repair operator, and a greedy selection mechanism are integrated into the BGHS. And they are described in detail as follows.
+Owing to better performance of GHS, some modifications to GHS are introduced to further enhance the convergence performance of GHS. Then a novel binary coded GHS, a two-phase repair operator, and a greedy selection mechanism are integrated into the BGHS, and they are described in detail as follows.
 
 
 
