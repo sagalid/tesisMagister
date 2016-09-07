@@ -41,11 +41,13 @@ In this document, the researcher set its focus on studying the classical SCP pro
 The traditional HS metaheuristic has 5 steps \cite{DBLP:journals/asc/ZouGLW11}. They will be reviewed in detail and then will be proposed the change to the original metaheuristic.\\ \\
 
 \textbf{Step 1:  Initialize the problem and algorithm parameters.} \\
-The optimization problem is defined as shown in equation \eqref{ec:set-covering-1} where the goal is to minimize $Z$ subjec to \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}.\\~\\
-The required parameters to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) which determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
+The optimization problem is defined as shown in equation \eqref{ec:set-covering-1} where the goal is to minimize $Z$ subjec to \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}. The required parameters to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) which determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
 
 \textbf{Step 2: Initialize the harmony memory.} \\
- An initial HM is filled with a population of  Harmony Memory Size (HMS). Harmonies are generated randomly and the details of the procedure can be given in Algorithm \ref{alg:impr_new_harmony}. According to the process seen above , vectors are generated as follows $(x^1,\ldots,x^{HMS})$. Vectors results , make up a matrix such as that shown in (Figure \ref{mat:sol_mat}):
+ An initial HM is filled with a population of  Harmony Memory Size (HMS). We can formally say the following: $x_i^j = x_{iL} + rand()(x_{iU} - x_{iL}), ~ j=1,2, \ldots , HMS$. Where rand() is a random from a uniform distribution of $[0,1]$.\\
+ 
+\textbf{Step 3:  Improvise a new harmony.} \\
+Harmonies are generated randomly and the details of the procedure can be given in Algorithm \ref{alg:impr_new_harmony}. According to the process seen above , vectors are generated as follows $(x^1,\ldots,x^{HMS})$. Vectors results , make up a matrix such as that shown in (Figure \ref{mat:sol_mat}):
  
  \begin{figure}
  $$
@@ -59,7 +61,7 @@ $$
 \caption{Harmony Memory Matrix}\label{mat:sol_mat}
 \end{figure}
 
-\textbf{Step 3:  Improvise a new harmony.} \\
+
 
 \textbf{Step 4: Update harmony memory.} \\
 If the new generated harmony is better than the worst one in HM, then replace the worst harmony with the new one; otherwise, go to the next step. \\ \\
@@ -80,14 +82,14 @@ If a stopping criterion is not satisfied, go to Step 2.
       	
 	\eIf{rand()$\leq$HMCR}
       	{
-		$x_i^{\textsc{\char13}}$ = $x_i^j$($j=1,2,\ldots,$HMS) \mbox{//memory consideration}\\
+		$x_i^{ \ensuremath{'}}$ = $x_i^j$~($j=1,2,\ldots,$HMS) \mbox{//memory consideration}\\
 		\lIf{rand() $\leq$ PAR} {
-			$x_i^{\textsc{\char13}}$ = $x_i^{\textsc{\char13}} \pm r(bw)$ 	
+			$x_i^{\ensuremath{'}}$ = $x_i^{ \ensuremath{'}} \pm r(bw)$ 	
       		}
 
       	}
       	{
-        		$x_i^{\textsc{\char13}}$ = $x_{iL}$ + rand() $(x_{iU} - x_{iL})$ \mbox{//random selection}
+        		$x_i^{ \ensuremath{'}}$ = $x_{iL}$ + rand() $(x_{iU} - x_{iL})$ \mbox{//random selection}
       	}
       }
       
