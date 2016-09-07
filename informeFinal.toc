@@ -10,8 +10,8 @@
 \contentsline {subsubsection}{\numberline {2.2.1}SCP formulation}{4}
 \contentsline {subsubsection}{\numberline {2.2.2}SCP sample solution}{5}
 \contentsline {subsection}{\numberline {2.3}Harmony Search Metaheuristic}{7}
-\contentsline {subsubsection}{\numberline {2.3.1}Global-Best Harmony Search Metaheuristic}{10}
-\contentsline {subsubsection}{\numberline {2.3.2}Binary Global-Best Harmony Search Metaheuristic}{10}
+\contentsline {subsubsection}{\numberline {2.3.1}Global-Best Harmony Search Metaheuristic}{9}
+\contentsline {subsubsection}{\numberline {2.3.2}Binary Global-Best Harmony Search Metaheuristic}{9}
 \contentsline {section}{\numberline {3}Results}{11}
 \contentsline {section}{\numberline {4}Conclusion}{12}
 \contentsline {section}{\numberline {5}Appendix}{13}
