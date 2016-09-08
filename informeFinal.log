@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 SEP 2016 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 SEP 2016 08:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1524,7 +1524,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--48
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
@@ -1534,50 +1539,50 @@ Underfull \vbox (badness 4266) has occurred while \output is active []
  [8]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 111.
+               Default added (so using `htbp') on input line 121.
 
-<MarcoTeorico/imagenes/musicos.png, id=76, 1284.8pt x 721.69624pt>
+<MarcoTeorico/imagenes/musicos.png, id=77, 1284.8pt x 721.69624pt>
 File: MarcoTeorico/imagenes/musicos.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/musicos.png>
 Package pdftex.def Info: MarcoTeorico/imagenes/musicos.png used on input line 1
-15.
+25.
 (pdftex.def)             Requested size: 64.24376pt x 36.08691pt.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 125.
-
-<MarcoTeorico/imagenes/violin.png, id=77, 1232.605pt x 1284.8pt>
-File: MarcoTeorico/imagenes/violin.png Graphic file (type png)
-
-<use MarcoTeorico/imagenes/violin.png>
-Package pdftex.def Info: MarcoTeorico/imagenes/violin.png used on input line 12
-9.
-(pdftex.def)             Requested size: 24.6573pt x 25.70142pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 135.
 
-<MarcoTeorico/imagenes/nota.png, id=78, 51.392pt x 51.392pt>
+<MarcoTeorico/imagenes/violin.png, id=78, 1232.605pt x 1284.8pt>
+File: MarcoTeorico/imagenes/violin.png Graphic file (type png)
+
+<use MarcoTeorico/imagenes/violin.png>
+Package pdftex.def Info: MarcoTeorico/imagenes/violin.png used on input line 13
+9.
+(pdftex.def)             Requested size: 24.6573pt x 25.70142pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 145.
+
+<MarcoTeorico/imagenes/nota.png, id=79, 51.392pt x 51.392pt>
 File: MarcoTeorico/imagenes/nota.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/nota.png>
-Package pdftex.def Info: MarcoTeorico/imagenes/nota.png used on input line 139.
+Package pdftex.def Info: MarcoTeorico/imagenes/nota.png used on input line 149.
 
 (pdftex.def)             Requested size: 0.02586pt x 0.02586pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 147.
+               Default added (so using `htbp') on input line 157.
 
-<MarcoTeorico/imagenes/audience.png, id=79, 538.01pt x 342.27875pt>
+<MarcoTeorico/imagenes/audience.png, id=80, 538.01pt x 342.27875pt>
 File: MarcoTeorico/imagenes/audience.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/audience.png>
 Package pdftex.def Info: MarcoTeorico/imagenes/audience.png used on input line 
-153.
+163.
 (pdftex.def)             Requested size: 10.76247pt x 6.84702pt.
  [9 <./MarcoTeorico/imagenes/musicos.png> <./MarcoTeorico/imagenes/violin.png>]
 ) [10 <./MarcoTeorico/imagenes/nota.png> <./MarcoTeorico/imagenes/audience.png>
@@ -1592,10 +1597,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33353 strings out of 493089
- 787188 string characters out of 6134842
+ 33354 strings out of 493089
+ 787203 string characters out of 6134842
  947730 words of memory out of 5000000
- 36243 multiletter control sequences out of 15000+600000
+ 36244 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,77p,10397b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1612,7 +1617,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on informeFinal.pdf (67 pages, 962735 bytes).
+Output written on informeFinal.pdf (67 pages, 962907 bytes).
 PDF statistics:
  290 PDF objects out of 1000 (max. 8388607)
  191 compressed objects within 2 object streams
