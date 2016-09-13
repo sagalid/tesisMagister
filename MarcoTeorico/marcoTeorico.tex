@@ -41,7 +41,8 @@ In this document, the researcher set its focus on studying the classical SCP pro
 The traditional HS metaheuristic has 5 steps \cite{DBLP:journals/asc/ZouGLW11}. They will be reviewed in detail and then will be proposed the change to the original metaheuristic.\\ \\
 
 \textbf{Step 1:  Initialize the problem and algorithm parameters.} \\
-The optimization problem is defined as shown in equation \eqref{ec:set-covering-1} where the goal is to minimize $Z$ subjec to \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}. The required parameters to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) which determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
+The optimization problem is defined as shown in equation \eqref{ec:set-covering-1} where the goal is to minimize $Z$ subjec to \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}. $x_{iL}$ and $x_{iU}$ are the lower and upper
+bounds for decision variables. The required parameters to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) which determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
 
 \textbf{Step 2: Initialize the harmony memory.} \\
  An initial HM is filled with a population of  Harmony Memory Size (HMS). We can formally say the following: $x_i^j = x_{iL} + rand()(x_{iU} - x_{iL}), ~ j=1,2, \ldots , HMS$. Where rand() is a random from a uniform distribution of $[0,1]$.\\
@@ -61,10 +62,27 @@ $$
 \caption{Harmony Memory Matrix}\label{mat:sol_mat}
 \end{figure}
 
+%ALGORITMO DE IMPROVISACION _____________________________
+\begin{algorithm}
+      \For{$i\leftarrow 1$ \KwTo $n$}{    	
+	\eIf{rand()$\leq$HMCR}
+      	{
+		$x_i^{ \ensuremath{'}}$ = $x_i^j$~($j=1,2,\ldots,$HMS) \mbox{//memory consideration}\\
+		\lIf{rand() $\leq$ PAR} {
+			$x_i^{\ensuremath{'}}$ = $x_i^{ \ensuremath{'}} \pm r(bw)$ 	
+      		}
+      	}
+      	{
+        		$x_i^{ \ensuremath{'}}$ = $x_{iL}$ + rand() $(x_{iU} - x_{iL})$ \mbox{//random selection}
+      	}
+      }
+    \caption{Generating new harmony}\label{alg:impr_new_harmony}
+\end{algorithm}
+%__________________________________________________________
 
 
 \textbf{Step 4: Update harmony memory.} \\
-If the new generated harmony $x^{\ensuremath{'}}$ = ($x_{1}^{\ensuremath{'}}$, $x_{2}^{\ensuremath{'}}$ , \ldots,~$x_{n}^{\ensuremath{'}} $) has a better fitness than the worst one in HM, then replace the worst harmony with the new one; otherwise, go to the next step. \\ \\
+If the new generated harmony $x^{\ensuremath{'}}$ = ($x_{1}^{\ensuremath{'}}$, $x_{2}^{\ensuremath{'}}$ , \ldots,~$x_{n}^{\ensuremath{'}} $) has a better fitness than the worst one $x_{worst}$ in HM, then replace the worst harmony with the new one $x_{worst} \leftarrow x^{\ensuremath{'}}$; otherwise , go to the next step. \\ \\
 
 %. If the fitness of the improvised
 %harmony vector x = (x
@@ -79,40 +97,7 @@ If the new generated harmony $x^{\ensuremath{'}}$ = ($x_{1}^{\ensuremath{'}}$, $
 If a stopping criterion is not satisfied, go to Step 2.
 
 
-%ALGORITMO DE IMPROVISACION _____________________________
-\begin{algorithm}
-    %\SetKwInOut{Input}{Input}
-    %\SetKwInOut{Output}{Output}
 
-    %\underline{function Euclid} $(a,b)$\;
-    %\Input{Two nonnegative integers $a$ and $b$}
-    %\Output{$\gcd(a,b)$}
-    %\For{$i\leftarrow 2$ \KwTo $l$}{text loop}
-      \For{$i\leftarrow 1$ \KwTo $n$}{
-      	
-	\eIf{rand()$\leq$HMCR}
-      	{
-		$x_i^{ \ensuremath{'}}$ = $x_i^j$~($j=1,2,\ldots,$HMS) \mbox{//memory consideration}\\
-		\lIf{rand() $\leq$ PAR} {
-			$x_i^{\ensuremath{'}}$ = $x_i^{ \ensuremath{'}} \pm r(bw)$ 	
-      		}
-
-      	}
-      	{
-        		$x_i^{ \ensuremath{'}}$ = $x_{iL}$ + rand() $(x_{iU} - x_{iL})$ \mbox{//random selection}
-      	}
-      }
-      
-%    \eIf{$b=0$}
-%      {
-%        return $a$\;
-%      }
-%      {
-%        return Euclid$(b,a\mod b)$\;
-%      }
-    \caption{Generating new harmony}\label{alg:impr_new_harmony}
-\end{algorithm}
-%__________________________________________________________
 
 
 
