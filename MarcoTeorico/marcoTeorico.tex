@@ -34,7 +34,7 @@ B                     & 493,883301 Hz      \\ \hline
 
 Given the above, it is established that a good harmony has good AQH. The pitch of each musical instrument determines the AQH, just as the fitness function values determines the quality of solution.
 
-In the music improvisation process, all musicians sound pitches within possible range together to make one harmony, If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony in increased next time. The same thing in optimization: the initial solution is generated randomly from decision variables within the possible range, If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
+In the music improvisation process, all musicians (Table~\ref{fig:harmony_process_musician}) sound pitches (Table~\ref{fig:harmony_process_pitch_range}) within possible range together to make one harmony (Table \ref{fig:harmony_process_solution}), If all pitches make a good harmony, each musician stores in his memory that experience and possibility of making a good harmony (Table \ref{fig:harmony_process_aesthetics}) in increased next time. The same thing in optimization: the initial solution is generated randomly from decision variables within the possible range, If the objetive function values of these decision variables is good to make promising solution, then the possibility to make a good solution is increased next time.
 
 In this document, the researcher set its focus on studying the classical SCP problem, given by equation \eqref{ec:set-covering-1}, where we want minimize the cost of solution.\\
 
@@ -82,26 +82,13 @@ $$
 
 
 \textbf{Step 4: Update harmony memory.} \\
-If the new generated harmony $x^{\ensuremath{'}}$ = ($x_{1}^{\ensuremath{'}}$, $x_{2}^{\ensuremath{'}}$ , \ldots,~$x_{n}^{\ensuremath{'}} $) has a better fitness than the worst one $x_{worst}$ in HM, then replace the worst harmony with the new one $x_{worst} \leftarrow x^{\ensuremath{'}}$; otherwise , go to the next step. \\ \\
-
-%. If the fitness of the improvised
-%harmony vector x = (x
-%1, x
-%2,...,x
-%N) is better than that of the
-%worst harmony, replace the worst harmony in the HM with x
-%.
-
+If the new generated harmony $x^{\ensuremath{'}}$ = ($x_{1}^{\ensuremath{'}}$, $x_{2}^{\ensuremath{'}}$ , \ldots,~$x_{n}^{\ensuremath{'}} $) has a better fitness than the worst one $x_{worst}$ in HM, then replace the worst harmony with the new one $x_{worst} \leftarrow x^{\ensuremath{'}}$; otherwise , go to the next step. \\
 
 \textbf{Step 5: Check the stop criteria.} \\
-If a stopping criterion is not satisfied, go to Step 2.
+If the stopping criterion (maximum number of iterations $IN$) is satisfied, computation is
+terminated. Otherwise, step 3 is repeated.
 
-
-
-
-
-
-%TABLA (musician - > decision variables)
+%MUSICOS (musician - > decision variables)
 \squeezeup
 \begin{table}[]
 \centering
@@ -117,6 +104,7 @@ since there are 11 decision variables $x_1\dots x_{11}$. \\ \hline
 \squeezeup
 
 %--VIOLIN (Instrument Pitch Range - > Range Value of decision variable)
+\squeezeup
 \begin{table}[]
 \centering
 \begin{tabular}{|m{3.5cm}|m{8cm}|}
@@ -124,6 +112,7 @@ since there are 11 decision variables $x_1\dots x_{11}$. \\ \hline
 \includegraphics[width=15mm,scale=0.02]{MarcoTeorico/imagenes/violin.png} & The pitch range of the instrument represents the range of values that can take a decision variable. Given the nature of the problem, the possible values are ${\{0,1\}}$ \\  \hline\end{tabular}
 \caption{HS components - Pitch range}\label{fig:harmony_process_pitch_range}
 \end{table}
+\squeezeup
 
 
 %--NOTA MUSICAL (Armonia -> Solucion)
