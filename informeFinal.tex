@@ -7,7 +7,7 @@
 \usepackage{times}
 \usepackage{multirow}
 %Para pseudocodigos
-\usepackage[linesnumbered,ruled]{algorithm2e}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 %Uso de ingles
 \usepackage[english]{babel}
 \usepackage{caption}
@@ -48,6 +48,17 @@
 
 %Elimina indentación para todo el documento.
 \setlength\parindent{0pt}
+
+
+%Permite acotar tamaño usado por imagenes y tablas
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.15}
+\renewcommand{\floatpagefraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\setlength{\floatsep}{5pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{5pt plus 2pt minus 2pt}
+\setlength{\intextsep}{5pt plus 2pt minus 2pt}
 
 %=============================================================================
 % Genera el indice de contenido
@@ -110,7 +121,7 @@
   \newpage
   
   \section{Theoretical Framework}\label{sec:marcoTeorico}
-  \input{MarcoTeorico/marcoTeorico.tex} [H]
+  \input{MarcoTeorico/marcoTeorico.tex}
   \newpage
 
   \section{Results}\label{sec:Resultados}
