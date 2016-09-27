@@ -149,58 +149,21 @@ Owing to better performance of GHS, some modifications to GHS are introduced to 
 %------------------------------nueva_armonia_agresiva():
 
 \begin{algorithm}
+
 \SetKwProg{Fn}{Function}{}{}
 \Fn{new_aggressive_harmony ()}{
- \KwData{Cost vector, Matrix $A$, }
- \KwResult{multi-resolution model}
- enter directory\;
- geometrylist $\leftarrow$ search geometry files\;
- $np$ $\leftarrow$ number of total processes\;
- $ng$ $\leftarrow$ number of total geometry files\;
- \eIf{$ng < np$ and $processid < ng$}{
-   GenSeparateLODFile(geometrylist[processid])\;
-   }{
-   sort geometrylist by file size\;
-   \While{i*processid $<$ ng}{
-        GenSeparateLODFile(geometrylist[processid*i])\;
-        $i$++\;
-    }
-  }
-  wait for all processes to end\;
-    \If{isLastProcess}{
-        assembly each LOD geometry\;
-    }
-}%FIN DE FUNCION
+ CostVector $\gets$ getCostVector()\\
+ ProfitVector $\gets$ getMu_j(CostVector)\\
+ AMatrix $\gets$ getAMatrix()\\
+\ForEach{row in AMatrix}{
+	RowCost $\gets$ row * ProfitVector
+	LowCost $\gets$ getMaxValue(ProfitVector)
+	
+}
+ 
 
-%        def new_aggressive_harmony():
-%            """
-%            While higher the cost, the lower the profit
-%            :return:
-%            """
-%            mu_j = []
-%            cost_vector = getCostVector()
-%            for cost in cost_vector:
-%                mu_j.append(1 / float(cost))
-%            a_matrix = getAMatrix()
-%            new_harmony = np.zeros(getColumnNumber(), dtype=np.int)
-%            for row in a_matrix:
-%                row_cost = row * mu_j
-%                low_cost = max(mu_j)
-%                index_low_cost = 0
-%                index_column = 0
-%                for variable in row_cost:
-%                    if 0 < variable < low_cost:
-%                        low_cost = variable
-%                        index_low_cost = index_column
-%                    index_column += 1
-%                if index_low_cost < getColumnNumber() - 1:
-%                    new_harmony[index_low_cost] = 1
-%            # print new_harmony
-%            fitness = testObjectiveFunction(new_harmony)
-%        
-%            # print "Harmony cost: " + str(fitness)
-%    
-%	       return new_harmony
+
+}
 
     \caption{Generating a new greedy harmony}\label{alg:newHarmonyGreedy}
 \end{algorithm}
