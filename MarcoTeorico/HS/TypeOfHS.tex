@@ -28,9 +28,60 @@ In this document, the researcher set its focus on studying the classical SCP pro
 
 The traditional HS metaheuristic has 5 steps \cite{DBLP:journals/asc/ZouGLW11}. They will be reviewed in detail and then will be proposed the change to the original metaheuristic.\\ \\
 
+%MUSICOS (musician - > decision variables)
+\squeezeup
+\begin{table}[!h]
+\centering
+\begin{tabular}{|m{1.5cm}|m{8cm}|}
+\hline
+\includegraphics[width=15mm,scale=0.05]{MarcoTeorico/imagenes/musicos.png} & 
+Each musician represents a decision variable,
+according to the example shown, there would be 11 musicians, 	
+since there are 11 decision variables $x_1\dots x_{11}$. \\ \hline
+\end{tabular}
+\caption{HS components - Musician}\label{fig:harmony_process_musician}
+\end{table}
+\squeezeup
+
+%--VIOLIN (Instrument Pitch Range - > Range Value of decision variable)
+\squeezeup
+\begin{table}[!h]
+\centering
+\begin{tabular}{|m{1.5cm}|m{8cm}|}
+\hline
+\includegraphics[width=10mm,scale=0.02]{MarcoTeorico/imagenes/violin.png} & The pitch range of the instrument represents the range of values that can take a decision variable. Given the nature of the problem, the possible values are ${\{0,1\}}$ \\  \hline\end{tabular}
+\caption{HS components - Pitch range}\label{fig:harmony_process_pitch_range}
+\end{table}
+\squeezeup
+
+
+%--NOTA MUSICAL (Armonia -> Solucion)
+\squeezeup
+\begin{table}[!h]
+\centering
+\begin{tabular}{|m{1.5cm}|m{8cm}|}
+\hline
+\includegraphics[width=10mm,scale=0.0005]{MarcoTeorico/imagenes/nota.png} & Musical harmony at a certain time, corresponds to a solution at a certain iteration.\\ \hline
+\end{tabular}
+\caption{HS components - Solution}\label{fig:harmony_process_solution}
+\end{table}
+\squeezeup
+% CALIDAD ESTETICA (Calidad de la armonia -> Calidad de la solución)
+\squeezeup
+\begin{table}[!h]
+\centering
+\begin{tabular}{|m{1.5cm}|m{8cm}|}
+\hline
+\includegraphics[width=15mm,scale=0.02]{MarcoTeorico/imagenes/audience.png} & Aesthetics audience, judges whether harmony is good or not.  In the problem it refers to the objective function.\\ \hline
+\end{tabular}
+\caption{HS components - Aesthetics audience}\label{fig:harmony_process_aesthetics}
+\end{table}
+\squeezeup
+%FIN TABLAS
+
+
 \textbf{Step 1:  Initialize the problem and algorithm parameters.} \\
-The optimization problem is defined as shown in equation \eqref{ec:set-covering-1} where the goal is to minimize $Z$ subjec to \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}. $x_{iL}$ and $x_{iU}$ are the lower and upper
-bounds for decision variables. The required parameters to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) which determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
+The optimization problem is defined as shown in equation \eqref{ec:set-covering-1} where the goal is to minimize $Z$ subjec to equations \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}. $x_{iL}$ and $x_{iU}$ are the lower and upper bounds for decision variables. The required parameters to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) which determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
 
 \textbf{Step 2: Initialize the harmony memory.} \\
  An initial HM is filled with a population of  Harmony Memory Size (HMS). We can formally say the following: $x_i^j = x_{iL} + rand()(x_{iU} - x_{iL}), ~ j=1,2, \ldots , HMS$. Where rand() is a random from a uniform distribution of $[0,1]$.\\
@@ -77,56 +128,7 @@ If the new generated harmony $x^{\ensuremath{'}}$ = ($x_{1}^{\ensuremath{'}}$, $
 If the stopping criterion (maximum number of iterations $NI$) is satisfied, computation is
 terminated. Otherwise, step 3 is repeated.\\
 
-%MUSICOS (musician - > decision variables)
-\squeezeup
-\begin{table}[]
-\centering
-\begin{tabular}{|m{1.5cm}|m{8cm}|}
-\hline
-\includegraphics[width=15mm,scale=0.05]{MarcoTeorico/imagenes/musicos.png} & 
-Each musician represents a decision variable,
-according to the example shown, there would be 11 musicians, 	
-since there are 11 decision variables $x_1\dots x_{11}$. \\ \hline
-\end{tabular}
-\caption{HS components - Musician}\label{fig:harmony_process_musician}
-\end{table}
-\squeezeup
 
-%--VIOLIN (Instrument Pitch Range - > Range Value of decision variable)
-\squeezeup
-\begin{table}[]
-\centering
-\begin{tabular}{|m{1.5cm}|m{8cm}|}
-\hline
-\includegraphics[width=10mm,scale=0.02]{MarcoTeorico/imagenes/violin.png} & The pitch range of the instrument represents the range of values that can take a decision variable. Given the nature of the problem, the possible values are ${\{0,1\}}$ \\  \hline\end{tabular}
-\caption{HS components - Pitch range}\label{fig:harmony_process_pitch_range}
-\end{table}
-\squeezeup
-
-
-%--NOTA MUSICAL (Armonia -> Solucion)
-\squeezeup
-\begin{table}[]
-\centering
-\begin{tabular}{|m{1.5cm}|m{8cm}|}
-\hline
-\includegraphics[width=10mm,scale=0.0005]{MarcoTeorico/imagenes/nota.png} & Musical harmony at a certain time, corresponds to a solution at a certain iteration.\\ \hline
-\end{tabular}
-\caption{HS components - Solution}\label{fig:harmony_process_solution}
-\end{table}
-\squeezeup
-% CALIDAD ESTETICA (Calidad de la armonia -> Calidad de la solución)
-\squeezeup
-\begin{table}[]
-\centering
-\begin{tabular}{|m{1.5cm}|m{8cm}|}
-\hline
-\includegraphics[width=15mm,scale=0.02]{MarcoTeorico/imagenes/audience.png} & Aesthetics audience, judges whether harmony is good or not.  In the problem it refers to the objective function.\\ \hline
-\end{tabular}
-\caption{HS components - Aesthetics audience}\label{fig:harmony_process_aesthetics}
-\end{table}
-\squeezeup
-%FIN TABLAS
 \subsubsection{Global-Best Harmony Search Metaheuristic}
 To further improve the convergence performance of HS and overcome some shortcomings of HS, a new variant of HS, called  Global-Best Harmony Search (GHS), was proposed by Omran and Mahdavi \cite{DBLP:journals/amc/OmranM08}. 
 First, the GHS dynamically updates parameter PAR according to equation (\ref{ec:PAR-T}):
@@ -167,20 +169,31 @@ Owing to better performance of GHS, some modifications to GHS are introduced to 
     \caption{Generating a new greedy harmony}\label{alg:newHarmonyGreedy}
 \end{algorithm}
 
-
-
-
-
-
-
-
 %------------------------------Fase ADD y DROP:
 
 \begin{algorithm}
 
-$//ADD Phase$
-
-
-$//Drop Phase$
+$//ADD Phase$\\
+$M \gets 1,2,\ldots, m$ \\
+$A_i \sum_{j=1}^{n} a_{ij}x_{j}, i \in M$\\
+\For{$j\leftarrow 1$ \KwTo $n$}{
+	\lIf{$x_j = 0 and $} {
+		
+	}
+}
+$//DROP Phase$
     \caption{Repair operator ADD and DROP}\label{alg:addAndDrop}
 \end{algorithm}
+
+
+
+
+
+
+
+
+
+
+
+
+
