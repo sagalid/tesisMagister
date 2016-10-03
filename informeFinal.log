@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 SEP 2016 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 SEP 2016 21:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1247,6 +1247,9 @@ s/tikzlibrarydecorations.shapes.code.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.shapes.code.tex))) (./informeFinal.aux
 
+LaTeX Warning: Label `alg:newHarmonyGreedy' multiply defined.
+
+
 LaTeX Warning: Label `tblscpA3' multiply defined.
 
 )
@@ -1748,10 +1751,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33365 strings out of 493089
- 787368 string characters out of 6134842
+ 33366 strings out of 493089
+ 787384 string characters out of 6134842
  951748 words of memory out of 5000000
- 36251 multiletter control sequences out of 15000+600000
+ 36252 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,77p,10397b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1768,7 +1771,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on informeFinal.pdf (66 pages, 964497 bytes).
+Output written on informeFinal.pdf (66 pages, 965277 bytes).
 PDF statistics:
  286 PDF objects out of 1000 (max. 8388607)
  188 compressed objects within 2 object streams
