@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 OCT 2016 09:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 OCT 2016 12:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1735,7 +1735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--130
  []
 
 [9 <./MarcoTeorico/imagenes/nota.png> <./MarcoTeorico/imagenes/audience.png>]
-Overfull \hbox (15.0pt too wide) detected at line 204
+Overfull \hbox (15.0pt too wide) detected at line 215
 [][] 
  []
 
@@ -1769,7 +1769,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on informeFinal.pdf (67 pages, 966025 bytes).
+Output written on informeFinal.pdf (67 pages, 965989 bytes).
 PDF statistics:
  290 PDF objects out of 1000 (max. 8388607)
  191 compressed objects within 2 object streams
