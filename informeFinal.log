@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 OCT 2016 02:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 OCT 2016 07:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1744,6 +1744,24 @@ Overfull \hbox (15.0pt too wide) detected at line 195
  []
 
 )) [10] (./Resultados/Resultados.tex
+Package epstopdf Info: Source file: <Resultados/scp41.eps>
+(epstopdf)                    date: 2016-10-15 06:59:43
+(epstopdf)                    size: 552233 bytes
+(epstopdf)             Output file: <Resultados/scp41-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-15 07:32:53
+(epstopdf)                    size: 10322 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scp41-eps-conver
+ted-to.pdf Resultados/scp41.eps>
+(epstopdf)             \includegraphics on input line 7.
+Package epstopdf Info: Output file is already uptodate.
+
+<Resultados/scp41-eps-converted-to.pdf, id=91, 505.89pt x 505.89pt>
+File: Resultados/scp41-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scp41-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scp41-eps-converted-to.pdf used on input li
+ne 7.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 Package epstopdf Info: Source file: <Resultados/scp42.eps>
 (epstopdf)                    date: 2016-10-14 02:31:38
 (epstopdf)                    size: 552245 bytes
@@ -1752,31 +1770,74 @@ Package epstopdf Info: Source file: <Resultados/scp42.eps>
 (epstopdf)                    size: 12799 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp42-eps-conver
 ted-to.pdf Resultados/scp42.eps>
-(epstopdf)             \includegraphics on input line 5.
+(epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<Resultados/scp42-eps-converted-to.pdf, id=91, 505.89pt x 505.89pt>
+<Resultados/scp42-eps-converted-to.pdf, id=92, 505.89pt x 505.89pt>
 File: Resultados/scp42-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp42-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp42-eps-converted-to.pdf used on input li
-ne 5.
-(pdftex.def)             Requested size: 328.82458pt x 328.82458pt.
-) [11 <./Resultados/scp42-eps-converted-to.pdf>] (./Conclusion/Conclusion.tex) 
-[12] (./Anexo/Anexo.tex [13]
-[14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
-[29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
-[44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57])
+ne 16.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+Package epstopdf Info: Source file: <Resultados/scp43.eps>
+(epstopdf)                    date: 2016-10-15 07:35:15
+(epstopdf)                    size: 552282 bytes
+(epstopdf)             Output file: <Resultados/scp43-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-15 07:32:54
+(epstopdf)                    size: 2217 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scp43-eps-conver
+ted-to.pdf Resultados/scp43.eps>
+(epstopdf)             \includegraphics on input line 24.
+runsystem(epstopdf --outfile=Resultados/scp43-eps-converted-to.pdf Resultados/s
+cp43.eps)...executed.
+
+Package epstopdf Info: Result file: <Resultados/scp43-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-15 07:35:32
+(epstopdf)                    size: 12693 bytes.
+
+<Resultados/scp43-eps-converted-to.pdf, id=93, 505.89pt x 505.89pt>
+File: Resultados/scp43-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scp43-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scp43-eps-converted-to.pdf used on input li
+ne 24.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+Package epstopdf Info: Source file: <Resultados/scp44.eps>
+(epstopdf)                    date: 2016-10-15 07:31:32
+(epstopdf)                    size: 552149 bytes
+(epstopdf)             Output file: <Resultados/scp44-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-15 07:32:54
+(epstopdf)                    size: 10324 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scp44-eps-conver
+ted-to.pdf Resultados/scp44.eps>
+(epstopdf)             \includegraphics on input line 32.
+Package epstopdf Info: Output file is already uptodate.
+
+<Resultados/scp44-eps-converted-to.pdf, id=94, 505.89pt x 505.89pt>
+File: Resultados/scp44-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scp44-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scp44-eps-converted-to.pdf used on input li
+ne 32.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+) [11 <./Resultados/scp41-eps-converted-to.pdf> <./Resultados/scp42-eps-convert
+ed-to.pdf>]
+(./Conclusion/Conclusion.tex) [12 <./Resultados/scp43-eps-converted-to.pdf> <./
+Resultados/scp44-eps-converted-to.pdf>] (./Anexo/Anexo.tex [13] [14] [15]
+[16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
+[31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45]
+[46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57])
 (./informeFinal.bbl [58]) [59] (./informeFinal.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33515 strings out of 493089
- 789370 string characters out of 6134842
+ 33533 strings out of 493089
+ 789957 string characters out of 6134842
  958770 words of memory out of 5000000
- 36393 multiletter control sequences out of 15000+600000
+ 36408 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,77p,10397b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1793,10 +1854,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on informeFinal.pdf (67 pages, 975873 bytes).
+Output written on informeFinal.pdf (67 pages, 1000356 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
+ 329 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
