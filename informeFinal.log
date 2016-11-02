@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 OCT 2016 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 NOV 2016 22:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1394,15 +1394,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
  [3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 109.
- (./informeFinal.lof)
+ (./informeFinal.lof [4])
 \tf@lof=\write6
 \openout6 = `informeFinal.lof'.
 
- [4] (./informeFinal.lot)
+ [5]
+(./informeFinal.lot)
 \tf@lot=\write7
 \openout7 = `informeFinal.lot'.
 
- [5] [6] (./Introduccion/introduccion.tex
+ [6] [7] (./Introduccion/introduccion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1437,7 +1438,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
  []
 
-<MarcoTeorico/imagenes/classification_mh.png, id=39, 646.415pt x 595.22375pt>
+<MarcoTeorico/imagenes/classification_mh.png, id=42, 646.415pt x 595.22375pt>
 File: MarcoTeorico/imagenes/classification_mh.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/classification_mh.png>
@@ -1445,7 +1446,7 @@ Package pdftex.def Info: MarcoTeorico/imagenes/classification_mh.png used on in
 put line 17.
 (pdftex.def)             Requested size: 330.42041pt x 304.25037pt.
 
-<MarcoTeorico/imagenes/trajectory-mh.png, id=41, 803.0pt x 452.69125pt>
+<MarcoTeorico/imagenes/trajectory-mh.png, id=44, 803.0pt x 452.69125pt>
 File: MarcoTeorico/imagenes/trajectory-mh.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/trajectory-mh.png>
@@ -1634,7 +1635,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
  []
 
 ) (./MarcoTeorico/SCP/scp.tex [5]
-<Introduccion/imagenes/SetCovering.png, id=62, 874.01532pt x 537.50812pt>
+<Introduccion/imagenes/SetCovering.png, id=65, 874.01532pt x 537.50812pt>
 File: Introduccion/imagenes/SetCovering.png Graphic file (type png)
 
 <use Introduccion/imagenes/SetCovering.png>
@@ -1651,7 +1652,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 61.
 
 
-<Introduccion/imagenes/SetCoveringSolved.png, id=63, 874.01532pt x 537.50812pt>
+<Introduccion/imagenes/SetCoveringSolved.png, id=66, 874.01532pt x 537.50812pt>
 File: Introduccion/imagenes/SetCoveringSolved.png Graphic file (type png)
 <use Introduccion/imagenes/SetCoveringSolved.png>
 Package pdftex.def Info: Introduccion/imagenes/SetCoveringSolved.png used on in
@@ -1681,7 +1682,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-<MarcoTeorico/imagenes/musicos.png, id=73, 1284.8pt x 721.69624pt>
+<MarcoTeorico/imagenes/musicos.png, id=76, 1284.8pt x 721.69624pt>
 File: MarcoTeorico/imagenes/musicos.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/musicos.png>
@@ -1689,7 +1690,7 @@ Package pdftex.def Info: MarcoTeorico/imagenes/musicos.png used on input line 3
 7.
 (pdftex.def)             Requested size: 64.24376pt x 36.08691pt.
 
-<MarcoTeorico/imagenes/violin.png, id=74, 1232.605pt x 1284.8pt>
+<MarcoTeorico/imagenes/violin.png, id=77, 1232.605pt x 1284.8pt>
 File: MarcoTeorico/imagenes/violin.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/violin.png>
@@ -1697,7 +1698,7 @@ Package pdftex.def Info: MarcoTeorico/imagenes/violin.png used on input line 52
 .
 (pdftex.def)             Requested size: 24.6573pt x 25.70142pt.
 
-<MarcoTeorico/imagenes/nota.png, id=75, 51.392pt x 51.392pt>
+<MarcoTeorico/imagenes/nota.png, id=78, 51.392pt x 51.392pt>
 File: MarcoTeorico/imagenes/nota.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/nota.png>
@@ -1707,7 +1708,7 @@ Package pdftex.def Info: MarcoTeorico/imagenes/nota.png used on input line 64.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<MarcoTeorico/imagenes/audience.png, id=76, 538.01pt x 342.27875pt>
+<MarcoTeorico/imagenes/audience.png, id=79, 538.01pt x 342.27875pt>
 File: MarcoTeorico/imagenes/audience.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/audience.png>
@@ -1758,7 +1759,7 @@ Package epstopdf Info: Source file: <Resultados/scp41.eps>
 ted-to.pdf Resultados/scp41.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp41-eps-converted-to.pdf, id=91, 505.89pt x 505.89pt>
+<Resultados/scp41-eps-converted-to.pdf, id=95, 505.89pt x 505.89pt>
 File: Resultados/scp41-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp41-eps-converted-to.pdf>
@@ -1780,39 +1781,40 @@ Package epstopdf Info: Source file: <Resultados/scp42.eps>
 ted-to.pdf Resultados/scp42.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp42-eps-converted-to.pdf, id=92, 505.89pt x 505.89pt>
+<Resultados/scp42-eps-converted-to.pdf, id=96, 505.89pt x 505.89pt>
 File: Resultados/scp42-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp42-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp42-eps-converted-to.pdf used on input li
 ne 17.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
-
+ [11 <./Resultados/scp41-eps-converted-to.pdf> <./Resultados/scp42-eps-converte
+d-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 23.
+               Default added (so using `htbp') on input line 26.
 
 Package epstopdf Info: Source file: <Resultados/scp43.eps>
-(epstopdf)                    date: 2016-10-15 10:31:01
-(epstopdf)                    size: 552284 bytes
+(epstopdf)                    date: 2016-11-01 21:15:30
+(epstopdf)                    size: 552285 bytes
 (epstopdf)             Output file: <Resultados/scp43-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-15 10:31:23
-(epstopdf)                    size: 12695 bytes
+(epstopdf)                    date: 2016-11-01 21:15:38
+(epstopdf)                    size: 12698 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp43-eps-conver
 ted-to.pdf Resultados/scp43.eps>
-(epstopdf)             \includegraphics on input line 25.
+(epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp43-eps-converted-to.pdf, id=93, 505.89pt x 505.89pt>
+<Resultados/scp43-eps-converted-to.pdf, id=120, 505.89pt x 505.89pt>
 File: Resultados/scp43-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp43-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp43-eps-converted-to.pdf used on input li
-ne 25.
+ne 28.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 31.
+               Default added (so using `htbp') on input line 34.
 
 Package epstopdf Info: Source file: <Resultados/scp44.eps>
 (epstopdf)                    date: 2016-10-15 10:34:13
@@ -1822,19 +1824,19 @@ Package epstopdf Info: Source file: <Resultados/scp44.eps>
 (epstopdf)                    size: 12506 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp44-eps-conver
 ted-to.pdf Resultados/scp44.eps>
-(epstopdf)             \includegraphics on input line 33.
+(epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp44-eps-converted-to.pdf, id=94, 505.89pt x 505.89pt>
+<Resultados/scp44-eps-converted-to.pdf, id=121, 505.89pt x 505.89pt>
 File: Resultados/scp44-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp44-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp44-eps-converted-to.pdf used on input li
-ne 33.
+ne 36.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 39.
+               Default added (so using `htbp') on input line 42.
 
 Package epstopdf Info: Source file: <Resultados/scp45.eps>
 (epstopdf)                    date: 2016-10-15 12:14:18
@@ -1844,19 +1846,19 @@ Package epstopdf Info: Source file: <Resultados/scp45.eps>
 (epstopdf)                    size: 12621 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp45-eps-conver
 ted-to.pdf Resultados/scp45.eps>
-(epstopdf)             \includegraphics on input line 41.
+(epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp45-eps-converted-to.pdf, id=95, 505.89pt x 505.89pt>
+<Resultados/scp45-eps-converted-to.pdf, id=122, 505.89pt x 505.89pt>
 File: Resultados/scp45-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp45-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp45-eps-converted-to.pdf used on input li
-ne 41.
+ne 44.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 47.
+               Default added (so using `htbp') on input line 50.
 
 Package epstopdf Info: Source file: <Resultados/scp46.eps>
 (epstopdf)                    date: 2016-10-15 12:16:10
@@ -1866,19 +1868,19 @@ Package epstopdf Info: Source file: <Resultados/scp46.eps>
 (epstopdf)                    size: 10339 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp46-eps-conver
 ted-to.pdf Resultados/scp46.eps>
-(epstopdf)             \includegraphics on input line 49.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp46-eps-converted-to.pdf, id=96, 505.89pt x 505.89pt>
+<Resultados/scp46-eps-converted-to.pdf, id=123, 505.89pt x 505.89pt>
 File: Resultados/scp46-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp46-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp46-eps-converted-to.pdf used on input li
-ne 49.
+ne 52.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 55.
+               Default added (so using `htbp') on input line 58.
 
 Package epstopdf Info: Source file: <Resultados/scp47.eps>
 (epstopdf)                    date: 2016-10-15 12:18:11
@@ -1888,19 +1890,19 @@ Package epstopdf Info: Source file: <Resultados/scp47.eps>
 (epstopdf)                    size: 12528 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp47-eps-conver
 ted-to.pdf Resultados/scp47.eps>
-(epstopdf)             \includegraphics on input line 57.
+(epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp47-eps-converted-to.pdf, id=97, 505.89pt x 505.89pt>
+<Resultados/scp47-eps-converted-to.pdf, id=124, 505.89pt x 505.89pt>
 File: Resultados/scp47-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp47-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp47-eps-converted-to.pdf used on input li
-ne 57.
+ne 60.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 63.
+               Default added (so using `htbp') on input line 66.
 
 Package epstopdf Info: Source file: <Resultados/scp48.eps>
 (epstopdf)                    date: 2016-10-15 12:19:51
@@ -1910,19 +1912,19 @@ Package epstopdf Info: Source file: <Resultados/scp48.eps>
 (epstopdf)                    size: 12685 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp48-eps-conver
 ted-to.pdf Resultados/scp48.eps>
-(epstopdf)             \includegraphics on input line 65.
+(epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp48-eps-converted-to.pdf, id=98, 505.89pt x 505.89pt>
+<Resultados/scp48-eps-converted-to.pdf, id=125, 505.89pt x 505.89pt>
 File: Resultados/scp48-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp48-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp48-eps-converted-to.pdf used on input li
-ne 65.
+ne 68.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 71.
+               Default added (so using `htbp') on input line 74.
 
 Package epstopdf Info: Source file: <Resultados/scp49.eps>
 (epstopdf)                    date: 2016-10-15 12:20:44
@@ -1932,19 +1934,19 @@ Package epstopdf Info: Source file: <Resultados/scp49.eps>
 (epstopdf)                    size: 12569 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp49-eps-conver
 ted-to.pdf Resultados/scp49.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp49-eps-converted-to.pdf, id=99, 505.89pt x 505.89pt>
+<Resultados/scp49-eps-converted-to.pdf, id=126, 505.89pt x 505.89pt>
 File: Resultados/scp49-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp49-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp49-eps-converted-to.pdf used on input li
-ne 73.
+ne 76.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 79.
+               Default added (so using `htbp') on input line 82.
 
 Package epstopdf Info: Source file: <Resultados/scp410.eps>
 (epstopdf)                    date: 2016-10-15 12:21:09
@@ -1954,19 +1956,19 @@ Package epstopdf Info: Source file: <Resultados/scp410.eps>
 (epstopdf)                    size: 12625 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp410-eps-conve
 rted-to.pdf Resultados/scp410.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp410-eps-converted-to.pdf, id=100, 505.89pt x 505.89pt>
+<Resultados/scp410-eps-converted-to.pdf, id=127, 505.89pt x 505.89pt>
 File: Resultados/scp410-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp410-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp410-eps-converted-to.pdf used on input l
-ine 81.
+ine 84.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 87.
+               Default added (so using `htbp') on input line 90.
 
 Package epstopdf Info: Source file: <Resultados/scp51.eps>
 (epstopdf)                    date: 2016-10-15 17:46:55
@@ -1976,19 +1978,19 @@ Package epstopdf Info: Source file: <Resultados/scp51.eps>
 (epstopdf)                    size: 12365 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp51-eps-conver
 ted-to.pdf Resultados/scp51.eps>
-(epstopdf)             \includegraphics on input line 89.
+(epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp51-eps-converted-to.pdf, id=101, 505.89pt x 505.89pt>
+<Resultados/scp51-eps-converted-to.pdf, id=128, 505.89pt x 505.89pt>
 File: Resultados/scp51-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp51-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp51-eps-converted-to.pdf used on input li
-ne 89.
+ne 92.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 95.
+               Default added (so using `htbp') on input line 98.
 
 Package epstopdf Info: Source file: <Resultados/scp52.eps>
 (epstopdf)                    date: 2016-10-15 17:48:33
@@ -1998,19 +2000,19 @@ Package epstopdf Info: Source file: <Resultados/scp52.eps>
 (epstopdf)                    size: 12648 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp52-eps-conver
 ted-to.pdf Resultados/scp52.eps>
-(epstopdf)             \includegraphics on input line 97.
+(epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp52-eps-converted-to.pdf, id=102, 505.89pt x 505.89pt>
+<Resultados/scp52-eps-converted-to.pdf, id=129, 505.89pt x 505.89pt>
 File: Resultados/scp52-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp52-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp52-eps-converted-to.pdf used on input li
-ne 97.
+ne 100.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 103.
+               Default added (so using `htbp') on input line 106.
 
 Package epstopdf Info: Source file: <Resultados/scp53.eps>
 (epstopdf)                    date: 2016-10-15 17:49:45
@@ -2020,19 +2022,19 @@ Package epstopdf Info: Source file: <Resultados/scp53.eps>
 (epstopdf)                    size: 12381 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp53-eps-conver
 ted-to.pdf Resultados/scp53.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp53-eps-converted-to.pdf, id=103, 505.89pt x 505.89pt>
+<Resultados/scp53-eps-converted-to.pdf, id=130, 505.89pt x 505.89pt>
 File: Resultados/scp53-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp53-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp53-eps-converted-to.pdf used on input li
-ne 105.
+ne 108.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 110.
+               Default added (so using `htbp') on input line 113.
 
 Package epstopdf Info: Source file: <Resultados/scp54.eps>
 (epstopdf)                    date: 2016-10-15 17:52:19
@@ -2042,19 +2044,19 @@ Package epstopdf Info: Source file: <Resultados/scp54.eps>
 (epstopdf)                    size: 12393 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp54-eps-conver
 ted-to.pdf Resultados/scp54.eps>
-(epstopdf)             \includegraphics on input line 112.
+(epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp54-eps-converted-to.pdf, id=104, 505.89pt x 505.89pt>
+<Resultados/scp54-eps-converted-to.pdf, id=131, 505.89pt x 505.89pt>
 File: Resultados/scp54-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp54-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp54-eps-converted-to.pdf used on input li
-ne 112.
+ne 115.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 117.
+               Default added (so using `htbp') on input line 120.
 
 Package epstopdf Info: Source file: <Resultados/scp55.eps>
 (epstopdf)                    date: 2016-10-15 17:52:04
@@ -2064,19 +2066,19 @@ Package epstopdf Info: Source file: <Resultados/scp55.eps>
 (epstopdf)                    size: 12444 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp55-eps-conver
 ted-to.pdf Resultados/scp55.eps>
-(epstopdf)             \includegraphics on input line 119.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp55-eps-converted-to.pdf, id=105, 505.89pt x 505.89pt>
+<Resultados/scp55-eps-converted-to.pdf, id=132, 505.89pt x 505.89pt>
 File: Resultados/scp55-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp55-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp55-eps-converted-to.pdf used on input li
-ne 119.
+ne 122.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 125.
+               Default added (so using `htbp') on input line 128.
 
 Package epstopdf Info: Source file: <Resultados/scp56.eps>
 (epstopdf)                    date: 2016-10-15 18:01:39
@@ -2086,19 +2088,19 @@ Package epstopdf Info: Source file: <Resultados/scp56.eps>
 (epstopdf)                    size: 12472 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp56-eps-conver
 ted-to.pdf Resultados/scp56.eps>
-(epstopdf)             \includegraphics on input line 127.
+(epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp56-eps-converted-to.pdf, id=106, 505.89pt x 505.89pt>
+<Resultados/scp56-eps-converted-to.pdf, id=133, 505.89pt x 505.89pt>
 File: Resultados/scp56-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp56-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp56-eps-converted-to.pdf used on input li
-ne 127.
+ne 130.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 132.
+               Default added (so using `htbp') on input line 135.
 
 Package epstopdf Info: Source file: <Resultados/scp57.eps>
 (epstopdf)                    date: 2016-10-15 18:03:49
@@ -2108,19 +2110,19 @@ Package epstopdf Info: Source file: <Resultados/scp57.eps>
 (epstopdf)                    size: 12326 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp57-eps-conver
 ted-to.pdf Resultados/scp57.eps>
-(epstopdf)             \includegraphics on input line 134.
+(epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp57-eps-converted-to.pdf, id=107, 505.89pt x 505.89pt>
+<Resultados/scp57-eps-converted-to.pdf, id=134, 505.89pt x 505.89pt>
 File: Resultados/scp57-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp57-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp57-eps-converted-to.pdf used on input li
-ne 134.
+ne 137.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 139.
+               Default added (so using `htbp') on input line 142.
 
 Package epstopdf Info: Source file: <Resultados/scp58.eps>
 (epstopdf)                    date: 2016-10-15 18:04:13
@@ -2130,29 +2132,30 @@ Package epstopdf Info: Source file: <Resultados/scp58.eps>
 (epstopdf)                    size: 12631 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp58-eps-conver
 ted-to.pdf Resultados/scp58.eps>
-(epstopdf)             \includegraphics on input line 141.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp58-eps-converted-to.pdf, id=108, 505.89pt x 505.89pt>
+<Resultados/scp58-eps-converted-to.pdf, id=135, 505.89pt x 505.89pt>
 File: Resultados/scp58-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp58-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp58-eps-converted-to.pdf used on input li
-ne 141.
+ne 144.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
- [11 <./Resultados/scp41-eps-converted-to.pdf> <./Resultados/scp42-eps-converte
-d-to.pdf>] [12 <./Resultados/scp43-eps-converted-to.pdf> <./Resultados/scp44-ep
-s-converted-to.pdf>] [13 <./Resultados/scp45-eps-converted-to.pdf> <./Resultado
-s/scp46-eps-converted-to.pdf>]
-[14 <./Resultados/scp47-eps-converted-to.pdf> <./Resultados/scp48-eps-converted
--to.pdf>] [15 <./Resultados/scp49-eps-converted-to.pdf> <./Resultados/scp410-ep
-s-converted-to.pdf>] [16 <./Resultados/scp51-eps-converted-to.pdf> <./Resultado
-s/scp52-eps-converted-to.pdf>] [17 <./Resultados/scp53-eps-converted-to.pdf> <.
-/Resultados/scp54-eps-converted-to.pdf>] [18 <./Resultados/scp55-eps-converted-
-to.pdf> <./Resultados/scp56-eps-converted-to.pdf>] [19 <./Resultados/scp57-eps-
-converted-to.pdf> <./Resultados/scp58-eps-converted-to.pdf>]
+ [12
+
+ <./Resultados/scp43-eps-converted-to.pdf> <./Resultados/scp44-eps-converted-to
+.pdf>] [13 <./Resultados/scp45-eps-converted-to.pdf> <./Resultados/scp46-eps-co
+nverted-to.pdf>] [14 <./Resultados/scp47-eps-converted-to.pdf> <./Resultados/sc
+p48-eps-converted-to.pdf>]
+[15 <./Resultados/scp49-eps-converted-to.pdf> <./Resultados/scp410-eps-converte
+d-to.pdf>] [16 <./Resultados/scp51-eps-converted-to.pdf> <./Resultados/scp52-ep
+s-converted-to.pdf>] [17 <./Resultados/scp53-eps-converted-to.pdf> <./Resultado
+s/scp54-eps-converted-to.pdf>] [18 <./Resultados/scp55-eps-converted-to.pdf> <.
+/Resultados/scp56-eps-converted-to.pdf>] [19 <./Resultados/scp57-eps-converted-
+to.pdf> <./Resultados/scp58-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 151.
+               Default added (so using `htbp') on input line 154.
 
 Package epstopdf Info: Source file: <Resultados/scp59.eps>
 (epstopdf)                    date: 2016-10-15 18:07:10
@@ -2162,19 +2165,19 @@ Package epstopdf Info: Source file: <Resultados/scp59.eps>
 (epstopdf)                    size: 12349 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp59-eps-conver
 ted-to.pdf Resultados/scp59.eps>
-(epstopdf)             \includegraphics on input line 153.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp59-eps-converted-to.pdf, id=316, 505.89pt x 505.89pt>
+<Resultados/scp59-eps-converted-to.pdf, id=319, 505.89pt x 505.89pt>
 File: Resultados/scp59-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp59-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp59-eps-converted-to.pdf used on input li
-ne 153.
+ne 156.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 158.
+               Default added (so using `htbp') on input line 161.
 
 Package epstopdf Info: Source file: <Resultados/scp510.eps>
 (epstopdf)                    date: 2016-10-15 18:07:36
@@ -2184,58 +2187,599 @@ Package epstopdf Info: Source file: <Resultados/scp510.eps>
 (epstopdf)                    size: 12585 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp510-eps-conve
 rted-to.pdf Resultados/scp510.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp510-eps-converted-to.pdf, id=317, 505.89pt x 505.89pt>
+<Resultados/scp510-eps-converted-to.pdf, id=320, 505.89pt x 505.89pt>
 File: Resultados/scp510-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp510-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp510-eps-converted-to.pdf used on input l
-ine 160.
+ine 163.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 166.
+               Default added (so using `htbp') on input line 169.
 
 Package epstopdf Info: Source file: <Resultados/scp61.eps>
-(epstopdf)                    date: 2016-10-16 16:52:41
+(epstopdf)                    date: 2016-10-22 13:11:34
 (epstopdf)                    size: 552062 bytes
 (epstopdf)             Output file: <Resultados/scp61-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-22 13:11:53
+(epstopdf)                    size: 12253 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scp61-eps-conver
 ted-to.pdf Resultados/scp61.eps>
-(epstopdf)             \includegraphics on input line 168.
-runsystem(epstopdf --outfile=Resultados/scp61-eps-converted-to.pdf Resultados/s
-cp61.eps)...executed.
-
-Package epstopdf Info: Result file: <Resultados/scp61-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-16 16:54:15
-(epstopdf)                    size: 12253 bytes.
-<Resultados/scp61-eps-converted-to.pdf, id=318, 505.89pt x 505.89pt>
+(epstopdf)             \includegraphics on input line 171.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scp61-eps-converted-to.pdf, id=321, 505.89pt x 505.89pt>
 File: Resultados/scp61-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp61-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp61-eps-converted-to.pdf used on input li
-ne 168.
+ne 171.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
-) [20
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 177.
+
+Package epstopdf Info: Source file: <Resultados/scp62.eps>
+(epstopdf)                    date: 2016-10-22 13:11:39
+(epstopdf)                    size: 552177 bytes
+(epstopdf)             Output file: <Resultados/scp62-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-22 13:11:54
+(epstopdf)                    size: 12562 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scp62-eps-conver
+ted-to.pdf Resultados/scp62.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scp62-eps-converted-to.pdf, id=322, 505.89pt x 505.89pt>
+File: Resultados/scp62-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scp62-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scp62-eps-converted-to.pdf used on input li
+ne 179.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 185.
+
+Package epstopdf Info: Source file: <Resultados/scp63.eps>
+(epstopdf)                    date: 2016-10-23 17:42:54
+(epstopdf)                    size: 552276 bytes
+(epstopdf)             Output file: <Resultados/scp63-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-23 17:43:10
+(epstopdf)                    size: 12344 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scp63-eps-conver
+ted-to.pdf Resultados/scp63.eps>
+(epstopdf)             \includegraphics on input line 187.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scp63-eps-converted-to.pdf, id=323, 505.89pt x 505.89pt>
+File: Resultados/scp63-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scp63-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scp63-eps-converted-to.pdf used on input li
+ne 187.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 193.
+
+Package epstopdf Info: Source file: <Resultados/scp64.eps>
+(epstopdf)                    date: 2016-10-23 17:39:03
+(epstopdf)                    size: 552153 bytes
+(epstopdf)             Output file: <Resultados/scp64-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-23 17:43:10
+(epstopdf)                    size: 12190 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scp64-eps-conver
+ted-to.pdf Resultados/scp64.eps>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scp64-eps-converted-to.pdf, id=324, 505.89pt x 505.89pt>
+File: Resultados/scp64-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scp64-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scp64-eps-converted-to.pdf used on input li
+ne 195.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 201.
+
+Package epstopdf Info: Source file: <Resultados/scp65.eps>
+(epstopdf)                    date: 2016-10-23 18:17:21
+(epstopdf)                    size: 552052 bytes
+(epstopdf)             Output file: <Resultados/scp65-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-23 18:17:58
+(epstopdf)                    size: 12241 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scp65-eps-conver
+ted-to.pdf Resultados/scp65.eps>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scp65-eps-converted-to.pdf, id=325, 505.89pt x 505.89pt>
+File: Resultados/scp65-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scp65-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scp65-eps-converted-to.pdf used on input li
+ne 203.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 209.
+
+Package epstopdf Info: Source file: <Resultados/scpA1.eps>
+(epstopdf)                    date: 2016-11-01 14:14:11
+(epstopdf)                    size: 552089 bytes
+(epstopdf)             Output file: <Resultados/scpA1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 14:14:48
+(epstopdf)                    size: 12778 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpA1-eps-conver
+ted-to.pdf Resultados/scpA1.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpA1-eps-converted-to.pdf, id=326, 505.89pt x 505.89pt>
+File: Resultados/scpA1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpA1-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpA1-eps-converted-to.pdf used on input li
+ne 211.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 217.
+
+Package epstopdf Info: Source file: <Resultados/scpA2.eps>
+(epstopdf)                    date: 2016-11-01 21:12:38
+(epstopdf)                    size: 552112 bytes
+(epstopdf)             Output file: <Resultados/scpA2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 21:12:48
+(epstopdf)                    size: 12493 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpA2-eps-conver
+ted-to.pdf Resultados/scpA2.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpA2-eps-converted-to.pdf, id=327, 505.89pt x 505.89pt>
+File: Resultados/scpA2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpA2-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpA2-eps-converted-to.pdf used on input li
+ne 219.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 225.
+
+Package epstopdf Info: Source file: <Resultados/scpA3.eps>
+(epstopdf)                    date: 2016-11-01 16:18:21
+(epstopdf)                    size: 552179 bytes
+(epstopdf)             Output file: <Resultados/scpA3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 16:18:31
+(epstopdf)                    size: 12544 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpA3-eps-conver
+ted-to.pdf Resultados/scpA3.eps>
+(epstopdf)             \includegraphics on input line 227.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpA3-eps-converted-to.pdf, id=328, 505.89pt x 505.89pt>
+File: Resultados/scpA3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpA3-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpA3-eps-converted-to.pdf used on input li
+ne 227.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 233.
+
+Package epstopdf Info: Source file: <Resultados/scpA4.eps>
+(epstopdf)                    date: 2016-11-01 16:19:41
+(epstopdf)                    size: 552383 bytes
+(epstopdf)             Output file: <Resultados/scpA4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 16:19:57
+(epstopdf)                    size: 12862 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpA4-eps-conver
+ted-to.pdf Resultados/scpA4.eps>
+(epstopdf)             \includegraphics on input line 235.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpA4-eps-converted-to.pdf, id=329, 505.89pt x 505.89pt>
+File: Resultados/scpA4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpA4-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpA4-eps-converted-to.pdf used on input li
+ne 235.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 241.
+
+Package epstopdf Info: Source file: <Resultados/scpA5.eps>
+(epstopdf)                    date: 2016-11-01 16:21:36
+(epstopdf)                    size: 551964 bytes
+(epstopdf)             Output file: <Resultados/scpA5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 16:21:47
+(epstopdf)                    size: 12771 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpA5-eps-conver
+ted-to.pdf Resultados/scpA5.eps>
+(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpA5-eps-converted-to.pdf, id=330, 505.89pt x 505.89pt>
+File: Resultados/scpA5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpA5-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpA5-eps-converted-to.pdf used on input li
+ne 243.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 249.
+
+Package epstopdf Info: Source file: <Resultados/scpB1.eps>
+(epstopdf)                    date: 2016-11-01 16:25:10
+(epstopdf)                    size: 552151 bytes
+(epstopdf)             Output file: <Resultados/scpB1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 16:25:29
+(epstopdf)                    size: 12555 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpB1-eps-conver
+ted-to.pdf Resultados/scpB1.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpB1-eps-converted-to.pdf, id=331, 505.89pt x 505.89pt>
+File: Resultados/scpB1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpB1-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpB1-eps-converted-to.pdf used on input li
+ne 251.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 257.
+
+Package epstopdf Info: Source file: <Resultados/scpB2.eps>
+(epstopdf)                    date: 2016-11-01 18:26:25
+(epstopdf)                    size: 552249 bytes
+(epstopdf)             Output file: <Resultados/scpB2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 18:26:59
+(epstopdf)                    size: 12731 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpB2-eps-conver
+ted-to.pdf Resultados/scpB2.eps>
+(epstopdf)             \includegraphics on input line 259.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpB2-eps-converted-to.pdf, id=332, 505.89pt x 505.89pt>
+File: Resultados/scpB2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpB2-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpB2-eps-converted-to.pdf used on input li
+ne 259.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+ [20
 
  <./Resultados/scp59-eps-converted-to.pdf> <./Resultados/scp510-eps-converted-t
-o.pdf>]
-(./Conclusion/Conclusion.tex) [21 <./Resultados/scp61-eps-converted-to.pdf>]
-(./Anexo/Anexo.tex [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
-[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
-[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62]
-[63] [64] [65] [66]) (./informeFinal.bbl [67]) [68] (./informeFinal.aux)
+o.pdf>] [21 <./Resultados/scp61-eps-converted-to.pdf> <./Resultados/scp62-eps-c
+onverted-to.pdf>] [22 <./Resultados/scp63-eps-converted-to.pdf> <./Resultados/s
+cp64-eps-converted-to.pdf>]
+[23 <./Resultados/scp65-eps-converted-to.pdf> <./Resultados/scpA1-eps-converted
+-to.pdf>] [24 <./Resultados/scpA2-eps-converted-to.pdf> <./Resultados/scpA3-eps
+-converted-to.pdf>] [25 <./Resultados/scpA4-eps-converted-to.pdf> <./Resultados
+/scpA5-eps-converted-to.pdf>] [26 <./Resultados/scpB1-eps-converted-to.pdf> <./
+Resultados/scpB2-eps-converted-to.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 268.
+
+Package epstopdf Info: Source file: <Resultados/scpB3.eps>
+(epstopdf)                    date: 2016-11-01 18:26:49
+(epstopdf)                    size: 552021 bytes
+(epstopdf)             Output file: <Resultados/scpB3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 18:27:00
+(epstopdf)                    size: 12568 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpB3-eps-conver
+ted-to.pdf Resultados/scpB3.eps>
+(epstopdf)             \includegraphics on input line 270.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpB3-eps-converted-to.pdf, id=496, 505.89pt x 505.89pt>
+File: Resultados/scpB3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpB3-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpB3-eps-converted-to.pdf used on input li
+ne 270.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 276.
+
+Package epstopdf Info: Source file: <Resultados/scpB4.eps>
+(epstopdf)                    date: 2016-11-01 19:31:14
+(epstopdf)                    size: 552255 bytes
+(epstopdf)             Output file: <Resultados/scpB4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:32:30
+(epstopdf)                    size: 12704 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpB4-eps-conver
+ted-to.pdf Resultados/scpB4.eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpB4-eps-converted-to.pdf, id=497, 505.89pt x 505.89pt>
+File: Resultados/scpB4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpB4-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpB4-eps-converted-to.pdf used on input li
+ne 278.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 284.
+
+Package epstopdf Info: Source file: <Resultados/scpB5.eps>
+(epstopdf)                    date: 2016-11-01 19:33:53
+(epstopdf)                    size: 551922 bytes
+(epstopdf)             Output file: <Resultados/scpB5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:34:01
+(epstopdf)                    size: 12682 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpB5-eps-conver
+ted-to.pdf Resultados/scpB5.eps>
+(epstopdf)             \includegraphics on input line 286.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpB5-eps-converted-to.pdf, id=498, 505.89pt x 505.89pt>
+File: Resultados/scpB5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpB5-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpB5-eps-converted-to.pdf used on input li
+ne 286.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 292.
+
+Package epstopdf Info: Source file: <Resultados/scpC1.eps>
+(epstopdf)                    date: 2016-11-01 19:49:29
+(epstopdf)                    size: 552318 bytes
+(epstopdf)             Output file: <Resultados/scpC1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:51:02
+(epstopdf)                    size: 12597 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpC1-eps-conver
+ted-to.pdf Resultados/scpC1.eps>
+(epstopdf)             \includegraphics on input line 294.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpC1-eps-converted-to.pdf, id=499, 505.89pt x 505.89pt>
+File: Resultados/scpC1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpC1-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpC1-eps-converted-to.pdf used on input li
+ne 294.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 300.
+
+Package epstopdf Info: Source file: <Resultados/scpC2.eps>
+(epstopdf)                    date: 2016-11-01 19:49:51
+(epstopdf)                    size: 552116 bytes
+(epstopdf)             Output file: <Resultados/scpC2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:51:02
+(epstopdf)                    size: 12687 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpC2-eps-conver
+ted-to.pdf Resultados/scpC2.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpC2-eps-converted-to.pdf, id=500, 505.89pt x 505.89pt>
+File: Resultados/scpC2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpC2-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpC2-eps-converted-to.pdf used on input li
+ne 302.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 308.
+
+Package epstopdf Info: Source file: <Resultados/scpC3.eps>
+(epstopdf)                    date: 2016-11-01 19:50:10
+(epstopdf)                    size: 552187 bytes
+(epstopdf)             Output file: <Resultados/scpC3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:51:02
+(epstopdf)                    size: 12626 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpC3-eps-conver
+ted-to.pdf Resultados/scpC3.eps>
+(epstopdf)             \includegraphics on input line 310.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpC3-eps-converted-to.pdf, id=501, 505.89pt x 505.89pt>
+File: Resultados/scpC3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpC3-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpC3-eps-converted-to.pdf used on input li
+ne 310.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 316.
+
+Package epstopdf Info: Source file: <Resultados/scpC4.eps>
+(epstopdf)                    date: 2016-11-01 19:50:32
+(epstopdf)                    size: 552263 bytes
+(epstopdf)             Output file: <Resultados/scpC4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:51:03
+(epstopdf)                    size: 12595 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpC4-eps-conver
+ted-to.pdf Resultados/scpC4.eps>
+(epstopdf)             \includegraphics on input line 318.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpC4-eps-converted-to.pdf, id=502, 505.89pt x 505.89pt>
+File: Resultados/scpC4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpC4-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpC4-eps-converted-to.pdf used on input li
+ne 318.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 324.
+
+Package epstopdf Info: Source file: <Resultados/scpC5.eps>
+(epstopdf)                    date: 2016-11-01 19:50:52
+(epstopdf)                    size: 552015 bytes
+(epstopdf)             Output file: <Resultados/scpC5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:51:03
+(epstopdf)                    size: 12731 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpC5-eps-conver
+ted-to.pdf Resultados/scpC5.eps>
+(epstopdf)             \includegraphics on input line 326.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpC5-eps-converted-to.pdf, id=503, 505.89pt x 505.89pt>
+File: Resultados/scpC5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpC5-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpC5-eps-converted-to.pdf used on input li
+ne 326.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 332.
+
+Package epstopdf Info: Source file: <Resultados/scpD1.eps>
+(epstopdf)                    date: 2016-11-01 19:53:37
+(epstopdf)                    size: 552173 bytes
+(epstopdf)             Output file: <Resultados/scpD1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:56:43
+(epstopdf)                    size: 12574 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpD1-eps-conver
+ted-to.pdf Resultados/scpD1.eps>
+(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpD1-eps-converted-to.pdf, id=504, 505.89pt x 505.89pt>
+File: Resultados/scpD1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpD1-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpD1-eps-converted-to.pdf used on input li
+ne 334.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 340.
+
+Package epstopdf Info: Source file: <Resultados/scpD2.eps>
+(epstopdf)                    date: 2016-11-01 19:53:53
+(epstopdf)                    size: 551999 bytes
+(epstopdf)             Output file: <Resultados/scpD2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:56:43
+(epstopdf)                    size: 12484 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpD2-eps-conver
+ted-to.pdf Resultados/scpD2.eps>
+(epstopdf)             \includegraphics on input line 342.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpD2-eps-converted-to.pdf, id=505, 505.89pt x 505.89pt>
+File: Resultados/scpD2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpD2-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpD2-eps-converted-to.pdf used on input li
+ne 342.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 348.
+
+Package epstopdf Info: Source file: <Resultados/scpD3.eps>
+(epstopdf)                    date: 2016-11-01 19:54:12
+(epstopdf)                    size: 552271 bytes
+(epstopdf)             Output file: <Resultados/scpD3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:56:43
+(epstopdf)                    size: 12507 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpD3-eps-conver
+ted-to.pdf Resultados/scpD3.eps>
+(epstopdf)             \includegraphics on input line 350.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpD3-eps-converted-to.pdf, id=506, 505.89pt x 505.89pt>
+File: Resultados/scpD3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpD3-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpD3-eps-converted-to.pdf used on input li
+ne 350.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 356.
+
+Package epstopdf Info: Source file: <Resultados/scpD4.eps>
+(epstopdf)                    date: 2016-11-01 19:56:22
+(epstopdf)                    size: 552164 bytes
+(epstopdf)             Output file: <Resultados/scpD4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:56:44
+(epstopdf)                    size: 12553 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpD4-eps-conver
+ted-to.pdf Resultados/scpD4.eps>
+(epstopdf)             \includegraphics on input line 358.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpD4-eps-converted-to.pdf, id=507, 505.89pt x 505.89pt>
+File: Resultados/scpD4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpD4-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpD4-eps-converted-to.pdf used on input li
+ne 358.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 364.
+
+Package epstopdf Info: Source file: <Resultados/scpD5.eps>
+(epstopdf)                    date: 2016-11-01 19:56:34
+(epstopdf)                    size: 552308 bytes
+(epstopdf)             Output file: <Resultados/scpD5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-01 19:56:44
+(epstopdf)                    size: 12687 bytes
+(epstopdf)             Command: <epstopdf --outfile=Resultados/scpD5-eps-conver
+ted-to.pdf Resultados/scpD5.eps>
+(epstopdf)             \includegraphics on input line 366.
+Package epstopdf Info: Output file is already uptodate.
+<Resultados/scpD5-eps-converted-to.pdf, id=508, 505.89pt x 505.89pt>
+File: Resultados/scpD5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Resultados/scpD5-eps-converted-to.pdf>
+Package pdftex.def Info: Resultados/scpD5-eps-converted-to.pdf used on input li
+ne 366.
+(pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
+) [27
+
+ <./Resultados/scpB3-eps-converted-to.pdf> <./Resultados/scpB4-eps-converted-to
+.pdf>] [28 <./Resultados/scpB5-eps-converted-to.pdf> <./Resultados/scpC1-eps-co
+nverted-to.pdf>] [29 <./Resultados/scpC2-eps-converted-to.pdf> <./Resultados/sc
+pC3-eps-converted-to.pdf>]
+[30 <./Resultados/scpC4-eps-converted-to.pdf> <./Resultados/scpC5-eps-converted
+-to.pdf>] [31 <./Resultados/scpD1-eps-converted-to.pdf> <./Resultados/scpD2-eps
+-converted-to.pdf>] [32 <./Resultados/scpD3-eps-converted-to.pdf> <./Resultados
+/scpD4-eps-converted-to.pdf>] (./Conclusion/Conclusion.tex) [33 <./Resultados/s
+cpD5-eps-converted-to.pdf>] (./Anexo/Anexo.tex [34] [35] [36] [37] [38]
+[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
+[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78]) (./informeFinal.bbl [79])
+[80] (./informeFinal.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33635 strings out of 493089
- 793267 string characters out of 6134842
+ 33779 strings out of 493089
+ 797923 string characters out of 6134842
  958771 words of memory out of 5000000
- 36493 multiletter control sequences out of 15000+600000
+ 36613 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,77p,10397b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2252,10 +2796,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on informeFinal.pdf (76 pages, 1158338 bytes).
+Output written on informeFinal.pdf (89 pages, 1381153 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
- 356 compressed objects within 4 object streams
+ 856 PDF objects out of 1000 (max. 8388607)
+ 552 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
