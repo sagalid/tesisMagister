@@ -1,14 +1,9 @@
-\subsection{Metaheuristics}
-\textbf{Definition}
-~\\
-~\\
+\subsection{Metaheuristic}
 The $meta$ and $heuristic$ are Greek words, $meta$ it means $higher level$ and $heuristics$ means $to$ $find$, $to$ $know$ or $to$ $discover$. Metaheuristics are a set of intelligent strategies to enhance the efficiency of heuristic procedures.\\
 A metaheuristic will be successful on a given optimizaction problem if it can provide a balance between exploration and exploitation. Exploration means to generate diverse solutions, associating them to different points of the search space on the global scale, while exploitation means to search in a local region by exploiting the information that a current good solution has been found in this region.
 Exploration is often directed by use of randomization, which enables an algorithm to have the ability to jump between different bounded spaces and gives to the algorithm the capability to search optimal solutions globally.\\
 
 \textbf{Clasification}
-~\\
-~\\
 The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}. The majority of these algorithms has a stochastic behavior and mimics biological or  physical processes. This presented classification was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the (Figure \ref{fig:classification-of-mh}).
 
 \squeezeup
@@ -49,52 +44,7 @@ The majority of metaheuristic algorithms apply one single neighborhood structure
 \textbf{Memory usage vs. memoryless methods}
 One of the most interesting variables to classify a metaheuristic is undoubtedly use of memory. Short term usually is different from long term memory. The first kind usually keeps track of recently performed moves, or taken decisions. The second is usually an accumulation of synthetic parameters about the search. 
 
-\subsubsection{Related terms}
-~\\~\\
-\textbf{Operator:} 
-Unitary procedure for transforming information or implement the behavior of the algorithm.\\~\\
-
-\textbf{Solution:} 
-Array of $n$ columns containing a solution for a given problem. In binary case, posible values are $0$ and $1$.\\~\\
-
-\textbf{Constrain:} 
-Conditions to be met to find a viable solution.\\~\\
-
-\textbf{Benchmark:} 
-Optimal set of known problem instances to validate the propose algorithm.\\~\\
-
-\textbf{Objective Function:}  
-Implements the mathematical expression representing the problem to solve. The guiding objective function is related to the goal to achieve.\\~\\
-
-\textbf{Fitness:} 
-Value resulting by applying the objective function to a found solution.\\~\\
-
-\textbf{Matrix of Costs:} 
-Consist of $n$ columns vector containing the cost associated to each problem variable.\\~\\
-
-\textbf{Optimal Value:} 
-Solution with the best fitness.\\~\\
-
-\textbf{Domain:} 
-Set of feasible values for the variable.\\~\\
-
-\textbf{Matrix A:} 
-Matrix containing the restrictions for the given problem.\\~\\
-
-\textbf{RPD:} 
-Relative Percentage Deviation.\\~\\
-
-\textbf{Harmony Memory:} 
-Memory space which includes the population of the solution vectors.\\~\\
-
-\textbf{Harmony Memory Size:} 
-Defines the amount of harmonies that can be stored in HM.\\~\\
-
-\textbf{Harmony Memory Consideration Rate (HMCR):} 
-In memory consideration, the value of decision variable ${x\textprime}_1$ is randomly selected from the historical values, other decision variables, $({x\textprime}_2, {x\textprime}_3,\dots,{x\textprime}_N)$ are sequentially selected in the same manner with probability where HMCR $\in$ (0,1).\\~\\
-
-\textbf{Pitch Adjusting Rate (PAR):} 
-Each decision variable ${x\textprime}_i$ assigned a value by memory considerations is pitch adjusted with the probability of PAR where PAR $\in$ (0,1).\\~\\
+\subsection{Metaheuristics}
 
 \subsubsection{Framework for development}
 In an effort to maintain consistency in the structure of the proposed metaheuristic development, a well-defined model is followed, in order to structure the development steps of the proposed technique (Figure \ref{fig:GuideSolvingSCP}). \\

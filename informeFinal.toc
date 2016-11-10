@@ -2,64 +2,65 @@
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Main goal}{1}
 \contentsline {subsection}{\numberline {2.1}Specific objectives}{1}
-\contentsline {section}{\numberline {3}Theoretical Framework}{2}
-\contentsline {subsection}{\numberline {3.1}Metaheuristics}{2}
-\contentsline {subsubsection}{\numberline {3.1.1}Related terms}{3}
-\contentsline {subsubsection}{\numberline {3.1.2}Framework for development}{4}
-\contentsline {subsection}{\numberline {3.2}Set Covering Problem}{5}
-\contentsline {subsubsection}{\numberline {3.2.1}SCP formulation}{5}
-\contentsline {subsubsection}{\numberline {3.2.2}SCP sample solution}{6}
-\contentsline {subsection}{\numberline {3.3}Traditional Harmony Search and some variants}{8}
-\contentsline {subsubsection}{\numberline {3.3.1}Harmony Search Metaheuristic}{8}
-\contentsline {subsubsection}{\numberline {3.3.2}Global-Best Harmony Search Metaheuristic}{9}
-\contentsline {subsubsection}{\numberline {3.3.3}Binary Global-Best Harmony Search Metaheuristic}{9}
-\contentsline {section}{\numberline {4}Algorithm Implementation}{11}
-\contentsline {section}{\numberline {5}Proposed Improvements}{12}
-\contentsline {section}{\numberline {6}Results}{13}
-\contentsline {section}{\numberline {7}Conclusion}{14}
-\contentsline {section}{\numberline {8}Appendix}{15}
-\contentsline {subsection}{\numberline {8.1}Instance 4.1}{37}
-\contentsline {subsection}{\numberline {8.2}Instance 4.2}{38}
-\contentsline {subsection}{\numberline {8.3}Instance 4.3}{39}
-\contentsline {subsection}{\numberline {8.4}Instance 4.4}{40}
-\contentsline {subsection}{\numberline {8.5}Instance 4.5}{41}
-\contentsline {subsection}{\numberline {8.6}Instance 4.6}{42}
-\contentsline {subsection}{\numberline {8.7}Instance 4.7}{43}
-\contentsline {subsection}{\numberline {8.8}Instance 4.8}{44}
-\contentsline {subsection}{\numberline {8.9}Instance 4.9}{45}
-\contentsline {subsection}{\numberline {8.10}Instance 4.10}{46}
-\contentsline {subsection}{\numberline {8.11}Instance 5.1}{47}
-\contentsline {subsection}{\numberline {8.12}Instance 5.2}{48}
-\contentsline {subsection}{\numberline {8.13}Instance 5.3}{49}
-\contentsline {subsection}{\numberline {8.14}Instance 5.4}{50}
-\contentsline {subsection}{\numberline {8.15}Instance 5.5}{51}
-\contentsline {subsection}{\numberline {8.16}Instance 5.6}{52}
-\contentsline {subsection}{\numberline {8.17}Instance 5.7}{53}
-\contentsline {subsection}{\numberline {8.18}Instance 5.8}{54}
-\contentsline {subsection}{\numberline {8.19}Instance 5.9}{55}
-\contentsline {subsection}{\numberline {8.20}Instance 5.10}{56}
-\contentsline {subsection}{\numberline {8.21}Instance 6.1}{57}
-\contentsline {subsection}{\numberline {8.22}Instance 6.2}{58}
-\contentsline {subsection}{\numberline {8.23}Instance 6.3}{59}
-\contentsline {subsection}{\numberline {8.24}Instance 6.4}{60}
-\contentsline {subsection}{\numberline {8.25}Instance 6.5}{61}
-\contentsline {subsection}{\numberline {8.26}Instance A.1}{62}
-\contentsline {subsection}{\numberline {8.27}Instance A.2}{63}
-\contentsline {subsection}{\numberline {8.28}Instance A.3}{64}
-\contentsline {subsection}{\numberline {8.29}Instance A.4}{65}
-\contentsline {subsection}{\numberline {8.30}Instance A.5}{66}
-\contentsline {subsection}{\numberline {8.31}Instance B.1}{67}
-\contentsline {subsection}{\numberline {8.32}Instance B.2}{68}
-\contentsline {subsection}{\numberline {8.33}Instance B.3}{69}
-\contentsline {subsection}{\numberline {8.34}Instance B.4}{70}
-\contentsline {subsection}{\numberline {8.35}Instance B.5}{71}
-\contentsline {subsection}{\numberline {8.36}Instance C.1}{72}
-\contentsline {subsection}{\numberline {8.37}Instance C.2}{73}
-\contentsline {subsection}{\numberline {8.38}Instance C.3}{74}
-\contentsline {subsection}{\numberline {8.39}Instance C.4}{75}
-\contentsline {subsection}{\numberline {8.40}Instance C.5}{76}
-\contentsline {subsection}{\numberline {8.41}Instance D.1}{77}
-\contentsline {subsection}{\numberline {8.42}Instance D.2}{78}
-\contentsline {subsection}{\numberline {8.43}Instance D.3}{79}
-\contentsline {subsection}{\numberline {8.44}Instance D.4}{80}
-\contentsline {subsection}{\numberline {8.45}Instance D.5}{81}
+\contentsline {section}{\numberline {3}Related terms}{1}
+\contentsline {section}{\numberline {4}Theoretical Framework}{3}
+\contentsline {subsection}{\numberline {4.1}Metaheuristic}{3}
+\contentsline {subsection}{\numberline {4.2}Metaheuristics}{4}
+\contentsline {subsubsection}{\numberline {4.2.1}Framework for development}{4}
+\contentsline {subsection}{\numberline {4.3}Set Covering Problem}{5}
+\contentsline {subsubsection}{\numberline {4.3.1}SCP formulation}{5}
+\contentsline {subsubsection}{\numberline {4.3.2}SCP sample solution}{5}
+\contentsline {subsection}{\numberline {4.4}Traditional Harmony Search and some variants}{8}
+\contentsline {subsubsection}{\numberline {4.4.1}Harmony Search Metaheuristic}{8}
+\contentsline {subsubsection}{\numberline {4.4.2}Global-Best Harmony Search Metaheuristic}{9}
+\contentsline {subsubsection}{\numberline {4.4.3}Binary Global-Best Harmony Search Metaheuristic}{9}
+\contentsline {section}{\numberline {5}Algorithm Implementation}{11}
+\contentsline {section}{\numberline {6}Proposed Improvements}{12}
+\contentsline {section}{\numberline {7}Results}{13}
+\contentsline {section}{\numberline {8}Conclusion}{14}
+\contentsline {section}{\numberline {9}Appendix}{15}
+\contentsline {subsection}{\numberline {9.1}Instance 4.1}{37}
+\contentsline {subsection}{\numberline {9.2}Instance 4.2}{38}
+\contentsline {subsection}{\numberline {9.3}Instance 4.3}{39}
+\contentsline {subsection}{\numberline {9.4}Instance 4.4}{40}
+\contentsline {subsection}{\numberline {9.5}Instance 4.5}{41}
+\contentsline {subsection}{\numberline {9.6}Instance 4.6}{42}
+\contentsline {subsection}{\numberline {9.7}Instance 4.7}{43}
+\contentsline {subsection}{\numberline {9.8}Instance 4.8}{44}
+\contentsline {subsection}{\numberline {9.9}Instance 4.9}{45}
+\contentsline {subsection}{\numberline {9.10}Instance 4.10}{46}
+\contentsline {subsection}{\numberline {9.11}Instance 5.1}{47}
+\contentsline {subsection}{\numberline {9.12}Instance 5.2}{48}
+\contentsline {subsection}{\numberline {9.13}Instance 5.3}{49}
+\contentsline {subsection}{\numberline {9.14}Instance 5.4}{50}
+\contentsline {subsection}{\numberline {9.15}Instance 5.5}{51}
+\contentsline {subsection}{\numberline {9.16}Instance 5.6}{52}
+\contentsline {subsection}{\numberline {9.17}Instance 5.7}{53}
+\contentsline {subsection}{\numberline {9.18}Instance 5.8}{54}
+\contentsline {subsection}{\numberline {9.19}Instance 5.9}{55}
+\contentsline {subsection}{\numberline {9.20}Instance 5.10}{56}
+\contentsline {subsection}{\numberline {9.21}Instance 6.1}{57}
+\contentsline {subsection}{\numberline {9.22}Instance 6.2}{58}
+\contentsline {subsection}{\numberline {9.23}Instance 6.3}{59}
+\contentsline {subsection}{\numberline {9.24}Instance 6.4}{60}
+\contentsline {subsection}{\numberline {9.25}Instance 6.5}{61}
+\contentsline {subsection}{\numberline {9.26}Instance A.1}{62}
+\contentsline {subsection}{\numberline {9.27}Instance A.2}{63}
+\contentsline {subsection}{\numberline {9.28}Instance A.3}{64}
+\contentsline {subsection}{\numberline {9.29}Instance A.4}{65}
+\contentsline {subsection}{\numberline {9.30}Instance A.5}{66}
+\contentsline {subsection}{\numberline {9.31}Instance B.1}{67}
+\contentsline {subsection}{\numberline {9.32}Instance B.2}{68}
+\contentsline {subsection}{\numberline {9.33}Instance B.3}{69}
+\contentsline {subsection}{\numberline {9.34}Instance B.4}{70}
+\contentsline {subsection}{\numberline {9.35}Instance B.5}{71}
+\contentsline {subsection}{\numberline {9.36}Instance C.1}{72}
+\contentsline {subsection}{\numberline {9.37}Instance C.2}{73}
+\contentsline {subsection}{\numberline {9.38}Instance C.3}{74}
+\contentsline {subsection}{\numberline {9.39}Instance C.4}{75}
+\contentsline {subsection}{\numberline {9.40}Instance C.5}{76}
+\contentsline {subsection}{\numberline {9.41}Instance D.1}{77}
+\contentsline {subsection}{\numberline {9.42}Instance D.2}{78}
+\contentsline {subsection}{\numberline {9.43}Instance D.3}{79}
+\contentsline {subsection}{\numberline {9.44}Instance D.4}{80}
+\contentsline {subsection}{\numberline {9.45}Instance D.5}{81}

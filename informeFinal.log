@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 NOV 2016 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 NOV 2016 17:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1375,7 +1375,26 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 ) [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./SegundaPortada/SegundaPortada2.tex) [2] (./Resumen/resumen.tex
+(./SegundaPortada/SegundaPortada2.tex) [2] (./informeFinal.toc [1
+
+])
+\tf@toc=\write5
+\openout5 = `informeFinal.toc'.
+
+ [2]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 104.
+
+(./informeFinal.lof [3])
+\tf@lof=\write6
+\openout6 = `informeFinal.lof'.
+
+ [4] (./informeFinal.lot)
+\tf@lot=\write7
+\openout7 = `informeFinal.lot'.
+
+ [5] [6]
+(./Resumen/resumen.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
  []
@@ -1385,25 +1404,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [1] (./informeFinal.toc [2
-
-])
-\tf@toc=\write5
-\openout5 = `informeFinal.toc'.
-
- [3]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 109.
- (./informeFinal.lof [4])
-\tf@lof=\write6
-\openout6 = `informeFinal.lof'.
-
- [5]
-(./informeFinal.lot)
-\tf@lot=\write7
-\openout7 = `informeFinal.lot'.
-
- [6] [7] (./Introduccion/introduccion.tex
+) [7] (./Introduccion/introduccion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1423,226 +1424,136 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) [1] (./MarcoTeorico/marcoTeorico.tex (./MarcoTeorico/MH/mh.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--8
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--8
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--13
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
-<MarcoTeorico/imagenes/classification_mh.png, id=42, 646.415pt x 595.22375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+) [2] (./MarcoTeorico/marcoTeorico.tex (./MarcoTeorico/MH/mh.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+<MarcoTeorico/imagenes/classification_mh.png, id=49, 646.415pt x 595.22375pt>
 File: MarcoTeorico/imagenes/classification_mh.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/classification_mh.png>
 Package pdftex.def Info: MarcoTeorico/imagenes/classification_mh.png used on in
-put line 17.
+put line 12.
 (pdftex.def)             Requested size: 330.42041pt x 304.25037pt.
 
-<MarcoTeorico/imagenes/trajectory-mh.png, id=44, 803.0pt x 452.69125pt>
+<MarcoTeorico/imagenes/trajectory-mh.png, id=51, 803.0pt x 452.69125pt>
 File: MarcoTeorico/imagenes/trajectory-mh.png Graphic file (type png)
 
 <use MarcoTeorico/imagenes/trajectory-mh.png>
 Package pdftex.def Info: MarcoTeorico/imagenes/trajectory-mh.png used on input 
-line 34.
+line 29.
 (pdftex.def)             Requested size: 188.8096pt x 106.43771pt.
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
-
- []
-
-[3 <./MarcoTeorico/imagenes/classification_mh.png> <./MarcoTeorico/imagenes/tra
+[4 <./MarcoTeorico/imagenes/classification_mh.png> <./MarcoTeorico/imagenes/tra
 jectory-mh.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-) (./MarcoTeorico/SCP/scp.tex [5]
-<Introduccion/imagenes/SetCovering.png, id=65, 874.01532pt x 537.50812pt>
+) (./MarcoTeorico/SCP/scp.tex
+<Introduccion/imagenes/SetCovering.png, id=61, 874.01532pt x 537.50812pt>
 File: Introduccion/imagenes/SetCovering.png Graphic file (type png)
 
 <use Introduccion/imagenes/SetCovering.png>
 Package pdftex.def Info: Introduccion/imagenes/SetCovering.png used on input li
 ne 30.
 (pdftex.def)             Requested size: 349.59993pt x 214.99944pt.
-
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
@@ -1663,8 +1574,10 @@ put line 63.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
 ) (./MarcoTeorico/HS/TypeOfHS.tex
-[6 <./Introduccion/imagenes/SetCovering.png>] [7 <./Introduccion/imagenes/SetCo
-veringSolved.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./Introduccion/imagenes/SetCovering.png>] [7 <./Introduccion/imagenes/SetC
+overingSolved.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
 
@@ -2314,11 +2227,11 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 206.
 
 Package epstopdf Info: Source file: <Resultados/scpA1.eps>
-(epstopdf)                    date: 2016-11-01 14:14:11
+(epstopdf)                    date: 2016-11-08 13:45:49
 (epstopdf)                    size: 552089 bytes
 (epstopdf)             Output file: <Resultados/scpA1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-01 14:14:48
-(epstopdf)                    size: 12778 bytes
+(epstopdf)                    date: 2016-11-10 16:56:58
+(epstopdf)                    size: 2401 bytes
 (epstopdf)             Command: <epstopdf --outfile=Resultados/scpA1-eps-conver
 ted-to.pdf Resultados/scpA1.eps>
 (epstopdf)             \includegraphics on input line 208.
@@ -2487,7 +2400,7 @@ Package epstopdf Info: Source file: <Resultados/scpB3.eps>
 ted-to.pdf Resultados/scpB3.eps>
 (epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpB3-eps-converted-to.pdf, id=510, 505.89pt x 505.89pt>
+<Resultados/scpB3-eps-converted-to.pdf, id=501, 505.89pt x 505.89pt>
 File: Resultados/scpB3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpB3-eps-converted-to.pdf>
@@ -2509,7 +2422,7 @@ Package epstopdf Info: Source file: <Resultados/scpB4.eps>
 ted-to.pdf Resultados/scpB4.eps>
 (epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpB4-eps-converted-to.pdf, id=511, 505.89pt x 505.89pt>
+<Resultados/scpB4-eps-converted-to.pdf, id=502, 505.89pt x 505.89pt>
 File: Resultados/scpB4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpB4-eps-converted-to.pdf>
@@ -2531,7 +2444,7 @@ Package epstopdf Info: Source file: <Resultados/scpB5.eps>
 ted-to.pdf Resultados/scpB5.eps>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpB5-eps-converted-to.pdf, id=512, 505.89pt x 505.89pt>
+<Resultados/scpB5-eps-converted-to.pdf, id=503, 505.89pt x 505.89pt>
 File: Resultados/scpB5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpB5-eps-converted-to.pdf>
@@ -2553,7 +2466,7 @@ Package epstopdf Info: Source file: <Resultados/scpC1.eps>
 ted-to.pdf Resultados/scpC1.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC1-eps-converted-to.pdf, id=513, 505.89pt x 505.89pt>
+<Resultados/scpC1-eps-converted-to.pdf, id=504, 505.89pt x 505.89pt>
 File: Resultados/scpC1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC1-eps-converted-to.pdf>
@@ -2575,7 +2488,7 @@ Package epstopdf Info: Source file: <Resultados/scpC2.eps>
 ted-to.pdf Resultados/scpC2.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC2-eps-converted-to.pdf, id=514, 505.89pt x 505.89pt>
+<Resultados/scpC2-eps-converted-to.pdf, id=505, 505.89pt x 505.89pt>
 File: Resultados/scpC2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC2-eps-converted-to.pdf>
@@ -2597,7 +2510,7 @@ Package epstopdf Info: Source file: <Resultados/scpC3.eps>
 ted-to.pdf Resultados/scpC3.eps>
 (epstopdf)             \includegraphics on input line 307.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC3-eps-converted-to.pdf, id=515, 505.89pt x 505.89pt>
+<Resultados/scpC3-eps-converted-to.pdf, id=506, 505.89pt x 505.89pt>
 File: Resultados/scpC3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC3-eps-converted-to.pdf>
@@ -2619,7 +2532,7 @@ Package epstopdf Info: Source file: <Resultados/scpC4.eps>
 ted-to.pdf Resultados/scpC4.eps>
 (epstopdf)             \includegraphics on input line 315.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC4-eps-converted-to.pdf, id=516, 505.89pt x 505.89pt>
+<Resultados/scpC4-eps-converted-to.pdf, id=507, 505.89pt x 505.89pt>
 File: Resultados/scpC4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC4-eps-converted-to.pdf>
@@ -2641,7 +2554,7 @@ Package epstopdf Info: Source file: <Resultados/scpC5.eps>
 ted-to.pdf Resultados/scpC5.eps>
 (epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC5-eps-converted-to.pdf, id=517, 505.89pt x 505.89pt>
+<Resultados/scpC5-eps-converted-to.pdf, id=508, 505.89pt x 505.89pt>
 File: Resultados/scpC5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC5-eps-converted-to.pdf>
@@ -2663,7 +2576,7 @@ Package epstopdf Info: Source file: <Resultados/scpD1.eps>
 ted-to.pdf Resultados/scpD1.eps>
 (epstopdf)             \includegraphics on input line 331.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD1-eps-converted-to.pdf, id=518, 505.89pt x 505.89pt>
+<Resultados/scpD1-eps-converted-to.pdf, id=509, 505.89pt x 505.89pt>
 File: Resultados/scpD1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD1-eps-converted-to.pdf>
@@ -2685,7 +2598,7 @@ Package epstopdf Info: Source file: <Resultados/scpD2.eps>
 ted-to.pdf Resultados/scpD2.eps>
 (epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD2-eps-converted-to.pdf, id=519, 505.89pt x 505.89pt>
+<Resultados/scpD2-eps-converted-to.pdf, id=510, 505.89pt x 505.89pt>
 File: Resultados/scpD2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD2-eps-converted-to.pdf>
@@ -2707,7 +2620,7 @@ Package epstopdf Info: Source file: <Resultados/scpD3.eps>
 ted-to.pdf Resultados/scpD3.eps>
 (epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD3-eps-converted-to.pdf, id=520, 505.89pt x 505.89pt>
+<Resultados/scpD3-eps-converted-to.pdf, id=511, 505.89pt x 505.89pt>
 File: Resultados/scpD3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD3-eps-converted-to.pdf>
@@ -2729,7 +2642,7 @@ Package epstopdf Info: Source file: <Resultados/scpD4.eps>
 ted-to.pdf Resultados/scpD4.eps>
 (epstopdf)             \includegraphics on input line 355.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD4-eps-converted-to.pdf, id=521, 505.89pt x 505.89pt>
+<Resultados/scpD4-eps-converted-to.pdf, id=512, 505.89pt x 505.89pt>
 File: Resultados/scpD4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD4-eps-converted-to.pdf>
@@ -2751,7 +2664,7 @@ Package epstopdf Info: Source file: <Resultados/scpD5.eps>
 ted-to.pdf Resultados/scpD5.eps>
 (epstopdf)             \includegraphics on input line 363.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD5-eps-converted-to.pdf, id=522, 505.89pt x 505.89pt>
+<Resultados/scpD5-eps-converted-to.pdf, id=513, 505.89pt x 505.89pt>
 File: Resultados/scpD5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD5-eps-converted-to.pdf>
@@ -2780,10 +2693,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33789 strings out of 493089
- 798135 string characters out of 6134842
- 958771 words of memory out of 5000000
- 36615 multiletter control sequences out of 15000+600000
+ 33790 strings out of 493089
+ 798151 string characters out of 6134842
+ 957771 words of memory out of 5000000
+ 36616 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,77p,10397b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2800,10 +2713,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on informeFinal.pdf (92 pages, 1382346 bytes).
+Output written on informeFinal.pdf (92 pages, 1373213 bytes).
 PDF statistics:
- 866 PDF objects out of 1000 (max. 8388607)
- 559 compressed objects within 6 object streams
+ 858 PDF objects out of 1000 (max. 8388607)
+ 554 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

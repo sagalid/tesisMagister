@@ -6,17 +6,70 @@ The instantiation of a metaheuristic requires to choose among a set of different
 
 The SCP is a well-known mathematical problem, which tries to cover a set of needs at the lowest possible cost. SCP is very important in practice, as it has been used to model a large range of problems like scheduling, manufacturing, service planning, information retrieval, among others.\\
 
-In an attempt to solve the SCP, a variation of Harmony Search metaheuristic in binary domain  was designed. This method has been tested using SCP instances from the OR-library \cite{citeulike:921349} and this results have shown that the developed algorithm generates good solutions for each instance.
+In an attempt to solve the SCP, a variation of Harmony Search metaheuristic in binary domain  was used. This method has been tested using SCP instances from the OR-library \cite{citeulike:921349} and this results have shown that the developed algorithm generates good solutions for each instance.
 
 \section{Main goal}
-To solve the SCP using the Binary Global-Best HS metaheuristic algorithm. 
+The main goal of this work, is to solve the SCP using the Binary Global-Best Harmony Search metaheuristic algorithm. The performance of metaheuristic is validated against OR-library benchmarks resolutions.
 
 \subsection{Specific objectives}
 \begin{itemize}
-\item To solve the SCP with the BGBHS metaheuristic and to compare the results with benchmark of Beasley	
-\item To introduce new operators that make the results closer to the global optimum.
-\item To search nearest optimal solutions to problems in the SCP.
+\item To apply different adjustments to the parameters of initiation of the metaheuristic in experimental way to obtain better results.
+
+\item To perform a study of the parameters driven through the experiments to see if there is a possibility to optimize by creating, eliminating or modifying some of them.
+
+\item To repair the infeasible solutions through a repair operator.
+
 \item To compare and to analyze the results using different resolution strategies.
+
+\item To compare results with others metaheuristics.
 \end{itemize}
 
+
+
+\section{Related terms}
+
+\textbf{Operator:} 
+Unitary procedure for transforming information or implement the behavior of the algorithm.\\
+
+\textbf{Solution:} 
+Array of $n$ columns containing a solution for a given problem. In binary case, posible values are $0$ and $1$.\\
+
+\textbf{Constrain:} 
+Conditions to be met to find a viable solution.\\
+
+\textbf{Benchmark:} 
+Optimal set of known problem instances to validate the propose algorithm.\\
+
+\textbf{Objective Function:}  
+Implements the mathematical expression representing the problem to solve. The guiding objective function is related to the goal to achieve.\\
+
+\textbf{Fitness:} 
+Value resulting by applying the objective function to a found solution.\\
+
+\textbf{Matrix of Costs:} 
+Consist of $n$ columns vector containing the cost associated to each problem variable.\\
+
+\textbf{Optimal Value:} 
+Solution with the best fitness.\\
+
+\textbf{Domain:} 
+Set of feasible values for the variable.\\
+
+\textbf{Matrix A:} 
+Matrix containing the restrictions for the given problem.\\
+
+\textbf{RPD:} 
+Relative Percentage Deviation.\\
+
+\textbf{Harmony Memory:} 
+Memory space which includes the population of the solution vectors.\\
+
+\textbf{Harmony Memory Size:} 
+Defines the amount of harmonies that can be stored in HM.\\
+
+\textbf{Harmony Memory Consideration Rate (HMCR):} 
+In memory consideration, the value of decision variable ${x\textprime}_1$ is randomly selected from the historical values, other decision variables, $({x\textprime}_2, {x\textprime}_3,\dots,{x\textprime}_N)$ are sequentially selected in the same manner with probability where HMCR $\in$ (0,1).\\
+
+\textbf{Pitch Adjusting Rate (PAR):} 
+Each decision variable ${x\textprime}_i$ assigned a value by memory considerations is pitch adjusted with the probability of PAR where PAR $\in$ (0,1).\\
 
