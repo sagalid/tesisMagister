@@ -4,6 +4,11 @@
 E.~Talbi, {\em Metaheuristics - From Design to Implementation}.
 \newblock Wiley, 2009.
 
+\bibitem{DBLP:journals/pai/Torres-JimenezP14}
+J.~Torres{-}Jim{\'{e}}nez and J.~Pav{\'{o}}n, ``Applications of metaheuristics
+  in real-life problems,'' {\em Progress in {AI}}, vol.~2, no.~4, pp.~175--176,
+  2014.
+
 \bibitem{DBLP:conf/gecco/BirattariSPV02}
 M.~Birattari, T.~St{\"{u}}tzle, L.~Paquete, and K.~Varrentrapp, ``A racing
   algorithm for configuring metaheuristics,'' in {\em {GECCO} 2002: Proceedings

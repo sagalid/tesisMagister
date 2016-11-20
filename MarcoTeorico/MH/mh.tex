@@ -1,10 +1,9 @@
-\subsection{Metaheuristic}
+\subsection{Metaheuristics and their classifications }
 The $meta$ and $heuristic$ are Greek words, $meta$ it means $higher level$ and $heuristics$ means $to$ $find$, $to$ $know$ or $to$ $discover$. Metaheuristics are a set of intelligent strategies to enhance the efficiency of heuristic procedures.\\
 A metaheuristic will be successful on a given optimizaction problem if it can provide a balance between exploration and exploitation. Exploration means to generate diverse solutions, associating them to different points of the search space on the global scale, while exploitation means to search in a local region by exploiting the information that a current good solution has been found in this region.
 Exploration is often directed by use of randomization, which enables an algorithm to have the ability to jump between different bounded spaces and gives to the algorithm the capability to search optimal solutions globally.\\
 
-\textbf{Clasification}
-The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how memory is exploited \cite{citeulike:1859945}. The majority of these algorithms has a stochastic behavior and mimics biological or  physical processes. This presented classification was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the (Figure \ref{fig:classification-of-mh}).
+The different metaheuristic approaches can be characterized by different aspects concerning the search path they follow or how search space is exploited \cite{citeulike:1859945}. The majority of these algorithms has a stochastic behavior and mimics biological or  physical processes. This presented classification was proposed by Beheshti et al. \cite{Beheshti:2014:CCA:2563733.2564085}, and can be understood better as shown in the (Figure \ref{fig:classification-of-mh}).
 
 \squeezeup
 \begin{figure}[ht] %ht
@@ -44,9 +43,7 @@ The majority of metaheuristic algorithms apply one single neighborhood structure
 \textbf{Memory usage vs. memoryless methods}
 One of the most interesting variables to classify a metaheuristic is undoubtedly use of memory. Short term usually is different from long term memory. The first kind usually keeps track of recently performed moves, or taken decisions. The second is usually an accumulation of synthetic parameters about the search. 
 
-\subsection{Metaheuristics}
-
-\subsubsection{Framework for development}
+\subsection{Framework for development}
 In an effort to maintain consistency in the structure of the proposed metaheuristic development, a well-defined model is followed, in order to structure the development steps of the proposed technique (Figure \ref{fig:GuideSolvingSCP}). \\
 ~\\
 At first step, the problem is modeled and, based on its properties, application requirements are defined. In the particular case of this investigation the SCP is defined and validated against instances of benchmarck. The number of iterations has been considered, but runtime has not.\\

@@ -1,6 +1,6 @@
 \subsection{Traditional Harmony Search and some variants}
 \subsubsection{Harmony Search Metaheuristic}
-Harmony Search (HS) is a population-based metaheuristic algorithm inspired from the musical process of searching for a perfect state of Harmony or Aesthetic Quality of a Harmony (AQH). The HS was proposed by Z. W. Geem et al.\cite{DBLP:journals/simulation/GeemKL01}. In other words, the main idea of the HS metaheuristic is to mimic the process performed by musicians when they try to play a beautiful harmony.
+is a population-based metaheuristic algorithm inspired from the musical process of searching for a perfect state of Harmony or Aesthetic Quality of a Harmony (AQH). The HS was proposed by Z. W. Geem et al.\cite{DBLP:journals/simulation/GeemKL01}. In other words, the main idea of the HS metaheuristic is to mimic the process performed by musicians when they try to play a beautiful harmony.
 
 For the purpose of properly understand what is looking like a good solution in this metaheuristic, we must know the meaning of AQH. The AQH in an instrument is essentially determined by its pitch (or frequency), sound quality, and amplitude (or loudness). The sound quality is mainly determined by the harmonic content that is in turn, determined by the waveforms or modulations of the sound signal. However, the harmonics that it can generate will largely depend on the pitch or frequency range of the particular instrument \cite{Geem:2009:MHS:1643438}. Different notes have different frequencies. For example, the note A  has a fundamental frequency $f_0=440 Hz$. The fundamental frequency of each note can be seen in (Table~\ref{fig:musical_notes}). 
 
@@ -49,7 +49,7 @@ since there are 11 decision variables $x_1\dots x_{11}$. \\ \hline
 \centering
 \begin{tabular}{|m{1.5cm}|m{8cm}|}
 \hline
-\includegraphics[width=10mm,scale=0.02]{MarcoTeorico/imagenes/violin.png} & The pitch range of the instrument represents the range of values that can take a decision variable. Given the nature of the problem, the possible values are ${\{0,1\}}$ \\  \hline\end{tabular}
+\includegraphics[width=10mm,scale=0.02]{MarcoTeorico/imagenes/violin.png} & The pitch range of the instrument represents the range of values that can take a decision variable. Given the nature of the SCP, the possible values are ${\{0,1\}}$ \\  \hline\end{tabular}
 \caption{HS components - Pitch range}\label{fig:harmony_process_pitch_range}
 \end{table}
 \squeezeup
@@ -147,6 +147,22 @@ The HS is good at identifying the high performance regions of the solution space
 In order to overcome the drawbacks of HS, a novel binary global-best harmony search (BGHS) is designed for binary optimization problems.
 
 Owing to better performance of GHS, some modifications to GHS are introduced to further enhance the convergence performance of GHS. Then a novel binary coded GHS, a two-phase repair operator, and a greedy selection mechanism are integrated into the BGHS, and they are described in detail as follows.
+
+
+
+%------------------------------Diagrama de HS
+
+\begin{tikzpicture}[node distance = 15mm, auto]
+\node (start) [startstop] {Start};
+\node (pro1) [process, below of=start] {Initialize parameters};
+\node (pro2) [process, below of=pro1] {Initialize Harmony Memory (HM)};
+\node (pro3) [process, below of=pro2] {Repair all harmonies in HM};
+\node (pro4) [process, below of=pro3] {$t=1$};
+\node (pro5) [process, below of=pro4] {Save Best and Worst harmony};
+
+
+\end{tikzpicture}
+
 
 %------------------------------nueva_armonia_agresiva():
 
