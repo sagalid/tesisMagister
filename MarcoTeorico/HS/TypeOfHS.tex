@@ -148,19 +148,17 @@ In order to overcome the drawbacks of HS, a novel binary global-best harmony sea
 
 Owing to better performance of GHS, some modifications to GHS are introduced to further enhance the convergence performance of GHS. Then a novel binary coded GHS, a two-phase repair operator, and a greedy selection mechanism are integrated into the BGHS, and they are described in detail as follows.
 
-
-xº
 %------------------------------Diagrama de HS
 \begin{figure}[!h]
 \centering
-\begin{tikzpicture}[node distance = 15mm, auto]
+\begin{tikzpicture}[align = flush center, font = \small, node distance = 12mm] %[node distance = 15mm, auto]
 \node (start) [startstop] {Start};
 \node (pro1) [process, below of=start] {Initialize parameters};
 \node (pro2) [process, below of=pro1] {Initialize Harmony Memory (HM)};
 \node (pro3) [process, below of=pro2] {Repair all harmonies in HM};
 \node (pro4) [process, below of=pro3] {$t=1$};
 \node (pro5) [process, below of=pro4] {Save $x_{best}$ and $x_{worst}$ harmony};
-\node (proB) [process, below of=pro5]{$x_{new} = $ Bernoulli trial $\forall x_j \in {0,1} j={1 \dots n}$};
+\node (proB) [process, below of=pro5]{$x_{new} = $ Bernoulli trial \smallskip $\forall {x_{new}}_j \in \{0,1\}$, and $j=\{1 \dots n\}$};
 \node (pro6) [process, below of=proB] {Rand() $\leq$ HMCR};
 \node (pro7) [process, below of=pro6] {Rand() $\leq$ PAR};
 \node (pro8) [decision, below of=pro7] {$j < n$};
@@ -170,7 +168,8 @@ xº
 \node (pro12) [decision, below of=pro10, yshift=-1.0cm] {$x_{new}$ is better than $x_{worst}$};
 \node (pro13) [process, right of=pro12, xshift=2.5cm] {$x_{worst} = x_{new}$};
 \node (pro14) [decision, below of=pro12, yshift=-1.0cm] {Termination criterion is met?};
-\node (pro15) [process, left of=pro14, xshift=-2.5cm] {$t=t+1$};
+\node (pro15) [process, left of=pro14, xshift=-3.5cm] {$t=t+1$};
+\node (pro16) [process, below of=pro14, yshift=-0.8cm] {Output Result};
 
 %---------------------------------ARROWS
 \draw [arrow] (start) -- (pro1);
@@ -193,8 +192,10 @@ xº
 \draw [arrow] (pro15) |- (pro5);
 \draw [arrow] (pro11) |- (pro14) ;
 \draw [arrow] (pro13) |- (pro14) ;
+\draw [arrow] (pro14) -- (pro16) ;
 
 \end{tikzpicture}
+\caption{The flowchart of BGBHS algorithm.}\label{dia:Asdsd}
 \end{figure}
 
 %------------------------------nueva_armonia_agresiva():
