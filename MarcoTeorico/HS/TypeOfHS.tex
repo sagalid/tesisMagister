@@ -149,7 +149,7 @@ In order to overcome the drawbacks of HS, a novel binary global-best harmony sea
 Owing to better performance of GHS, some modifications to GHS are introduced to further enhance the convergence performance of GHS. Then a novel binary coded GHS, a two-phase repair operator, and a greedy selection mechanism are integrated into the BGHS, and they are described in detail as follows.
 
 
-
+xº
 %------------------------------Diagrama de HS
 \begin{figure}[!h]
 \centering
@@ -160,24 +160,26 @@ Owing to better performance of GHS, some modifications to GHS are introduced to 
 \node (pro3) [process, below of=pro2] {Repair all harmonies in HM};
 \node (pro4) [process, below of=pro3] {$t=1$};
 \node (pro5) [process, below of=pro4] {Save $x_{best}$ and $x_{worst}$ harmony};
-\node (pro6) [process, below of=pro5] {Rand() $\leq$ HMCR};
+\node (proB) [process, below of=pro5]{$x_{new} = $ Bernoulli trial $\forall x_j \in {0,1} j={1 \dots n}$};
+\node (pro6) [process, below of=proB] {Rand() $\leq$ HMCR};
 \node (pro7) [process, below of=pro6] {Rand() $\leq$ PAR};
 \node (pro8) [decision, below of=pro7] {$j < n$};
 \node (pro9) [process, left of=pro8, xshift=-0.5cm] {$j = j + 1$};
 \node (pro10) [decision, below of=pro8, yshift=-0.2cm] {$x_{new}$ is better than $x_{best}$};
-\node (pro11) [process, right of=pro10, xshift=3.5cm] {$x_{best} = x_{new}$};
+\node (pro11) [process, right of=pro10, xshift=4.0cm] {$x_{best} = x_{new}$};
 \node (pro12) [decision, below of=pro10, yshift=-1.0cm] {$x_{new}$ is better than $x_{worst}$};
 \node (pro13) [process, right of=pro12, xshift=2.5cm] {$x_{worst} = x_{new}$};
 \node (pro14) [decision, below of=pro12, yshift=-1.0cm] {Termination criterion is met?};
 \node (pro15) [process, left of=pro14, xshift=-2.5cm] {$t=t+1$};
 
-
+%---------------------------------ARROWS
 \draw [arrow] (start) -- (pro1);
 \draw [arrow] (pro1) -- (pro2);
 \draw [arrow] (pro2) -- (pro3);
 \draw [arrow] (pro3) -- (pro4);
 \draw [arrow] (pro4) -- (pro5);
-\draw [arrow] (pro5) -- (pro6);
+\draw [arrow] (pro5) -- (proB);
+\draw [arrow] (proB) -- (pro6);
 \draw [arrow] (pro6) -- (pro7);
 \draw [arrow] (pro7) -- (pro8);
 \draw [arrow] (pro8) -- (pro9) node [midway, above] {Y};
@@ -190,6 +192,7 @@ Owing to better performance of GHS, some modifications to GHS are introduced to 
 \draw [arrow] (pro14) -- (pro15) node [midway, above] {N};
 \draw [arrow] (pro15) |- (pro5);
 \draw [arrow] (pro11) |- (pro14) ;
+\draw [arrow] (pro13) |- (pro14) ;
 
 \end{tikzpicture}
 \end{figure}
