@@ -26,7 +26,7 @@ In the music improvisation process, all musicians (Table~\ref{fig:harmony_proces
 
 In this document, the researcher set its focus on studying the classical SCP problem, given by equation \eqref{ec:set-covering-1}, where we want minimize the cost of solution.\\
 
-The traditional HS metaheuristic has 5 steps \cite{DBLP:journals/asc/ZouGLW11}. They will be reviewed in detail and then will be proposed the change to the original metaheuristic.\\ \\
+The traditional HS metaheuristic has five steps \cite{DBLP:journals/asc/ZouGLW11}, which will be reviewed below.
 
 %MUSICOS (musician - > decision variables)
 \squeezeup
@@ -79,7 +79,6 @@ since there are 11 decision variables $x_1\dots x_{11}$. \\ \hline
 \squeezeup
 %FIN TABLAS
 
-
 \textbf{Step 1:  Initialize the problem and algorithm parameters.} \\
 The optimization problem is defined as shown in equation \eqref{ec:set-covering-1} where the goal is to minimize $Z$ subjec to equations \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}. $x_{iL}$ and $x_{iU}$ are the lower and upper bounds for decision variables. The required parameters to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) which determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
 
@@ -109,14 +108,14 @@ $$
       	{
 		$x_i^{ \ensuremath{'}}$ = $x_i^j$~($j=1,2,\ldots,$HMS) \mbox{//memory consideration}\\
 		\lIf{rand() $\leq$ PAR} {
-			$x_i^{\ensuremath{'}}$ = $x_i^{ \ensuremath{'}} \pm r(bw)$ 	
+			$x_i^{\ensuremath{'}}$ = $x_i^{ \ensuremath{'}} \pm r(bw)$ \mbox{bw is the amount of maximum change in pitch adjustment}
       		}
       	}
       	{
         		$x_i^{ \ensuremath{'}}$ = $x_{iL}$ + rand() $(x_{iU} - x_{iL})$ \mbox{//random selection}
       	}
       }
-    \caption{Generating new harmony}\label{alg:impr_new_harmony}
+    \caption{Generating new harmony for traditional HS}\label{alg:impr_new_harmony}
 \end{algorithm}
 \squeezeup
 %__________________________________________________________
@@ -125,7 +124,7 @@ $$
 If the new generated harmony $x^{\ensuremath{'}}$ = ($x_{1}^{\ensuremath{'}}$, $x_{2}^{\ensuremath{'}}$ , \ldots,~$x_{n}^{\ensuremath{'}} $) has a better fitness than the worst one $x_{worst}$ in HM, then replace the worst harmony with the new one $x_{worst} \leftarrow x^{\ensuremath{'}}$; otherwise , go to the next step. \\
 
 \textbf{Step 5: Check the stop criteria.} \\
-If the stopping criterion (maximum number of iterations $NI$) is satisfied, computation is
+If the stopping criterion (e.g. maximum number of iterations $NI$) is satisfied, computation is
 terminated. Otherwise, step 3 is repeated.\\
 
 
@@ -144,14 +143,14 @@ The parameter $t$ is the iterative variable, and parameter $NI$ is the number of
 
 The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation of HS. Furthermore, HS designed for continuous space cannot be directly used to solve discrete combinatorial optimization problems.
 
-In order to overcome the drawbacks of HS, a novel binary global-best harmony search (BGHS) is designed for binary optimization problems.
+In order to overcome the drawbacks of HS, a novel binary global-best harmony search (BGBHS) is designed for binary optimization problems.
 
-Owing to better performance of GHS, some modifications to GHS are introduced to further enhance the convergence performance of GHS. Then a novel binary coded GHS, a two-phase repair operator, and a greedy selection mechanism are integrated into the BGHS, and they are described in detail as follows.
+%Owing to better performance of GHS, some modifications are introduced to further enhance the convergence performance. Then a novel binary, a two-phase repair operator \ref{alg:addAndDrop}, and a greedy selection mechanism are integrated into the BGHS, and they are described in detail as follows.
 
 %------------------------------Diagrama de HS
-\begin{figure}[!h]
+\begin{figure}[H]
 \centering
-\begin{tikzpicture}[align = flush center, font = \small, node distance = 12mm] %[node distance = 15mm, auto]
+\begin{tikzpicture}[align = flush center, font = \small, node distance = 12mm, scale=0.6, every node/.style={scale=0.6}] %[node distance = 15mm, auto]
 \node (start) [startstop] {Start};
 \node (pro1) [process, below of=start] {Initialize parameters};
 \node (pro2) [process, below of=pro1] {Initialize Harmony Memory (HM)};
@@ -162,7 +161,7 @@ Owing to better performance of GHS, some modifications to GHS are introduced to 
 \node (pro6) [process, below of=proB] {Rand() $\leq$ HMCR};
 \node (pro7) [process, below of=pro6] {Rand() $\leq$ PAR};
 \node (pro8) [decision, below of=pro7] {$j < n$};
-\node (pro9) [process, left of=pro8, xshift=-0.5cm] {$j = j + 1$};
+\node (pro9) [process, left of=pro8, xshift=-1.5cm] {$j = j + 1$};
 \node (pro10) [decision, below of=pro8, yshift=-0.2cm] {$x_{new}$ is better than $x_{best}$};
 \node (pro11) [process, right of=pro10, xshift=4.0cm] {$x_{best} = x_{new}$};
 \node (pro12) [decision, below of=pro10, yshift=-1.0cm] {$x_{new}$ is better than $x_{worst}$};
