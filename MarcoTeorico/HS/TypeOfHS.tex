@@ -108,7 +108,7 @@ $$
       	{
 		$x_i^{ \ensuremath{'}}$ = $x_i^j$~($j=1,2,\ldots,$HMS) \mbox{//memory consideration}\\
 		\lIf{rand() $\leq$ PAR} {
-			$x_i^{\ensuremath{'}}$ = $x_i^{ \ensuremath{'}} \pm r(bw)$ \mbox{bw is the amount of maximum change in pitch adjustment}
+			$x_i^{\ensuremath{'}}$ = $x_i^{ \ensuremath{'}} \pm r(bw)$ 
       		}
       	}
       	{
@@ -139,66 +139,6 @@ PAR(t) = PAR_{min}+\frac{PAR_{max} - PAR_{min}}{NI}t
 where $PAR(t)$ represents the pitch adjusting rate at generation $t$, $PAR_{min}$ and $PAR_{max}$  are the minimum and maximum adjusting rate, respectively.
 The parameter $t$ is the iterative variable, and parameter $NI$ is the number of improvisations.
 
-\subsubsection{Binary Global-Best Harmony Search Metaheuristic}
-
-The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation of HS. Furthermore, HS designed for continuous space cannot be directly used to solve discrete combinatorial optimization problems.
-
-In order to overcome the drawbacks of HS, a novel binary global-best harmony search (BGBHS) is designed for binary optimization problems.
-
-%Owing to better performance of GHS, some modifications are introduced to further enhance the convergence performance. Then a novel binary, a two-phase repair operator \ref{alg:addAndDrop}, and a greedy selection mechanism are integrated into the BGHS, and they are described in detail as follows.
-
-%------------------------------Diagrama de HS
-\begin{figure}[H]
-\centering
-\begin{tikzpicture}[align = flush center, font = \small, node distance = 12mm, scale=0.6, every node/.style={scale=0.6}] %[node distance = 15mm, auto]
-\node (start) [startstop] {Start};
-\node (pro1) [process, below of=start] {Initialize parameters};
-\node (pro2) [process, below of=pro1] {Initialize Harmony Memory (HM)};
-\node (pro3) [process, below of=pro2] {Repair all harmonies in HM};
-\node (pro4) [process, below of=pro3] {$t=1$};
-\node (pro5) [process, below of=pro4] {Save $x_{best}$ and $x_{worst}$ harmony};
-\node (proB) [process, below of=pro5]{$x_{new} = $ Bernoulli trial \smallskip $\forall {x_{new}}_j \in \{0,1\}$, and $j=\{1 \dots n\}$};
-\node (pro6) [process, below of=proB] {Rand() $\leq$ HMCR};
-\node (pro7) [process, below of=pro6] {Rand() $\leq$ PAR};
-\node (pro8) [decision, below of=pro7] {$j < n$};
-\node (pro9) [process, left of=pro8, xshift=-1.5cm] {$j = j + 1$};
-\node (pro10) [decision, below of=pro8, yshift=-0.2cm] {$x_{new}$ is better than $x_{best}$};
-\node (pro11) [process, right of=pro10, xshift=4.0cm] {$x_{best} = x_{new}$};
-\node (pro12) [decision, below of=pro10, yshift=-1.0cm] {$x_{new}$ is better than $x_{worst}$};
-\node (pro13) [process, right of=pro12, xshift=2.5cm] {$x_{worst} = x_{new}$};
-\node (pro14) [decision, below of=pro12, yshift=-1.0cm] {Termination criterion is met?};
-\node (pro15) [process, left of=pro14, xshift=-3.5cm] {$t=t+1$};
-\node (pro16) [process, below of=pro14, yshift=-0.8cm] {Output Result};
-
-%---------------------------------ARROWS
-\draw [arrow] (start) -- (pro1);
-\draw [arrow] (pro1) -- (pro2);
-\draw [arrow] (pro2) -- (pro3);
-\draw [arrow] (pro3) -- (pro4);
-\draw [arrow] (pro4) -- (pro5);
-\draw [arrow] (pro5) -- (proB);
-\draw [arrow] (proB) -- (pro6);
-\draw [arrow] (pro6) -- (pro7);
-\draw [arrow] (pro7) -- (pro8);
-\draw [arrow] (pro8) -- (pro9) node [midway, above] {Y};
-\draw [arrow] (pro9) |- (pro6);
-\draw [arrow] (pro8) -- (pro10) node [midway, left] {N};
-\draw [arrow] (pro10) -- (pro11) node [midway, above] {Y};
-\draw [arrow] (pro10) -- (pro12) node [midway, left] {N};
-\draw [arrow] (pro12) -- (pro13) node [midway, above] {Y};
-\draw [arrow] (pro12) -- (pro14) node [midway, left] {N};
-\draw [arrow] (pro14) -- (pro15) node [midway, above] {N};
-\draw [arrow] (pro15) |- (pro5);
-\draw [arrow] (pro11) |- (pro14) ;
-\draw [arrow] (pro13) |- (pro14) ;
-\draw [arrow] (pro14) -- (pro16) ;
-
-\end{tikzpicture}
-\caption{The flowchart of BGBHS algorithm.}\label{dia:Asdsd}
-\end{figure}
-
-%------------------------------nueva_armonia_agresiva():
-
 \begin{algorithm}
 
 \SetKwProg{Fn}{Function}{}{}
@@ -218,30 +158,6 @@ In order to overcome the drawbacks of HS, a novel binary global-best harmony sea
     \caption{Generating a new greedy harmony}\label{alg:newHarmonyGreedy}
 \end{algorithm}
 
-%------------------------------Fase ADD y DROP:
-\begin{algorithm}
-\begin{algorithmic}[1]
- \STATE //ADD Phase
-\STATE $M \gets 1,2,\ldots, m$
-\STATE $A_i \sum_{j=1}^{n} a_{ij}x_{j}, i \in M$
-\FOR{$j \gets 1$ \TO $n$} {
-	\IF{$x_j = 0$ and $\exists i \in M, A_i < 1$ } {
-		\STATE $x_j \gets 1$
-		\STATE $A_i \gets A_i + a_{ij}$
-	}\ENDIF
-} \ENDFOR
-
-\STATE //DROP Phase
-\FOR{$j \gets n$ \TO $1$}{
-	\IF{$x_j = 1$ and $\exists i \in M, A_i - a_{ij} \geq 1$ } {
-		\STATE $x_j \gets 0$
-		\STATE $A_i \gets A_i - a_{ij}$
-	}\ENDIF
-} \ENDFOR
-
-\caption{Repair operator ADD and DROP}\label{alg:addAndDrop}
-\end{algorithmic}
-\end{algorithm}
 
 
 

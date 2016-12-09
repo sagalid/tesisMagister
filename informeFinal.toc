@@ -1,0 +1,66 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Main goal}{1}
+\contentsline {subsection}{\numberline {2.1}Specific objectives}{1}
+\contentsline {section}{\numberline {3}Related terms}{1}
+\contentsline {section}{\numberline {4}Theoretical framework}{3}
+\contentsline {subsection}{\numberline {4.1}Metaheuristics and their classifications }{3}
+\contentsline {subsection}{\numberline {4.2}Development Framework}{4}
+\contentsline {subsection}{\numberline {4.3}Set Covering Problem}{5}
+\contentsline {subsubsection}{\numberline {4.3.1}SCP formulation}{5}
+\contentsline {subsubsection}{\numberline {4.3.2}SCP sample solution}{5}
+\contentsline {subsection}{\numberline {4.4}Traditional Harmony Search and some variants}{8}
+\contentsline {subsubsection}{\numberline {4.4.1}Harmony Search Metaheuristic}{8}
+\contentsline {subsubsection}{\numberline {4.4.2}Global-Best Harmony Search Metaheuristic}{9}
+\contentsline {section}{\numberline {5}Algorithm implementation}{11}
+\contentsline {subsection}{\numberline {5.1}Implementation architecture}{11}
+\contentsline {subsection}{\numberline {5.2}Binary Global-Best Harmony Search Metaheuristic}{11}
+\contentsline {section}{\numberline {6}Proposed improvements}{13}
+\contentsline {section}{\numberline {7}Experimental results}{14}
+\contentsline {section}{\numberline {8}Analisys and conclusion}{15}
+\contentsline {section}{\numberline {9}Appendix}{16}
+\contentsline {subsection}{\numberline {9.1}Instance 4.1}{38}
+\contentsline {subsection}{\numberline {9.2}Instance 4.2}{39}
+\contentsline {subsection}{\numberline {9.3}Instance 4.3}{40}
+\contentsline {subsection}{\numberline {9.4}Instance 4.4}{41}
+\contentsline {subsection}{\numberline {9.5}Instance 4.5}{42}
+\contentsline {subsection}{\numberline {9.6}Instance 4.6}{43}
+\contentsline {subsection}{\numberline {9.7}Instance 4.7}{44}
+\contentsline {subsection}{\numberline {9.8}Instance 4.8}{45}
+\contentsline {subsection}{\numberline {9.9}Instance 4.9}{46}
+\contentsline {subsection}{\numberline {9.10}Instance 4.10}{47}
+\contentsline {subsection}{\numberline {9.11}Instance 5.1}{48}
+\contentsline {subsection}{\numberline {9.12}Instance 5.2}{49}
+\contentsline {subsection}{\numberline {9.13}Instance 5.3}{50}
+\contentsline {subsection}{\numberline {9.14}Instance 5.4}{51}
+\contentsline {subsection}{\numberline {9.15}Instance 5.5}{52}
+\contentsline {subsection}{\numberline {9.16}Instance 5.6}{53}
+\contentsline {subsection}{\numberline {9.17}Instance 5.7}{54}
+\contentsline {subsection}{\numberline {9.18}Instance 5.8}{55}
+\contentsline {subsection}{\numberline {9.19}Instance 5.9}{56}
+\contentsline {subsection}{\numberline {9.20}Instance 5.10}{57}
+\contentsline {subsection}{\numberline {9.21}Instance 6.1}{58}
+\contentsline {subsection}{\numberline {9.22}Instance 6.2}{59}
+\contentsline {subsection}{\numberline {9.23}Instance 6.3}{60}
+\contentsline {subsection}{\numberline {9.24}Instance 6.4}{61}
+\contentsline {subsection}{\numberline {9.25}Instance 6.5}{62}
+\contentsline {subsection}{\numberline {9.26}Instance A.1}{63}
+\contentsline {subsection}{\numberline {9.27}Instance A.2}{64}
+\contentsline {subsection}{\numberline {9.28}Instance A.3}{65}
+\contentsline {subsection}{\numberline {9.29}Instance A.4}{66}
+\contentsline {subsection}{\numberline {9.30}Instance A.5}{67}
+\contentsline {subsection}{\numberline {9.31}Instance B.1}{68}
+\contentsline {subsection}{\numberline {9.32}Instance B.2}{69}
+\contentsline {subsection}{\numberline {9.33}Instance B.3}{70}
+\contentsline {subsection}{\numberline {9.34}Instance B.4}{71}
+\contentsline {subsection}{\numberline {9.35}Instance B.5}{72}
+\contentsline {subsection}{\numberline {9.36}Instance C.1}{73}
+\contentsline {subsection}{\numberline {9.37}Instance C.2}{74}
+\contentsline {subsection}{\numberline {9.38}Instance C.3}{75}
+\contentsline {subsection}{\numberline {9.39}Instance C.4}{76}
+\contentsline {subsection}{\numberline {9.40}Instance C.5}{77}
+\contentsline {subsection}{\numberline {9.41}Instance D.1}{78}
+\contentsline {subsection}{\numberline {9.42}Instance D.2}{79}
+\contentsline {subsection}{\numberline {9.43}Instance D.3}{80}
+\contentsline {subsection}{\numberline {9.44}Instance D.4}{81}
+\contentsline {subsection}{\numberline {9.45}Instance D.5}{82}
