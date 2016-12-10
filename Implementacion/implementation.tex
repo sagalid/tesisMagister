@@ -1,6 +1,19 @@
 \subsection{Implementation architecture}
 The implementation of the algorithm was developed using the Python programming language which allows work quickly and integrate systems more effectively.
-As data persistence, a MySql relational database was used. All of the above was mounted on an instance of the free Amazon layer, specifically
+As data persistence, a MySql relational database was used. All of the above was mounted on an instance of the free Amazon layer, specifically EC2 - Linux.
+%------------------------
+ Como sistema de control de código fuente se utilizó GIT, el cual permitió mantener un control de código fuente local tanto para el algoritmo desarrollado como para la documentación asociada a esta tesis. Se realizaron constantes réplicas contra un repositorio GIT en nube, específicamente GITHUB.
+ 
+ Los parámetros que se presentan a continuación fueron fruto de pruebas exhaustivas y multiples ejecuciones que permitieron probar más allá de los componentes aleatorios un comportamiento correcto para la metaheurística. Durante las pruebas se detectó al momento de generación de las armonías que un parámetro variable $p$ en los ensayos de Bernoulli, permitía obtener una explotación en la área de búsqueda logrando escapar de óptimos locales. La variación del parámetro $p$ de los ensayos de Bernoulli fue ajustado de acuerdo  a la función que se presenta a continuación.
+ 
+ %%Insertar función para p de Bernoulli
+ %%%%%%%%%%%%%%%%%%%%
+ 
+ 
+ 
+ %------------------------
+ 
+
 \subsection{Binary Global-Best Harmony Search Metaheuristic}
 
 The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation of HS. Furthermore, HS designed for continuous space cannot be directly used to solve discrete combinatorial optimization problems.
