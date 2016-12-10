@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 DEC 2016 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 DEC 2016 12:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1658,16 +1658,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
 [9 <./MarcoTeorico/imagenes/audience.png>])) [10]
 (./Implementacion/implementation.tex
-Overfull \hbox (15.0pt too wide) detected at line 51
+Overfull \hbox (15.0pt too wide) detected at line 68
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11])
-[12] (./Mejoras/improvements.tex) [13] (./Resultados/Resultados.tex) [14]
-(./Conclusion/Conclusion.tex) [15] (./Anexo/Anexo.tex
+[11]) [12] (./Mejoras/improvements.tex) [13] (./Resultados/Resultados.tex)
+[14] (./Conclusion/Conclusion.tex) [15] (./Anexo/Anexo.tex
 Package epstopdf Info: Source file: <Resultados/scp41_sb.eps>
 (epstopdf)                    date: 2016-12-01 02:00:21
 (epstopdf)                    size: 552273 bytes
@@ -2732,8 +2728,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  34057 strings out of 493089
- 802741 string characters out of 6134842
- 960646 words of memory out of 5000000
+ 802745 string characters out of 6134842
+ 960649 words of memory out of 5000000
  36877 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2755,7 +2751,7 @@ onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on informeFinal.pdf (93 pages, 1468875 bytes).
+Output written on informeFinal.pdf (93 pages, 1470682 bytes).
 PDF statistics:
  899 PDF objects out of 1000 (max. 8388607)
  582 compressed objects within 6 object streams

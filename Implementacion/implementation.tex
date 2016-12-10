@@ -2,19 +2,23 @@
 The implementation of the algorithm was developed using the Python programming language which allows work quickly and integrate systems more effectively.
 As data persistence, a MySql relational database was used. All of the above was mounted on an instance of the free Amazon layer, specifically EC2 - Linux.
 %------------------------
- Como sistema de control de código fuente se utilizó GIT, el cual permitió mantener un control de código fuente local tanto para el algoritmo desarrollado como para la documentación asociada a esta tesis. Se realizaron constantes réplicas contra un repositorio GIT en nube, específicamente GITHUB.
+Como sistema de control de código fuente se utilizó GIT, el cual permitió mantener un control de código fuente local tanto para el algoritmo desarrollado como para la documentación asociada a esta tesis. Se realizaron constantes réplicas contra un repositorio GIT en nube, específicamente GITHUB.
  
- Los parámetros que se presentan a continuación fueron fruto de pruebas exhaustivas y multiples ejecuciones que permitieron probar más allá de los componentes aleatorios un comportamiento correcto para la metaheurística. Durante las pruebas se detectó al momento de generación de las armonías que un parámetro variable $p$ en los ensayos de Bernoulli, permitía obtener una explotación en la área de búsqueda logrando escapar de óptimos locales. La variación del parámetro $p$ de los ensayos de Bernoulli fue ajustado de acuerdo  a la función que se presenta a continuación.
+\subsection{Binary Global-Best Harmony Search Metaheuristic}
+Los parámetros que se presentan a continuación fueron fruto de pruebas exhaustivas y multiples ejecuciones que permitieron probar más allá de los componentes aleatorios un comportamiento correcto para la metaheurística, es decir presentando un grado de efectividad más alto comparado con otras metaheurísticas.
+ 
+El proceso comienza con la generación de una población inicial de armonías que son vectores compuestos por digitos binarios $d$, en un repetición del proceso que se denomina improvisación. La cantidad de improvisaciones se denota por $NI$. Finalizadas las improvisaciones, se cuenta con una cantidad de armonías sobre las cuales se ejecuta un proceso de reparación con dos fases de acuerdo al Agoritmo \ref{alg:addAndDrop}. Una vez que las armonías se encuentra reparadas y cumplen con las restricciones definidas en la Matriz $A$ del SCP, se almacena la mejor y la peor armonía, denotadas por $x_{best}$ y $x_{worst}$ respectivamente. El detalle del comportamiento de la metaheuristica puede ser revisado en el diagrama de flujo \ref{dia:FlowBGBHS}.
+ 
+ Durante las pruebas se detectó al momento de generación de las armonías que un parámetro variable $p$ en los ensayos de Bernoulli, permitía obtener una explotación en la área de búsqueda logrando escapar de óptimos locales. La variación del parámetro $p$ de los ensayos de Bernoulli fue ajustado de acuerdo  a la función que se presenta a continuación.
  
  %%Insertar función para p de Bernoulli
  %%%%%%%%%%%%%%%%%%%%
  
+ Se realizó un análisis de resultados, comparando los valores de multiples ejecuciones de la metaheurística con un parámetro $p$ fijo, versus un parámetro $p$ 
+ 
  
  
  %------------------------
- 
-
-\subsection{Binary Global-Best Harmony Search Metaheuristic}
 
 The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation of HS. Furthermore, HS designed for continuous space cannot be directly used to solve discrete combinatorial optimization problems.
 
@@ -113,7 +117,7 @@ The greedy operation is based on the idea that the item with higher profit densi
 \draw [arrow] (pro14) -- (pro16) ;
 
 \end{tikzpicture}
-\caption{The flowchart of BGBHS algorithm.}\label{dia:Asdsd}
+\caption{The flowchart of BGBHS algorithm.}\label{dia:FlowBGBHS}
 \end{figure}
 
 %------------------------------nueva_armonia_agresiva():
