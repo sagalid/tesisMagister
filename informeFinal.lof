@@ -1,57 +1,58 @@
 \select@language {english}
 \contentsline {figure}{\numberline {1}{\ignorespaces Classification of metaheuristic\relax }}{4}
-\contentsline {figure}{\numberline {2}{\ignorespaces Trajectory-based method\relax }}{4}
+\contentsline {figure}{\numberline {2}{\ignorespaces Trajectory-based method\relax }}{5}
 \contentsline {figure}{\numberline {3}{\ignorespaces Set Covering Problem example.\relax }}{6}
 \contentsline {figure}{\numberline {4}{\ignorespaces Set Covering Problem solution.\relax }}{7}
 \contentsline {figure}{\numberline {5}{\ignorespaces Guidelines for solving SCP.\relax }}{7}
 \contentsline {figure}{\numberline {6}{\ignorespaces Harmony Memory Matrix\relax }}{9}
-\contentsline {figure}{\numberline {7}{\ignorespaces The flowchart of BGBHS algorithm.\relax }}{12}
-\contentsline {figure}{\numberline {8}{\ignorespaces Parameter $p$ fixed versus adaptive $p$ parameter.\relax }}{16}
+\contentsline {figure}{\numberline {7}{\ignorespaces Flowchart of BGBHS algorithm.\relax }}{12}
+\contentsline {figure}{\numberline {8}{\ignorespaces $p$ value over iteration\relax }}{12}
+\contentsline {figure}{\numberline {9}{\ignorespaces Parameter $p$ fixed versus adaptive $p$ parameter.\relax }}{16}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{16}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{16}
-\contentsline {figure}{\numberline {9}{\ignorespaces Instance 4.2.\relax }}{16}
-\contentsline {figure}{\numberline {10}{\ignorespaces Instance 4.3.\relax }}{17}
-\contentsline {figure}{\numberline {11}{\ignorespaces Instance 4.4.\relax }}{17}
-\contentsline {figure}{\numberline {12}{\ignorespaces Instance 4.5.\relax }}{18}
-\contentsline {figure}{\numberline {13}{\ignorespaces Instance 4.6.\relax }}{18}
-\contentsline {figure}{\numberline {14}{\ignorespaces Instance 4.7.\relax }}{19}
-\contentsline {figure}{\numberline {15}{\ignorespaces Instance 4.8.\relax }}{19}
-\contentsline {figure}{\numberline {16}{\ignorespaces Instance 4.9.\relax }}{20}
-\contentsline {figure}{\numberline {17}{\ignorespaces Instance 4.10.\relax }}{20}
-\contentsline {figure}{\numberline {18}{\ignorespaces Parameter $p$ fixed versus adaptive $p$ parameter.\relax }}{21}
+\contentsline {figure}{\numberline {10}{\ignorespaces Instance 4.2.\relax }}{16}
+\contentsline {figure}{\numberline {11}{\ignorespaces Instance 4.3.\relax }}{17}
+\contentsline {figure}{\numberline {12}{\ignorespaces Instance 4.4.\relax }}{17}
+\contentsline {figure}{\numberline {13}{\ignorespaces Instance 4.5.\relax }}{18}
+\contentsline {figure}{\numberline {14}{\ignorespaces Instance 4.6.\relax }}{18}
+\contentsline {figure}{\numberline {15}{\ignorespaces Instance 4.7.\relax }}{19}
+\contentsline {figure}{\numberline {16}{\ignorespaces Instance 4.8.\relax }}{19}
+\contentsline {figure}{\numberline {17}{\ignorespaces Instance 4.9.\relax }}{20}
+\contentsline {figure}{\numberline {18}{\ignorespaces Instance 4.10.\relax }}{20}
+\contentsline {figure}{\numberline {19}{\ignorespaces Parameter $p$ fixed versus adaptive $p$ parameter.\relax }}{21}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{21}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{21}
-\contentsline {figure}{\numberline {19}{\ignorespaces Instance 5.2.\relax }}{21}
-\contentsline {figure}{\numberline {20}{\ignorespaces Instance 5.3.\relax }}{22}
-\contentsline {figure}{\numberline {21}{\ignorespaces Instance 5.4.\relax }}{22}
-\contentsline {figure}{\numberline {22}{\ignorespaces Instance 5.5.\relax }}{23}
-\contentsline {figure}{\numberline {23}{\ignorespaces Instance 5.6.\relax }}{23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Instance 5.7.\relax }}{24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Instance 5.8.\relax }}{24}
-\contentsline {figure}{\numberline {26}{\ignorespaces Instance 5.9.\relax }}{25}
-\contentsline {figure}{\numberline {27}{\ignorespaces Instance 5.10.\relax }}{25}
-\contentsline {figure}{\numberline {28}{\ignorespaces Instance 6.1.\relax }}{26}
-\contentsline {figure}{\numberline {29}{\ignorespaces Instance 6.2.\relax }}{26}
-\contentsline {figure}{\numberline {30}{\ignorespaces Instance 6.3.\relax }}{27}
-\contentsline {figure}{\numberline {31}{\ignorespaces Instance 6.4.\relax }}{27}
-\contentsline {figure}{\numberline {32}{\ignorespaces Instance 6.5.\relax }}{28}
-\contentsline {figure}{\numberline {33}{\ignorespaces Instance A.1.\relax }}{28}
-\contentsline {figure}{\numberline {34}{\ignorespaces Instance A.2.\relax }}{29}
-\contentsline {figure}{\numberline {35}{\ignorespaces Instance A.3.\relax }}{29}
-\contentsline {figure}{\numberline {36}{\ignorespaces Instance A.4.\relax }}{30}
-\contentsline {figure}{\numberline {37}{\ignorespaces Instance A.5.\relax }}{30}
-\contentsline {figure}{\numberline {38}{\ignorespaces Instance B.1.\relax }}{31}
-\contentsline {figure}{\numberline {39}{\ignorespaces Instance B.2.\relax }}{31}
-\contentsline {figure}{\numberline {40}{\ignorespaces Instance B.3.\relax }}{32}
-\contentsline {figure}{\numberline {41}{\ignorespaces Instance B.4.\relax }}{32}
-\contentsline {figure}{\numberline {42}{\ignorespaces Instance B.5.\relax }}{33}
-\contentsline {figure}{\numberline {43}{\ignorespaces Instance C.1.\relax }}{33}
-\contentsline {figure}{\numberline {44}{\ignorespaces Instance C.2.\relax }}{34}
-\contentsline {figure}{\numberline {45}{\ignorespaces Instance C.3.\relax }}{34}
-\contentsline {figure}{\numberline {46}{\ignorespaces Instance C.4.\relax }}{35}
-\contentsline {figure}{\numberline {47}{\ignorespaces Instance C.5.\relax }}{35}
-\contentsline {figure}{\numberline {48}{\ignorespaces Instance D.1.\relax }}{36}
-\contentsline {figure}{\numberline {49}{\ignorespaces Instance D.2.\relax }}{36}
-\contentsline {figure}{\numberline {50}{\ignorespaces Instance D.3.\relax }}{37}
-\contentsline {figure}{\numberline {51}{\ignorespaces Instance D.4.\relax }}{37}
-\contentsline {figure}{\numberline {52}{\ignorespaces Instance D.5.\relax }}{38}
+\contentsline {figure}{\numberline {20}{\ignorespaces Instance 5.2.\relax }}{21}
+\contentsline {figure}{\numberline {21}{\ignorespaces Instance 5.3.\relax }}{22}
+\contentsline {figure}{\numberline {22}{\ignorespaces Instance 5.4.\relax }}{22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Instance 5.5.\relax }}{23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Instance 5.6.\relax }}{23}
+\contentsline {figure}{\numberline {25}{\ignorespaces Instance 5.7.\relax }}{24}
+\contentsline {figure}{\numberline {26}{\ignorespaces Instance 5.8.\relax }}{24}
+\contentsline {figure}{\numberline {27}{\ignorespaces Instance 5.9.\relax }}{25}
+\contentsline {figure}{\numberline {28}{\ignorespaces Instance 5.10.\relax }}{25}
+\contentsline {figure}{\numberline {29}{\ignorespaces Instance 6.1.\relax }}{26}
+\contentsline {figure}{\numberline {30}{\ignorespaces Instance 6.2.\relax }}{26}
+\contentsline {figure}{\numberline {31}{\ignorespaces Instance 6.3.\relax }}{27}
+\contentsline {figure}{\numberline {32}{\ignorespaces Instance 6.4.\relax }}{27}
+\contentsline {figure}{\numberline {33}{\ignorespaces Instance 6.5.\relax }}{28}
+\contentsline {figure}{\numberline {34}{\ignorespaces Instance A.1.\relax }}{28}
+\contentsline {figure}{\numberline {35}{\ignorespaces Instance A.2.\relax }}{29}
+\contentsline {figure}{\numberline {36}{\ignorespaces Instance A.3.\relax }}{29}
+\contentsline {figure}{\numberline {37}{\ignorespaces Instance A.4.\relax }}{30}
+\contentsline {figure}{\numberline {38}{\ignorespaces Instance A.5.\relax }}{30}
+\contentsline {figure}{\numberline {39}{\ignorespaces Instance B.1.\relax }}{31}
+\contentsline {figure}{\numberline {40}{\ignorespaces Instance B.2.\relax }}{31}
+\contentsline {figure}{\numberline {41}{\ignorespaces Instance B.3.\relax }}{32}
+\contentsline {figure}{\numberline {42}{\ignorespaces Instance B.4.\relax }}{32}
+\contentsline {figure}{\numberline {43}{\ignorespaces Instance B.5.\relax }}{33}
+\contentsline {figure}{\numberline {44}{\ignorespaces Instance C.1.\relax }}{33}
+\contentsline {figure}{\numberline {45}{\ignorespaces Instance C.2.\relax }}{34}
+\contentsline {figure}{\numberline {46}{\ignorespaces Instance C.3.\relax }}{34}
+\contentsline {figure}{\numberline {47}{\ignorespaces Instance C.4.\relax }}{35}
+\contentsline {figure}{\numberline {48}{\ignorespaces Instance C.5.\relax }}{35}
+\contentsline {figure}{\numberline {49}{\ignorespaces Instance D.1.\relax }}{36}
+\contentsline {figure}{\numberline {50}{\ignorespaces Instance D.2.\relax }}{36}
+\contentsline {figure}{\numberline {51}{\ignorespaces Instance D.3.\relax }}{37}
+\contentsline {figure}{\numberline {52}{\ignorespaces Instance D.4.\relax }}{37}
+\contentsline {figure}{\numberline {53}{\ignorespaces Instance D.5.\relax }}{38}

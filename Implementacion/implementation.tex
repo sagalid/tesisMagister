@@ -2,76 +2,20 @@
 The implementation of the algorithm was developed using the Python programming language which allows work quickly and integrate systems more effectively.
 As data persistence, a MySql relational database was used. All of the above was mounted on an instance of the free Amazon layer, specifically EC2 - Linux.
 %------------------------
-Como sistema de control de código fuente se utilizó GIT, el cual permitió mantener un control de código fuente local tanto para el algoritmo desarrollado como para la documentación asociada a esta tesis. Se realizaron constantes réplicas contra un repositorio GIT en nube, específicamente GITHUB.
+As a source code control system, GIT was used, which allowed to maintain a control of local source code for both the developed algorithm and the documentation associated to this thesis. Constant replicas were performed against a GIT cloud repository, specifically GITHUB.
  
 \subsection{Binary Global-Best Harmony Search Metaheuristic}
-Los parámetros que se presentan a continuación fueron fruto de pruebas exhaustivas y multiples ejecuciones que permitieron probar más allá de los componentes aleatorios un comportamiento correcto para la metaheurística, es decir presentando un grado de efectividad más alto comparado con otras metaheurísticas.
- 
-El proceso comienza con la generación de una población inicial de armonías que son vectores compuestos por digitos binarios $d$, en un repetición del proceso que se denomina improvisación. La cantidad de improvisaciones se denota por $NI$. Finalizadas las improvisaciones, se cuenta con una cantidad de armonías sobre las cuales se ejecuta un proceso de reparación con dos fases de acuerdo al Agoritmo \ref{alg:addAndDrop}. Una vez que las armonías se encuentra reparadas y cumplen con las restricciones definidas en la Matriz $A$ del SCP, se almacena la mejor y la peor armonía, denotadas por $x_{best}$ y $x_{worst}$ respectivamente. El detalle del comportamiento de la metaheuristica puede ser revisado en el diagrama de flujo \ref{dia:FlowBGBHS}.
- 
- Durante las pruebas se detectó al momento de generación de las armonías que un parámetro variable $p$ en los ensayos de Bernoulli, permitía obtener una explotación en la área de búsqueda logrando escapar de óptimos locales. La variación del parámetro $p$ de los ensayos de Bernoulli fue ajustado de acuerdo  a la función que se presenta a continuación.
- 
- %%Insertar función para p de Bernoulli
- %%%%%%%%%%%%%%%%%%%%
- 
- Se realizó un análisis de resultados, comparando los valores de multiples ejecuciones de la metaheurística con un parámetro $p$ fijo, versus un parámetro $p$ 
- 
- 
- 
- %------------------------
+The parameters presented below were the result of exhaustive tests and multiple executions that allowed to test beyond the random components a correct behavior for metaheuristics, that is to say, presenting a higher degree of effectiveness compared to other metaheuristics.
 
-The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation of HS. Furthermore, HS designed for continuous space cannot be directly used to solve discrete combinatorial optimization problems.
-
-In order to overcome the drawbacks of HS, a novel BGBHS is designed for binary optimization problems. Modifications are introduced to further enhance the convergence performance. A two-phase repair operator (Algorithm \ref{alg:addAndDrop}), and a greedy selection mechanism are integrated into the BGBHS.
-
-The initial population in BGBHS is generated randomly using a Bernoulli process. In probability and statistics, a Bernoulli process is a finite or infinite sequence of binary random variables, so it is a discrete-time stochastic process that takes only two values $\{1,0\}$, success (\ref{ec:bernoullie_p}) or failure (\ref{ec:bernoullie_p-1}), given the probability $p$. A Bernoulli process is a finite or infinite sequence of independent random variables $x_1$, $x_2$, $x_3$,\dots,$x_n$  $\forall x \in \{0,1\}$ ~ and ~ $i=\{1,\dots, n\}$.
-
-\begin{equation} \label{ec:bernoullie_p} 
-P(x_i=1) = P(\text{success at the $i$-th trial}) = p 
-\end{equation}	
-
-\begin{equation} \label{ec:bernoullie_p-1} 
-P(x_i=0) = P(\text{failure at the $i$-th trial}) = 1-p
-\end{equation}	
-
-Specifically, for each decision variable of an initial harmony vector, a number within is generated randomly. If the value of the number is less than 0.5, the corresponding variable in DGHS takes 0; otherwise it takes 1. In this way, a set of HMS harmonies will be generated randomly.
-
-The greedy operation is based on the idea that the item with higher profit density ratio should be used. And the profit density ratio can be calculated by the equation (\ref{ec:mu_j}): 
+The process begins with the generation of an initial population of harmonies that are vectors composed of binary digits $d$, in a repetition of the process that is called improvisation. The number of improvisations is denoted by $NI$. Once the improvisations are finished, there are a number of harmonies on which a repair process is executed with two-phase repair operator (Algorithm \ref{alg:addAndDrop}). Once the harmonies are repaired and meet the constraints defined in the  Matrix $A$ for the SCP, the best and worst harmony, denoted by $x_ {best}$ and $x_ {worst}$, respectively, are stored. The detail of the behavior of the metaheuristics can be reviewed in the flow chart (Figure \ref{dia:FlowBGBHS}). Additionally a greedy selection mechanism are integrated into the BGBHS. The greedy operation is based on the idea that the item with higher profit density ratio should be used first. And the profit density ratio can be calculated by the equation (\ref{ec:mu_j}): 
 
 \begin{equation} \label{ec:mu_j} 
 \mu_{j}={\frac{1}{c_j}}
 \end{equation}	
-
-%------------------------------Fase ADD y DROP:
-\begin{algorithm}
-\begin{algorithmic}[1]
- \STATE //ADD Phase
-\STATE $M \gets 1,2,\ldots, m$
-\STATE $A_i \sum_{j=1}^{n} a_{ij}x_{j}, i \in M$
-\FOR{$j \gets 1$ \TO $n$} {
-	\IF{$x_j = 0$ and $\exists i \in M, A_i < 1$ } {
-		\STATE $x_j \gets 1$
-		\STATE $A_i \gets A_i + a_{ij}$
-	}\ENDIF
-} \ENDFOR
-
-\STATE //DROP Phase
-\FOR{$j \gets n$ \TO $1$}{
-	\IF{$x_j = 1$ and $\exists i \in M, A_i - a_{ij} \geq 1$ } {
-		\STATE $x_j \gets 0$
-		\STATE $A_i \gets A_i - a_{ij}$
-	}\ENDIF
-} \ENDFOR
-
-\caption{Repair operator ADD and DROP}\label{alg:addAndDrop}
-\end{algorithmic}
-\end{algorithm}
-%------------------------------Fase ADD y DROP:
-
-%Owing to better performance of GHS, some modifications are introduced to further enhance the convergence performance. Then a novel binary, a two-phase repair operator \ref{alg:addAndDrop}, and a greedy selection mechanism are integrated into the BGHS, and they are described in detail as follows.
+		
 
 %------------------------------Diagrama de HS
-\begin{figure}[H]
+\begin{figure}[]
 \centering
 \begin{tikzpicture}[align = flush center, font = \small, node distance = 12mm, scale=0.6, every node/.style={scale=0.6}] %[node distance = 15mm, auto]
 \node (start) [startstop] {Start};
@@ -117,8 +61,61 @@ The greedy operation is based on the idea that the item with higher profit densi
 \draw [arrow] (pro14) -- (pro16) ;
 
 \end{tikzpicture}
-\caption{The flowchart of BGBHS algorithm.}\label{dia:FlowBGBHS}
+\caption{Flowchart of BGBHS algorithm.}\label{dia:FlowBGBHS}
 \end{figure}
+%------------------------------END Diagrama de HS
+
+The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation of HS. 
+ 
+To solve the problem of local exploitation, we propose a variable parameter for the Bernoulli probability $p$, which starts from one and decreases with each iteration, tending to zero (Figure \ref{fig:pvalue}). This will allow solutions in a first instance to have more variables activated and as the iterations pass, the probability that a variable is activated will be closed to zero.
+ 
+
+\begin{figure}[]
+\centering
+\includegraphics[scale=.45]{Implementacion/img/p_bernoulli.eps}
+\caption{$p$ value over iteration}
+\label{fig:pvalue}
+\end{figure}
+
+
+The initial population in BGBHS is generated randomly using a Bernoulli process. In probability and statistics, a Bernoulli process is a finite or infinite sequence of binary random variables, so it is a discrete-time stochastic process that takes only two values $\{1,0\}$, success (equation \ref{ec:bernoullie_p}) or failure (equation \ref{ec:bernoullie_p-1}), given the probability $p$. A Bernoulli process is a finite or infinite sequence of independent random variables $x_1$, $x_2$, $x_3$,\dots,$x_n$  $\forall x \in \{0,1\}$ ~ and ~ $i=\{1,\dots, n\}$.
+
+\begin{equation} \label{ec:bernoullie_p} 
+P(x_i=1) = P(\text{success at the $i$-th trial}) = p 
+\end{equation}	
+
+\begin{equation} \label{ec:bernoullie_p-1} 
+P(x_i=0) = P(\text{failure at the $i$-th trial}) = 1-p
+\end{equation}	
+
+Specifically, for each decision variable of an initial harmony vector, a number within is generated randomly. If the value of the number is less than $p$, the corresponding variable takes 0; otherwise it takes 1. In this way, a set of HMS harmonies will be generated randomly.
+
+
+%------------------------------Fase ADD y DROP:
+\begin{algorithm}
+\begin{algorithmic}[1]
+ \STATE //ADD Phase
+\STATE $M \gets 1,2,\ldots, m$
+\STATE $A_i \sum_{j=1}^{n} a_{ij}x_{j}, i \in M$
+\FOR{$j \gets 1$ \TO $n$} {
+	\IF{$x_j = 0$ and $\exists i \in M, A_i < 1$ } {
+		\STATE $x_j \gets 1$
+		\STATE $A_i \gets A_i + a_{ij}$
+	}\ENDIF
+} \ENDFOR
+
+\STATE //DROP Phase
+\FOR{$j \gets n$ \TO $1$}{
+	\IF{$x_j = 1$ and $\exists i \in M, A_i - a_{ij} \geq 1$ } {
+		\STATE $x_j \gets 0$
+		\STATE $A_i \gets A_i - a_{ij}$
+	}\ENDIF
+} \ENDFOR
+
+\caption{Repair operator ADD and DROP}\label{alg:addAndDrop}
+\end{algorithmic}
+\end{algorithm}
+
 
 %------------------------------nueva_armonia_agresiva():
 
