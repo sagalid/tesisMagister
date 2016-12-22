@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 DEC 2016 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 DEC 2016 11:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1594,10 +1594,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./Introduccion/imagenes/SetCovering.png>] [7 <./Introduccion/imagenes/SetC
 overingSolved.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
@@ -1661,6 +1670,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
 )) [10] (./Implementacion/implementation.tex
 
 LaTeX Warning: No positions in optional float specifier.
@@ -1691,7 +1705,7 @@ Package pdftex.def Info: Implementacion/img/p_bernoulli-eps-converted-to.pdf us
 ed on input line 75.
 (pdftex.def)             Requested size: 187.44858pt x 186.99689pt.
 
-Overfull \hbox (15.0pt too wide) detected at line 117
+Overfull \hbox (15.0pt too wide) detected at line 118
 [][] 
  []
 
@@ -2761,10 +2775,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34059 strings out of 493089
- 802963 string characters out of 6134842
+ 34060 strings out of 493089
+ 802982 string characters out of 6134842
  962649 words of memory out of 5000000
- 36877 multiletter control sequences out of 15000+600000
+ 36878 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,77p,10397b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2786,7 +2800,7 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on informeFinal.pdf (93 pages, 1483081 bytes).
+Output written on informeFinal.pdf (93 pages, 1483180 bytes).
 PDF statistics:
  909 PDF objects out of 1000 (max. 8388607)
  589 compressed objects within 6 object streams

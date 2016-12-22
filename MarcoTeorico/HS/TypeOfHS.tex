@@ -2,7 +2,7 @@
 \subsubsection{Harmony Search Metaheuristic}
 is a population-based metaheuristic algorithm inspired from the musical process of searching for a perfect state of Harmony or Aesthetic Quality of a Harmony (AQH). The HS was proposed by Z. W. Geem et al.\cite{DBLP:journals/simulation/GeemKL01}. In other words, the main idea of the HS metaheuristic is to mimic the process performed by musicians when they try to play a beautiful harmony.
 
-For the purpose of properly understand what is looking like a good solution in this metaheuristic, we must know the meaning of AQH. The AQH in an instrument is essentially determined by its pitch (or frequency), sound quality, and amplitude (or loudness). The sound quality is mainly determined by the harmonic content that is in turn, determined by the waveforms or modulations of the sound signal. However, the harmonics that it can generate will largely depend on the pitch or frequency range of the particular instrument \cite{Geem:2009:MHS:1643438}. Different notes have different frequencies. For example, the note A  has a fundamental frequency $f_0=440 Hz$. The fundamental frequency of each note can be seen in (Table~\ref{fig:musical_notes}). 
+For the purpose of properly understand what is looking like a good solution in this metaheuristic, we must know the meaning of AQH. The AQH in an instrument is essentially determined by its pitch (or frequency), sound quality, and amplitude (or loudness). The sound quality is mainly determined by the harmonic content that is in turn, determined by the waveforms or modulations of the sound signal. However, the harmonics that it can generate will largely depend on the pitch or frequency range of the particular instrument \cite{Geem:2009:MHS:1643438}. Different notes have different frequencies. For example, the note A  has a fundamental frequency $f_0=440 Hz$. The fundamental frequency of each note can be seen in (Table~\ref{fig:musical_notes}). \\		
 
 \begin{table}[H]
 \centering
@@ -26,7 +26,7 @@ In the music improvisation process, all musicians (Table~\ref{fig:harmony_proces
 
 In this document, the researcher set its focus on studying the classical SCP problem, given by equation \eqref{ec:set-covering-1}, where we want minimize the cost of solution.\\
 
-The traditional HS metaheuristic has five steps \cite{DBLP:journals/asc/ZouGLW11}, which will be reviewed below.
+The traditional HS metaheuristic has five steps \cite{DBLP:journals/asc/ZouGLW11}, which will be reviewed below.\\
 
 %MUSICOS (musician - > decision variables)
 \squeezeup
@@ -36,8 +36,8 @@ The traditional HS metaheuristic has five steps \cite{DBLP:journals/asc/ZouGLW11
 \hline
 \includegraphics[width=15mm,scale=0.05]{MarcoTeorico/imagenes/musicos.png} & 
 Each musician represents a decision variable,
-according to the example shown, there would be 11 musicians, 	
-since there are 11 decision variables $x_1\dots x_{11}$. \\ \hline
+according to the example shown in sub-section \ref{scpSampleSolution}, there would be 11 musicians, 	
+since there are 11 decision variables $x_1,\dots, x_{11}$. \\ \hline
 \end{tabular}
 \caption{HS components - Musician}\label{fig:harmony_process_musician}
 \end{table}
@@ -49,7 +49,7 @@ since there are 11 decision variables $x_1\dots x_{11}$. \\ \hline
 \centering
 \begin{tabular}{|m{1.5cm}|m{8cm}|}
 \hline
-\includegraphics[width=10mm,scale=0.02]{MarcoTeorico/imagenes/violin.png} & The pitch range of the instrument represents the range of values that can take a decision variable. Given the nature of the SCP, the possible values are ${\{0,1\}}$ \\  \hline\end{tabular}
+\includegraphics[width=10mm,scale=0.02]{MarcoTeorico/imagenes/violin.png} & The pitch range of the instrument represents the range of values that can take a decision variable. Given the nature of the SCP, the possible values are ${\{0,1\}}$. \\  \hline\end{tabular}
 \caption{HS components - Pitch range}\label{fig:harmony_process_pitch_range}
 \end{table}
 \squeezeup
@@ -148,7 +148,7 @@ HMCR(t) = HMCR_{min}-\frac{HMCR_{max} - HMCR_{min}}{NI}t
 
 where $HMCR_{min}$ and $HMCR_{max}$ represent the lower and upper bounds of $HMCR$, respectively.\\
 
-At first, musicians most likely choose a perfect state of a harmony from their memory or harmony memory during the process of improvising a new harmony. Next, they may select a pitch from the current harmony memory randomly and then they would perform a fine tune operation, that is, pitch adjustment, for the chosen pitch to improve the effectiveness of music. For the SCP, the states of a pitch just include {0,1}, based on this, a genetic mutation is suitable for pitch adjustment. The process of improvising a new harmony can be given in Algorithm \ref{alg:newHarmonyGreedy}.
+At first, musicians most likely choose a perfect state of a harmony from their memory or harmony memory during the process of improvising a new harmony. Next, they may select a pitch from the current harmony memory randomly and then they would perform a fine tune operation, that is, pitch adjustment, for the chosen pitch to improve the effectiveness of music. For the SCP, the states of a pitch just include {0,1}, based on this, a genetic mutation is suitable for pitch adjustment. The process of improvising a new harmony can be given in Algorithm \ref{alg:newHarmonyGreedy}.\\
 
 \begin{algorithm}
 \For{$j\leftarrow 1$ \KwTo $n$}{    
@@ -164,7 +164,7 @@ At first, musicians most likely choose a perfect state of a harmony from their m
 	}
 	}
 	
-	
+		
 }			
 \caption{Generating a new harmony in GHS}\label{alg:newHarmonyGreedy}
 \end{algorithm}
