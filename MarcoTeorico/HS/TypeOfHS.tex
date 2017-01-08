@@ -121,15 +121,24 @@ $$
 %__________________________________________________________
 
 \textbf{Step 4: Update harmony memory.} \\
-If the new generated harmony $x^{\ensuremath{'}}$ = ($x_{1}^{\ensuremath{'}}$, $x_{2}^{\ensuremath{'}}$ , \ldots,~$x_{n}^{\ensuremath{'}} $) has a better fitness than the worst one $x_{worst}$ in $HM$, then replace the worst harmony with the new one $x_{worst} \leftarrow x^{\ensuremath{'}}$; otherwise , go to the next step. \\
+If the new generated harmony $x^{\ensuremath{'}}$ = ($x_{1}^{\ensuremath{'}}$, $x_{2}^{\ensuremath{'}}$ , \ldots,~$x_{n}^{\ensuremath{'}} $) has a better fitness than the worst one $x_{worst}$ in $HM$, then replace the worst harmony with the new one as shown in the algorithm \ref{alg:repWorstHarmony}; otherwise , go to the next step. \\
+
+\begin{algorithm}[H]{
+	%Reemplazo
+	\If{fitness($x^{\ensuremath{'}}$)  > fitness($x_{worst}$)}{
+   		$x_{worst} = x^{\ensuremath{'}}$\
+   	}
+}			
+\caption{Replace worst harmony procedure}\label{alg:repWorstHarmony}
+\end{algorithm}
+~\
 
 \textbf{Step 5: Check the stop criteria.} \\
 If the stopping criterion (e.g. maximum number of iterations $NI$) is satisfied, computation is
 terminated. Otherwise, step 3 is repeated.\\
 
-
 \subsubsection{Global-Best Harmony Search Metaheuristic}
-To further improve the convergence performance of HS and overcome some shortcomings of HS, a new variant of HS, called  Global-Best Harmony Search (GHS), was proposed by Omran and Mahdavi \cite{DBLP:journals/amc/OmranM08}. 
+To further improve the convergence performance of HS and overcome some shortcomings of HS, a variant of HS, called  Global-Best Harmony Search (GHS), was proposed by Omran and Mahdavi \cite{DBLP:journals/amc/OmranM08}. 
 The initial population in GHS is generated randomly using a Bernoulli process. Then, a greedy vector is generated $x_0$ based on a profit ratio, if $x_0$ is best than $x_{worst}$ in HM then $x_{worst}$ is replaced by $x_0$.\\
 The GHS dynamically updates parameter PAR according to equation (\ref{ec:PAR-T}):
 
@@ -145,10 +154,10 @@ The parameter HMCR with a larger value can be helpful to accelerate the converge
 \begin{equation} \label{ec:MCR-T}
 HMCR(t) = HMCR_{min}-\frac{HMCR_{max} - HMCR_{min}}{NI}t
 \end{equation}
-
+~\\
 where $HMCR_{min}$ and $HMCR_{max}$ represent the lower and upper bounds of $HMCR$, respectively.\\
 
-At first, musicians most likely choose a perfect state of a harmony from their memory or harmony memory during the process of improvising a new harmony. Next, they may select a pitch from the current harmony memory randomly and then they would perform a fine tune operation, that is, pitch adjustment, for the chosen pitch to improve the effectiveness of music. For the SCP, the states of a pitch just include {0,1}, based on this, a genetic mutation is suitable for pitch adjustment. The process of improvising a new harmony can be given in Algorithm \ref{alg:newHarmonyGreedy}.\\
+At first, musicians most likely choose a perfect state of a harmony from their memory or harmony memory during the process of improvising a new harmony. Next, they may select a pitch from the current harmony memory randomly and then they would perform a fine tune operation, that is, pitch adjustment, for the chosen pitch to improve the effectiveness of music. For the SCP, the states of a pitch just include $\{0,1\}$, based on this, a genetic mutation is suitable for pitch adjustment \cite{286385}. The process of improvising a new harmony can be given in Algorithm \ref{alg:newHarmonyGreedy}.\\
 
 \begin{algorithm}
 \For{$j\leftarrow 1$ \KwTo $n$}{    
@@ -169,10 +178,21 @@ At first, musicians most likely choose a perfect state of a harmony from their m
 \caption{Generating a new harmony in GHS}\label{alg:newHarmonyGreedy}
 \end{algorithm}
 
-The Selection Mechanism is a process in which a new generated harmony vector $x_{new}$ is compared with $x_{best}$ in the first place, and if $x_{new}$ is better than  $x_{best}$, replace $x_{best}$ with $x_{new}$; otherwise  $x_{new}$ is compared with $x_{worst}$ in HM and a  greedy selection is applied between $\{x_{new}, x_{worst}\}$. As a consequence, GHS not only speeds up the convergence speed but also avoids being trapped in a local optimum. 
+The Selection Mechanism is a process in which a new generated harmony vector $x_{new}$ is compared with $x_{best}$ in the first place, and if $x_{new}$ is better than  $x_{best}$, replace $x_{best}$ with $x_{new}$; otherwise  $x_{new}$ is compared with $x_{worst}$ in HM and a  greedy selection is applied between $\{x_{new}, x_{worst}\}$. As a consequence, GHS not only speeds up the convergence speed but also avoids being trapped in a local optimum. \\
 
-
-
+\begin{algorithm}[H]{
+	%Selection Mechanism
+	\eIf {fitness($x_{new}$)  > fitness($x_{best}$)}{
+   		$x_{best} = x_{new}$\
+   	}{
+		\If{fitness($x_{new}$)  > fitness($x_{worst}$)}{
+   			$x_{worst} = x_{new}$\
+   		}		
+     	}
+}			
+\caption{Selection Mechanism procedure}\label{alg:SelectionMechanism}
+\end{algorithm}
+~\
 
 
 

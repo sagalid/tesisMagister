@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 DEC 2016 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JAN 2017 18:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1661,28 +1661,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--125
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
 [9 <./MarcoTeorico/imagenes/audience.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 156--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 )) [10] (./Implementacion/implementation.tex
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 18.
+               Default added (so using `htbp') on input line 19.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 73.
+               Default added (so using `htbp') on input line 74.
 
 Package epstopdf Info: Source file: <Implementacion/img/p_bernoulli.eps>
 (epstopdf)                    date: 2016-12-11 18:01:22
@@ -1693,7 +1698,7 @@ ed-to.pdf>
 (epstopdf)                    size: 5872 bytes
 (epstopdf)             Command: <epstopdf --outfile=Implementacion/img/p_bernou
 lli-eps-converted-to.pdf Implementacion/img/p_bernoulli.eps>
-(epstopdf)             \includegraphics on input line 75.
+(epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
 
 <Implementacion/img/p_bernoulli-eps-converted-to.pdf, id=96, 416.55624pt x 415.
@@ -1702,16 +1707,15 @@ File: Implementacion/img/p_bernoulli-eps-converted-to.pdf Graphic file (type pd
 f)
  <use Implementacion/img/p_bernoulli-eps-converted-to.pdf>
 Package pdftex.def Info: Implementacion/img/p_bernoulli-eps-converted-to.pdf us
-ed on input line 75.
+ed on input line 76.
 (pdftex.def)             Requested size: 187.44858pt x 186.99689pt.
-
-Overfull \hbox (15.0pt too wide) detected at line 118
+ [11] [12 <./Implementacion/img/p_bernoulli-eps-converted-to.pdf>]
+Overfull \hbox (15.0pt too wide) detected at line 122
 [][] 
  []
 
-) [11] [12 <./Implementacion/img/p_bernoulli-eps-converted-to.pdf>]
-(./Mejoras/improvements.tex) [13] (./Resultados/Resultados.tex) [14]
-(./Conclusion/Conclusion.tex) [15] (./Anexo/Anexo.tex
+) [13] (./Mejoras/improvements.tex) [14] (./Resultados/Resultados.tex) [15]
+(./Conclusion/Conclusion.tex) [16] (./Anexo/Anexo.tex
 Package epstopdf Info: Source file: <Resultados/scp41_sb.eps>
 (epstopdf)                    date: 2016-12-01 02:00:21
 (epstopdf)                    size: 552273 bytes
@@ -1723,7 +1727,7 @@ verted-to.pdf Resultados/scp41_sb.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<Resultados/scp41_sb-eps-converted-to.pdf, id=121, 505.89pt x 505.89pt>
+<Resultados/scp41_sb-eps-converted-to.pdf, id=125, 505.89pt x 505.89pt>
 File: Resultados/scp41_sb-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp41_sb-eps-converted-to.pdf>
@@ -1741,7 +1745,7 @@ ted-to.pdf Resultados/scp41.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<Resultados/scp41-eps-converted-to.pdf, id=122, 505.89pt x 505.89pt>
+<Resultados/scp41-eps-converted-to.pdf, id=126, 505.89pt x 505.89pt>
 File: Resultados/scp41-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp41-eps-converted-to.pdf>
@@ -1763,14 +1767,14 @@ Package epstopdf Info: Source file: <Resultados/scp42.eps>
 ted-to.pdf Resultados/scp42.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp42-eps-converted-to.pdf, id=123, 505.89pt x 505.89pt>
+<Resultados/scp42-eps-converted-to.pdf, id=127, 505.89pt x 505.89pt>
 File: Resultados/scp42-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp42-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp42-eps-converted-to.pdf used on input li
 ne 37.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
- [16 <./Resultados/scp41_sb-eps-converted-to.pdf> <./Resultados/scp41-eps-conve
+ [17 <./Resultados/scp41_sb-eps-converted-to.pdf> <./Resultados/scp41-eps-conve
 rted-to.pdf> <./Resultados/scp42-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
@@ -1786,7 +1790,7 @@ Package epstopdf Info: Source file: <Resultados/scp43.eps>
 ted-to.pdf Resultados/scp43.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp43-eps-converted-to.pdf, id=158, 505.89pt x 505.89pt>
+<Resultados/scp43-eps-converted-to.pdf, id=161, 505.89pt x 505.89pt>
 File: Resultados/scp43-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp43-eps-converted-to.pdf>
@@ -1808,7 +1812,7 @@ Package epstopdf Info: Source file: <Resultados/scp44.eps>
 ted-to.pdf Resultados/scp44.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp44-eps-converted-to.pdf, id=159, 505.89pt x 505.89pt>
+<Resultados/scp44-eps-converted-to.pdf, id=162, 505.89pt x 505.89pt>
 File: Resultados/scp44-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp44-eps-converted-to.pdf>
@@ -1830,7 +1834,7 @@ Package epstopdf Info: Source file: <Resultados/scp45.eps>
 ted-to.pdf Resultados/scp45.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp45-eps-converted-to.pdf, id=160, 505.89pt x 505.89pt>
+<Resultados/scp45-eps-converted-to.pdf, id=163, 505.89pt x 505.89pt>
 File: Resultados/scp45-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp45-eps-converted-to.pdf>
@@ -1852,7 +1856,7 @@ Package epstopdf Info: Source file: <Resultados/scp46.eps>
 ted-to.pdf Resultados/scp46.eps>
 (epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp46-eps-converted-to.pdf, id=161, 505.89pt x 505.89pt>
+<Resultados/scp46-eps-converted-to.pdf, id=164, 505.89pt x 505.89pt>
 File: Resultados/scp46-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp46-eps-converted-to.pdf>
@@ -1874,7 +1878,7 @@ Package epstopdf Info: Source file: <Resultados/scp47.eps>
 ted-to.pdf Resultados/scp47.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp47-eps-converted-to.pdf, id=162, 505.89pt x 505.89pt>
+<Resultados/scp47-eps-converted-to.pdf, id=165, 505.89pt x 505.89pt>
 File: Resultados/scp47-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp47-eps-converted-to.pdf>
@@ -1896,7 +1900,7 @@ Package epstopdf Info: Source file: <Resultados/scp48.eps>
 ted-to.pdf Resultados/scp48.eps>
 (epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp48-eps-converted-to.pdf, id=163, 505.89pt x 505.89pt>
+<Resultados/scp48-eps-converted-to.pdf, id=166, 505.89pt x 505.89pt>
 File: Resultados/scp48-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp48-eps-converted-to.pdf>
@@ -1918,7 +1922,7 @@ Package epstopdf Info: Source file: <Resultados/scp49.eps>
 ted-to.pdf Resultados/scp49.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp49-eps-converted-to.pdf, id=164, 505.89pt x 505.89pt>
+<Resultados/scp49-eps-converted-to.pdf, id=167, 505.89pt x 505.89pt>
 File: Resultados/scp49-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp49-eps-converted-to.pdf>
@@ -1940,7 +1944,7 @@ Package epstopdf Info: Source file: <Resultados/scp410.eps>
 rted-to.pdf Resultados/scp410.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp410-eps-converted-to.pdf, id=165, 505.89pt x 505.89pt>
+<Resultados/scp410-eps-converted-to.pdf, id=168, 505.89pt x 505.89pt>
 File: Resultados/scp410-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp410-eps-converted-to.pdf>
@@ -1958,7 +1962,7 @@ verted-to.pdf Resultados/scp51_sb.eps>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
 
-<Resultados/scp51_sb-eps-converted-to.pdf, id=166, 505.89pt x 505.89pt>
+<Resultados/scp51_sb-eps-converted-to.pdf, id=169, 505.89pt x 505.89pt>
 File: Resultados/scp51_sb-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp51_sb-eps-converted-to.pdf>
@@ -1976,7 +1980,7 @@ ted-to.pdf Resultados/scp51.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<Resultados/scp51-eps-converted-to.pdf, id=167, 505.89pt x 505.89pt>
+<Resultados/scp51-eps-converted-to.pdf, id=170, 505.89pt x 505.89pt>
 File: Resultados/scp51-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp51-eps-converted-to.pdf>
@@ -1998,7 +2002,7 @@ Package epstopdf Info: Source file: <Resultados/scp52.eps>
 ted-to.pdf Resultados/scp52.eps>
 (epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp52-eps-converted-to.pdf, id=168, 505.89pt x 505.89pt>
+<Resultados/scp52-eps-converted-to.pdf, id=171, 505.89pt x 505.89pt>
 File: Resultados/scp52-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp52-eps-converted-to.pdf>
@@ -2020,7 +2024,7 @@ Package epstopdf Info: Source file: <Resultados/scp53.eps>
 ted-to.pdf Resultados/scp53.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp53-eps-converted-to.pdf, id=169, 505.89pt x 505.89pt>
+<Resultados/scp53-eps-converted-to.pdf, id=172, 505.89pt x 505.89pt>
 File: Resultados/scp53-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp53-eps-converted-to.pdf>
@@ -2042,7 +2046,7 @@ Package epstopdf Info: Source file: <Resultados/scp54.eps>
 ted-to.pdf Resultados/scp54.eps>
 (epstopdf)             \includegraphics on input line 150.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp54-eps-converted-to.pdf, id=170, 505.89pt x 505.89pt>
+<Resultados/scp54-eps-converted-to.pdf, id=173, 505.89pt x 505.89pt>
 File: Resultados/scp54-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp54-eps-converted-to.pdf>
@@ -2064,7 +2068,7 @@ Package epstopdf Info: Source file: <Resultados/scp55.eps>
 ted-to.pdf Resultados/scp55.eps>
 (epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp55-eps-converted-to.pdf, id=171, 505.89pt x 505.89pt>
+<Resultados/scp55-eps-converted-to.pdf, id=174, 505.89pt x 505.89pt>
 File: Resultados/scp55-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp55-eps-converted-to.pdf>
@@ -2086,7 +2090,7 @@ Package epstopdf Info: Source file: <Resultados/scp56.eps>
 ted-to.pdf Resultados/scp56.eps>
 (epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp56-eps-converted-to.pdf, id=172, 505.89pt x 505.89pt>
+<Resultados/scp56-eps-converted-to.pdf, id=175, 505.89pt x 505.89pt>
 File: Resultados/scp56-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp56-eps-converted-to.pdf>
@@ -2108,7 +2112,7 @@ Package epstopdf Info: Source file: <Resultados/scp57.eps>
 ted-to.pdf Resultados/scp57.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp57-eps-converted-to.pdf, id=173, 505.89pt x 505.89pt>
+<Resultados/scp57-eps-converted-to.pdf, id=176, 505.89pt x 505.89pt>
 File: Resultados/scp57-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp57-eps-converted-to.pdf>
@@ -2130,25 +2134,25 @@ Package epstopdf Info: Source file: <Resultados/scp58.eps>
 ted-to.pdf Resultados/scp58.eps>
 (epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp58-eps-converted-to.pdf, id=174, 505.89pt x 505.89pt>
+<Resultados/scp58-eps-converted-to.pdf, id=177, 505.89pt x 505.89pt>
 File: Resultados/scp58-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp58-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scp58-eps-converted-to.pdf used on input li
 ne 179.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
- [17
+ [18
 
  <./Resultados/scp43-eps-converted-to.pdf> <./Resultados/scp44-eps-converted-to
-.pdf>] [18 <./Resultados/scp45-eps-converted-to.pdf> <./Resultados/scp46-eps-co
-nverted-to.pdf>] [19 <./Resultados/scp47-eps-converted-to.pdf> <./Resultados/sc
+.pdf>] [19 <./Resultados/scp45-eps-converted-to.pdf> <./Resultados/scp46-eps-co
+nverted-to.pdf>] [20 <./Resultados/scp47-eps-converted-to.pdf> <./Resultados/sc
 p48-eps-converted-to.pdf>]
-[20 <./Resultados/scp49-eps-converted-to.pdf> <./Resultados/scp410-eps-converte
-d-to.pdf>] [21 <./Resultados/scp51_sb-eps-converted-to.pdf> <./Resultados/scp51
--eps-converted-to.pdf> <./Resultados/scp52-eps-converted-to.pdf>] [22 <./Result
+[21 <./Resultados/scp49-eps-converted-to.pdf> <./Resultados/scp410-eps-converte
+d-to.pdf>] [22 <./Resultados/scp51_sb-eps-converted-to.pdf> <./Resultados/scp51
+-eps-converted-to.pdf> <./Resultados/scp52-eps-converted-to.pdf>] [23 <./Result
 ados/scp53-eps-converted-to.pdf> <./Resultados/scp54-eps-converted-to.pdf>]
-[23 <./Resultados/scp55-eps-converted-to.pdf> <./Resultados/scp56-eps-converted
--to.pdf>] [24 <./Resultados/scp57-eps-converted-to.pdf> <./Resultados/scp58-eps
+[24 <./Resultados/scp55-eps-converted-to.pdf> <./Resultados/scp56-eps-converted
+-to.pdf>] [25 <./Resultados/scp57-eps-converted-to.pdf> <./Resultados/scp58-eps
 -converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2164,7 +2168,7 @@ Package epstopdf Info: Source file: <Resultados/scp59.eps>
 ted-to.pdf Resultados/scp59.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp59-eps-converted-to.pdf, id=369, 505.89pt x 505.89pt>
+<Resultados/scp59-eps-converted-to.pdf, id=372, 505.89pt x 505.89pt>
 File: Resultados/scp59-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp59-eps-converted-to.pdf>
@@ -2186,7 +2190,7 @@ Package epstopdf Info: Source file: <Resultados/scp510.eps>
 rted-to.pdf Resultados/scp510.eps>
 (epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp510-eps-converted-to.pdf, id=370, 505.89pt x 505.89pt>
+<Resultados/scp510-eps-converted-to.pdf, id=373, 505.89pt x 505.89pt>
 File: Resultados/scp510-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp510-eps-converted-to.pdf>
@@ -2208,7 +2212,7 @@ Package epstopdf Info: Source file: <Resultados/scp61.eps>
 ted-to.pdf Resultados/scp61.eps>
 (epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp61-eps-converted-to.pdf, id=371, 505.89pt x 505.89pt>
+<Resultados/scp61-eps-converted-to.pdf, id=374, 505.89pt x 505.89pt>
 File: Resultados/scp61-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp61-eps-converted-to.pdf>
@@ -2230,7 +2234,7 @@ Package epstopdf Info: Source file: <Resultados/scp62.eps>
 ted-to.pdf Resultados/scp62.eps>
 (epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp62-eps-converted-to.pdf, id=372, 505.89pt x 505.89pt>
+<Resultados/scp62-eps-converted-to.pdf, id=375, 505.89pt x 505.89pt>
 File: Resultados/scp62-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp62-eps-converted-to.pdf>
@@ -2252,7 +2256,7 @@ Package epstopdf Info: Source file: <Resultados/scp63.eps>
 ted-to.pdf Resultados/scp63.eps>
 (epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp63-eps-converted-to.pdf, id=373, 505.89pt x 505.89pt>
+<Resultados/scp63-eps-converted-to.pdf, id=376, 505.89pt x 505.89pt>
 File: Resultados/scp63-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp63-eps-converted-to.pdf>
@@ -2274,7 +2278,7 @@ Package epstopdf Info: Source file: <Resultados/scp64.eps>
 ted-to.pdf Resultados/scp64.eps>
 (epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp64-eps-converted-to.pdf, id=374, 505.89pt x 505.89pt>
+<Resultados/scp64-eps-converted-to.pdf, id=377, 505.89pt x 505.89pt>
 File: Resultados/scp64-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp64-eps-converted-to.pdf>
@@ -2296,7 +2300,7 @@ Package epstopdf Info: Source file: <Resultados/scp65.eps>
 ted-to.pdf Resultados/scp65.eps>
 (epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scp65-eps-converted-to.pdf, id=375, 505.89pt x 505.89pt>
+<Resultados/scp65-eps-converted-to.pdf, id=378, 505.89pt x 505.89pt>
 File: Resultados/scp65-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scp65-eps-converted-to.pdf>
@@ -2318,7 +2322,7 @@ Package epstopdf Info: Source file: <Resultados/scpA1.eps>
 ted-to.pdf Resultados/scpA1.eps>
 (epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpA1-eps-converted-to.pdf, id=376, 505.89pt x 505.89pt>
+<Resultados/scpA1-eps-converted-to.pdf, id=379, 505.89pt x 505.89pt>
 File: Resultados/scpA1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpA1-eps-converted-to.pdf>
@@ -2340,7 +2344,7 @@ Package epstopdf Info: Source file: <Resultados/scpA2.eps>
 ted-to.pdf Resultados/scpA2.eps>
 (epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpA2-eps-converted-to.pdf, id=377, 505.89pt x 505.89pt>
+<Resultados/scpA2-eps-converted-to.pdf, id=380, 505.89pt x 505.89pt>
 File: Resultados/scpA2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpA2-eps-converted-to.pdf>
@@ -2362,7 +2366,7 @@ Package epstopdf Info: Source file: <Resultados/scpA3.eps>
 ted-to.pdf Resultados/scpA3.eps>
 (epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpA3-eps-converted-to.pdf, id=378, 505.89pt x 505.89pt>
+<Resultados/scpA3-eps-converted-to.pdf, id=381, 505.89pt x 505.89pt>
 File: Resultados/scpA3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpA3-eps-converted-to.pdf>
@@ -2384,7 +2388,7 @@ Package epstopdf Info: Source file: <Resultados/scpA4.eps>
 ted-to.pdf Resultados/scpA4.eps>
 (epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpA4-eps-converted-to.pdf, id=379, 505.89pt x 505.89pt>
+<Resultados/scpA4-eps-converted-to.pdf, id=382, 505.89pt x 505.89pt>
 File: Resultados/scpA4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpA4-eps-converted-to.pdf>
@@ -2406,7 +2410,7 @@ Package epstopdf Info: Source file: <Resultados/scpA5.eps>
 ted-to.pdf Resultados/scpA5.eps>
 (epstopdf)             \includegraphics on input line 278.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpA5-eps-converted-to.pdf, id=380, 505.89pt x 505.89pt>
+<Resultados/scpA5-eps-converted-to.pdf, id=383, 505.89pt x 505.89pt>
 File: Resultados/scpA5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpA5-eps-converted-to.pdf>
@@ -2428,7 +2432,7 @@ Package epstopdf Info: Source file: <Resultados/scpB1.eps>
 ted-to.pdf Resultados/scpB1.eps>
 (epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpB1-eps-converted-to.pdf, id=381, 505.89pt x 505.89pt>
+<Resultados/scpB1-eps-converted-to.pdf, id=384, 505.89pt x 505.89pt>
 File: Resultados/scpB1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpB1-eps-converted-to.pdf>
@@ -2450,23 +2454,23 @@ Package epstopdf Info: Source file: <Resultados/scpB2.eps>
 ted-to.pdf Resultados/scpB2.eps>
 (epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpB2-eps-converted-to.pdf, id=382, 505.89pt x 505.89pt>
+<Resultados/scpB2-eps-converted-to.pdf, id=385, 505.89pt x 505.89pt>
 File: Resultados/scpB2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpB2-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/scpB2-eps-converted-to.pdf used on input li
 ne 294.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
- [25
+ [26
 
  <./Resultados/scp59-eps-converted-to.pdf> <./Resultados/scp510-eps-converted-t
-o.pdf>] [26 <./Resultados/scp61-eps-converted-to.pdf> <./Resultados/scp62-eps-c
-onverted-to.pdf>] [27 <./Resultados/scp63-eps-converted-to.pdf> <./Resultados/s
+o.pdf>] [27 <./Resultados/scp61-eps-converted-to.pdf> <./Resultados/scp62-eps-c
+onverted-to.pdf>] [28 <./Resultados/scp63-eps-converted-to.pdf> <./Resultados/s
 cp64-eps-converted-to.pdf>]
-[28 <./Resultados/scp65-eps-converted-to.pdf> <./Resultados/scpA1-eps-converted
--to.pdf>] [29 <./Resultados/scpA2-eps-converted-to.pdf> <./Resultados/scpA3-eps
--converted-to.pdf>] [30 <./Resultados/scpA4-eps-converted-to.pdf> <./Resultados
-/scpA5-eps-converted-to.pdf>] [31 <./Resultados/scpB1-eps-converted-to.pdf> <./
+[29 <./Resultados/scp65-eps-converted-to.pdf> <./Resultados/scpA1-eps-converted
+-to.pdf>] [30 <./Resultados/scpA2-eps-converted-to.pdf> <./Resultados/scpA3-eps
+-converted-to.pdf>] [31 <./Resultados/scpA4-eps-converted-to.pdf> <./Resultados
+/scpA5-eps-converted-to.pdf>] [32 <./Resultados/scpB1-eps-converted-to.pdf> <./
 Resultados/scpB2-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2482,7 +2486,7 @@ Package epstopdf Info: Source file: <Resultados/scpB3.eps>
 ted-to.pdf Resultados/scpB3.eps>
 (epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpB3-eps-converted-to.pdf, id=538, 505.89pt x 505.89pt>
+<Resultados/scpB3-eps-converted-to.pdf, id=541, 505.89pt x 505.89pt>
 File: Resultados/scpB3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpB3-eps-converted-to.pdf>
@@ -2504,7 +2508,7 @@ Package epstopdf Info: Source file: <Resultados/scpB4.eps>
 ted-to.pdf Resultados/scpB4.eps>
 (epstopdf)             \includegraphics on input line 313.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpB4-eps-converted-to.pdf, id=539, 505.89pt x 505.89pt>
+<Resultados/scpB4-eps-converted-to.pdf, id=542, 505.89pt x 505.89pt>
 File: Resultados/scpB4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpB4-eps-converted-to.pdf>
@@ -2526,7 +2530,7 @@ Package epstopdf Info: Source file: <Resultados/scpB5.eps>
 ted-to.pdf Resultados/scpB5.eps>
 (epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpB5-eps-converted-to.pdf, id=540, 505.89pt x 505.89pt>
+<Resultados/scpB5-eps-converted-to.pdf, id=543, 505.89pt x 505.89pt>
 File: Resultados/scpB5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpB5-eps-converted-to.pdf>
@@ -2548,7 +2552,7 @@ Package epstopdf Info: Source file: <Resultados/scpC1.eps>
 ted-to.pdf Resultados/scpC1.eps>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC1-eps-converted-to.pdf, id=541, 505.89pt x 505.89pt>
+<Resultados/scpC1-eps-converted-to.pdf, id=544, 505.89pt x 505.89pt>
 File: Resultados/scpC1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC1-eps-converted-to.pdf>
@@ -2570,7 +2574,7 @@ Package epstopdf Info: Source file: <Resultados/scpC2.eps>
 ted-to.pdf Resultados/scpC2.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC2-eps-converted-to.pdf, id=542, 505.89pt x 505.89pt>
+<Resultados/scpC2-eps-converted-to.pdf, id=545, 505.89pt x 505.89pt>
 File: Resultados/scpC2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC2-eps-converted-to.pdf>
@@ -2592,7 +2596,7 @@ Package epstopdf Info: Source file: <Resultados/scpC3.eps>
 ted-to.pdf Resultados/scpC3.eps>
 (epstopdf)             \includegraphics on input line 345.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC3-eps-converted-to.pdf, id=543, 505.89pt x 505.89pt>
+<Resultados/scpC3-eps-converted-to.pdf, id=546, 505.89pt x 505.89pt>
 File: Resultados/scpC3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC3-eps-converted-to.pdf>
@@ -2614,7 +2618,7 @@ Package epstopdf Info: Source file: <Resultados/scpC4.eps>
 ted-to.pdf Resultados/scpC4.eps>
 (epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC4-eps-converted-to.pdf, id=544, 505.89pt x 505.89pt>
+<Resultados/scpC4-eps-converted-to.pdf, id=547, 505.89pt x 505.89pt>
 File: Resultados/scpC4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC4-eps-converted-to.pdf>
@@ -2636,7 +2640,7 @@ Package epstopdf Info: Source file: <Resultados/scpC5.eps>
 ted-to.pdf Resultados/scpC5.eps>
 (epstopdf)             \includegraphics on input line 361.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpC5-eps-converted-to.pdf, id=545, 505.89pt x 505.89pt>
+<Resultados/scpC5-eps-converted-to.pdf, id=548, 505.89pt x 505.89pt>
 File: Resultados/scpC5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpC5-eps-converted-to.pdf>
@@ -2658,7 +2662,7 @@ Package epstopdf Info: Source file: <Resultados/scpD1.eps>
 ted-to.pdf Resultados/scpD1.eps>
 (epstopdf)             \includegraphics on input line 369.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD1-eps-converted-to.pdf, id=546, 505.89pt x 505.89pt>
+<Resultados/scpD1-eps-converted-to.pdf, id=549, 505.89pt x 505.89pt>
 File: Resultados/scpD1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD1-eps-converted-to.pdf>
@@ -2680,7 +2684,7 @@ Package epstopdf Info: Source file: <Resultados/scpD2.eps>
 ted-to.pdf Resultados/scpD2.eps>
 (epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD2-eps-converted-to.pdf, id=547, 505.89pt x 505.89pt>
+<Resultados/scpD2-eps-converted-to.pdf, id=550, 505.89pt x 505.89pt>
 File: Resultados/scpD2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD2-eps-converted-to.pdf>
@@ -2702,7 +2706,7 @@ Package epstopdf Info: Source file: <Resultados/scpD3.eps>
 ted-to.pdf Resultados/scpD3.eps>
 (epstopdf)             \includegraphics on input line 385.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD3-eps-converted-to.pdf, id=548, 505.89pt x 505.89pt>
+<Resultados/scpD3-eps-converted-to.pdf, id=551, 505.89pt x 505.89pt>
 File: Resultados/scpD3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD3-eps-converted-to.pdf>
@@ -2724,7 +2728,7 @@ Package epstopdf Info: Source file: <Resultados/scpD4.eps>
 ted-to.pdf Resultados/scpD4.eps>
 (epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD4-eps-converted-to.pdf, id=549, 505.89pt x 505.89pt>
+<Resultados/scpD4-eps-converted-to.pdf, id=552, 505.89pt x 505.89pt>
 File: Resultados/scpD4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD4-eps-converted-to.pdf>
@@ -2746,7 +2750,7 @@ Package epstopdf Info: Source file: <Resultados/scpD5.eps>
 ted-to.pdf Resultados/scpD5.eps>
 (epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
-<Resultados/scpD5-eps-converted-to.pdf, id=550, 505.89pt x 505.89pt>
+<Resultados/scpD5-eps-converted-to.pdf, id=553, 505.89pt x 505.89pt>
 File: Resultados/scpD5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Resultados/scpD5-eps-converted-to.pdf>
@@ -2756,29 +2760,29 @@ ne 401.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [33
 
  <./Resultados/scpB3-eps-converted-to.pdf> <./Resultados/scpB4-eps-converted-to
 .pdf>]
-[33 <./Resultados/scpB5-eps-converted-to.pdf> <./Resultados/scpC1-eps-converted
--to.pdf>] [34 <./Resultados/scpC2-eps-converted-to.pdf> <./Resultados/scpC3-eps
--converted-to.pdf>] [35 <./Resultados/scpC4-eps-converted-to.pdf> <./Resultados
-/scpC5-eps-converted-to.pdf>] [36 <./Resultados/scpD1-eps-converted-to.pdf> <./
-Resultados/scpD2-eps-converted-to.pdf>] [37 <./Resultados/scpD3-eps-converted-t
-o.pdf> <./Resultados/scpD4-eps-converted-to.pdf>] [38 <./Resultados/scpD5-eps-c
-onverted-to.pdf>] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
-[50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64]
-[65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
-[80] [81] [82]) (./informeFinal.bbl [83]) [84] (./informeFinal.aux)
+[34 <./Resultados/scpB5-eps-converted-to.pdf> <./Resultados/scpC1-eps-converted
+-to.pdf>] [35 <./Resultados/scpC2-eps-converted-to.pdf> <./Resultados/scpC3-eps
+-converted-to.pdf>] [36 <./Resultados/scpC4-eps-converted-to.pdf> <./Resultados
+/scpC5-eps-converted-to.pdf>] [37 <./Resultados/scpD1-eps-converted-to.pdf> <./
+Resultados/scpD2-eps-converted-to.pdf>] [38 <./Resultados/scpD3-eps-converted-t
+o.pdf> <./Resultados/scpD4-eps-converted-to.pdf>] [39 <./Resultados/scpD5-eps-c
+onverted-to.pdf>] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
+[51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
+[66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
+[81] [82] [83]) (./informeFinal.bbl [84]) [85] (./informeFinal.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34060 strings out of 493089
- 802982 string characters out of 6134842
- 962649 words of memory out of 5000000
- 36878 multiletter control sequences out of 15000+600000
+ 34063 strings out of 493089
+ 803035 string characters out of 6134842
+ 961649 words of memory out of 5000000
+ 36881 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,77p,10397b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2800,10 +2804,10 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on informeFinal.pdf (93 pages, 1483180 bytes).
+Output written on informeFinal.pdf (94 pages, 1485217 bytes).
 PDF statistics:
- 909 PDF objects out of 1000 (max. 8388607)
- 589 compressed objects within 6 object streams
+ 912 PDF objects out of 1000 (max. 8388607)
+ 591 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  293 words of extra memory for PDF output out of 10000 (max. 10000000)
 

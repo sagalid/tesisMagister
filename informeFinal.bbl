@@ -211,4 +211,9 @@ W.~Xiang, M.~An, Y.~Li, R.~He, and J.~Zhang, ``An improved global-best harmony
   search algorithm for faster optimization,'' {\em Expert Syst. Appl.},
   vol.~41, no.~13, pp.~5788--5803, 2014.
 
+\bibitem{286385}
+M.~Srinivas and L.~Patnaik, ``Adaptive probabilities of crossover and mutation
+  in genetic algorithms,'' {\em Systems, Man and Cybernetics, IEEE Transactions
+  on}, vol.~24, pp.~656--667, Apr 1994.
+
 \end{thebibliography}
