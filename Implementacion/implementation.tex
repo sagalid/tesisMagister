@@ -8,12 +8,15 @@ As a source code control system, GIT was used, which allowed to maintain a contr
 The parameters presented below were the result of exhaustive tests and multiple executions that allowed to probe beyond the random components a correct behavior for metaheuristics, that is to say, presenting a higher degree of effectiveness compared to other metaheuristics.
 
 \subsubsection{Improvising a New Harmony}
-The process begins with the generation of an initial population of harmonies that are vectors composed of binary digits $d$, in a repetition of the process that is called improvisation. The number of improvisations is denoted by $NI$. Once the improvisations are finished ($t=NI$), there are a number of harmonies on which a repair process is executed with two-phase repair operator (Algorithm \ref{alg:addAndDrop}). Once the harmonies are repaired and meet the constraints defined in the  Matrix $A$ for the SCP, the best and worst harmony, denoted by $x_ {best}$ and $x_ {worst}$, respectively, are stored. The detail of the behavior of the metaheuristics can be reviewed in the flow chart (Figure \ref{dia:FlowBGBHS}). Additionally a greedy selection mechanism are integrated into the BGBHS. The greedy operation is based on the idea that the item with higher profit density ratio should be used first. And the profit density ratio can be calculated by the equation (\ref{ec:mu_j}): 
+The process begins with the generation of an initial population of harmonies that are vectors composed of binary digits $d$, until the amount defined by the HMS. All harmonies are repaired after being created through two-phase repair operator (Algorithm \ref{alg:addAndDrop}).\\
+
+Then in a repetition of the process that is called improvisation new harmonies are created. The number of improvisations is denoted by $NI$. As the harmonies are created, the two-phase operator ADD and DROP is applied to make the harmonies feasible. Once the harmonies are repaired and meet the constraints defined in the  Matrix $A$ for the SCP, the best and worst harmony, denoted by $x_ {best}$ and $x_ {worst}$, respectively, are stored. Additionally a greedy selection mechanism are integrated into the BGBHS. The greedy operation is based on the idea that the item with higher profit density ratio should be used first. And the profit density ratio can be calculated by the equation (\ref{ec:mu_j}): 
 
 \begin{equation} \label{ec:mu_j} 
 \mu_{j}={\frac{1}{c_j}}
 \end{equation}	
-		
+
+The detail of the behavior of the metaheuristics can be reviewed in the flow chart (Figure \ref{dia:FlowBGBHS})	.\\	
 
 %------------------------------Diagrama de HS
 \begin{figure}[]
@@ -66,18 +69,24 @@ The process begins with the generation of an initial population of harmonies tha
 \end{figure}
 %------------------------------END Diagrama de HS
 
-The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation of HS. 
+The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation. 
  
-To solve the problem of local exploitation, we propose a variable parameter for the Bernoulli probability $p$, which starts from one and decreases with each iteration, tending to zero (Figure \ref{fig:pvalue}). This will allow solutions in a first instance to have more variables activated and as the iterations pass, the probability that a variable is activated will be closed to zero.
- 
+To solve the problem of local exploitation, we propose a variable parameter for the Bernoulli probability $p$ in initial population, which starts from one and decreases with each iteration, tending to zero, presenting a behavior according to the equation (\ref{ec:variable_p}):
 
-\begin{figure}[]
+\begin{equation} \label{ec:variable_p} 
+p(t) = \frac{t}{t+1}
+\end{equation}	
+
+The graph of the function can be seen in the figure \ref{fig:pvalue}.\\
+
+\begin{figure}[H]
 \centering
-\includegraphics[scale=.45]{Implementacion/img/p_bernoulli.eps}
+\includegraphics[scale=.35]{Implementacion/img/p_bernoulli.eps}
 \caption{$p$ value over iteration}
 \label{fig:pvalue}
 \end{figure}
 
+This procedure will allow solutions in a first instance to have more variables activated and as the iterations pass, the probability that a variable is activated will be closed to zero, in this way the initial population will have a wider range of solutions allowing to improve the balance between exploitation and exploration.
 
 The initial population in BGBHS is generated randomly using a Bernoulli process. In probability and statistics, a Bernoulli process is a finite or infinite sequence of binary random variables $x_1$, $x_2$, $x_3$,\dots,$x_n$  $\forall x \in \{0,1\}$ ~ and ~ $i=\{1,\dots, n\}$, so it is a discrete-time stochastic process that takes only two values, success (equation \ref{ec:bernoullie_p}) or failure (equation \ref{ec:bernoullie_p-1}), given the probability $p$.
 
@@ -89,12 +98,10 @@ P(x_i=1) = P(\text{success at the $i$-th trial}) = p
 P(x_i=0) = P(\text{failure at the $i$-th trial}) = 1-p
 \end{equation}	
 
-Specifically, for each decision variable of an initial harmony vector, a number within is generated randomly. If the value of the number is less than $p$, the corresponding variable takes 0; otherwise it takes 1. In this way, a set of HMS harmonies will be generated randomly. All the harmonies generated by this process are probably not feasible, only through the repair operator become feasible. This means that for each harmony generated, the operator must be applied to comply with the restrictions.
+Specifically, for each decision variable of an initial harmony vector, a number within is generated randomly. If the value of the number is less than $p$, the corresponding variable takes 0; otherwise it takes 1. In this way, a set of HMS harmonies will be generated randomly. All the harmonies generated by this process are probably not feasible, only through the repair operator ADD and DROP become feasible. This means that for each harmony generated, the operator must be applied to comply with the restrictions.
 
-\subsubsection{Two-Phase Repair Operator: ADD and DROP}
-New generated harmony vector needs to be repaired under two cases. One is that the harmony
-vector violates the constraints. The other corresponds to inactivate the most expensive columns, maintaining the feasibility of the solution. Hence, the repair
-operator consists of two phases. The first phase, called ADD, is responsible for repairing a harmony vector violating the constraint. The second phase, named DROP, is applied to remove any redundant column such that by removing it from the solution, the solution still remains feasible. The detail of the operation can be reviewed in the Algorithm \ref{alg:addAndDrop}.
+\subsubsection{Two-Phase Repair Operator: ADD and DROP}\label{subAddAndDrop}
+New generated harmony vector needs to be repaired under two cases. One is that the harmony vector violates the constraints. The other corresponds to inactivate the most expensive columns, maintaining the feasibility of the solution. Hence, the repair operator consists of two phases. The first phase, called ADD, is responsible for repairing a harmony vector violating the constraint. The second phase, named DROP, is applied to remove any redundant column such that by removing it from the solution, the solution still remains feasible. The detail of the operation can be reviewed in the Algorithm \ref{alg:addAndDrop}.
 
 %------------------------------Fase ADD y DROP:
 \begin{algorithm}

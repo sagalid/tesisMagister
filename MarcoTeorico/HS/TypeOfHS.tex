@@ -83,7 +83,13 @@ since there are 11 decision variables $x_1,\dots, x_{11}$. \\ \hline
 The optimization problem is defined as shown in equation \eqref{ec:set-covering-1} where the goal is to minimize $Z$ subjec to equations \eqref{ec:set-covering-2} and \eqref{ec:set-covering-3}. $x_{iL}$ and $x_{iU}$ are the lower and upper bounds for decision variables. The required parameters to solve the optimization problem, that is, Harmony Memory Size (HMS) or number of solution vectors in the harmony memory, Harmony Memory Consideration Rate (HMCR) which determines the rate of selecting the value from the memory and Pitch Adjusting Rate (PAR) which determines the probability of local improvement and number of improvisations ($NI$) are given when the metaheuristic begins.\\
 
 \textbf{Step 2: Initialize the harmony memory.} \\
- An initial HM is filled with a population of  Harmony Memory Size (HMS). We can formally say the following: $x_i^j = x_{iL} + rand()(x_{iU} - x_{iL}), ~ j=1,2, \ldots , HMS$. Where rand() is a random from a uniform distribution of $[0,1]$.\\
+ An initial HM is filled with a population of  Harmony Memory Size (HMS). We can formally say the following equation:
+ 
+\begin{equation} \label{ec:TraditionalHS}
+ x_i^d(t+1) = x_{iL}^d(t) + rand()(x_{iU}^d(t) - x_{iL}^d(t)), ~ \forall i \in \{1,2, \ldots , n\}. \\
+\end{equation}
+ 
+ Where rand() is a random from a uniform distribution of $[0,1]$.\\
  
 \textbf{Step 3:  Improvise a new harmony.} \\
 Harmonies are generated randomly and the details of the procedure to improvise harmony $x_i^{ \ensuremath{'}}$ can be given in Algorithm \ref{alg:impr_new_harmony}. According to the process, vectors are generated as follows $(x^1,\ldots,x^{HMS})$. Vectors results , make up a matrix such as that shown in (Figure~\ref{mat:sol_mat}):
@@ -108,8 +114,8 @@ $$
       	{
 		$x_i^{ \ensuremath{'}}$ = $x_i^j$~($j=1,2,\ldots,$HMS) \mbox{//memory consideration}\\
 		\lIf{rand() $\leq$ PAR} {
-			$x_i^{\ensuremath{'}}$ = $x_i^{ \ensuremath{'}} \pm r(bw)$ 
-      		}
+			$x_i^{\ensuremath{'}}$ = $x_i^{ \ensuremath{'}} \pm r(bw)$  
+		}\mbox{//bw means band width}\\
       	}
       	{
         		$x_i^{ \ensuremath{'}}$ = $x_{iL}$ + rand() $(x_{iU} - x_{iL})$ \mbox{//random selection}

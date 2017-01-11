@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JAN 2017 18:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 JAN 2017 02:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1651,43 +1651,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
 [8 <./MarcoTeorico/imagenes/musicos.png> <./MarcoTeorico/imagenes/violin.png> <
 ./MarcoTeorico/imagenes/nota.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--139
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
 
 [9 <./MarcoTeorico/imagenes/audience.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
+Underfull \hbox (badness 10000) in paragraph at lines 162--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 )) [10] (./Implementacion/implementation.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 19.
+               Default added (so using `htbp') on input line 22.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 74.
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
 
 Package epstopdf Info: Source file: <Implementacion/img/p_bernoulli.eps>
 (epstopdf)                    date: 2016-12-11 18:01:22
@@ -1698,7 +1708,7 @@ ed-to.pdf>
 (epstopdf)                    size: 5872 bytes
 (epstopdf)             Command: <epstopdf --outfile=Implementacion/img/p_bernou
 lli-eps-converted-to.pdf Implementacion/img/p_bernoulli.eps>
-(epstopdf)             \includegraphics on input line 76.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
 <Implementacion/img/p_bernoulli-eps-converted-to.pdf, id=96, 416.55624pt x 415.
@@ -1707,10 +1717,14 @@ File: Implementacion/img/p_bernoulli-eps-converted-to.pdf Graphic file (type pd
 f)
  <use Implementacion/img/p_bernoulli-eps-converted-to.pdf>
 Package pdftex.def Info: Implementacion/img/p_bernoulli-eps-converted-to.pdf us
-ed on input line 76.
-(pdftex.def)             Requested size: 187.44858pt x 186.99689pt.
- [11] [12 <./Implementacion/img/p_bernoulli-eps-converted-to.pdf>]
-Overfull \hbox (15.0pt too wide) detected at line 122
+ed on input line 84.
+(pdftex.def)             Requested size: 145.79686pt x 145.44554pt.
+
+Underfull \vbox (badness 1442) has occurred while \output is active []
+
+ [11]
+[12 <./Implementacion/img/p_bernoulli-eps-converted-to.pdf>]
+Overfull \hbox (15.0pt too wide) detected at line 129
 [][] 
  []
 
@@ -2779,10 +2793,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34063 strings out of 493089
- 803035 string characters out of 6134842
- 961649 words of memory out of 5000000
- 36881 multiletter control sequences out of 15000+600000
+ 34066 strings out of 493089
+ 803083 string characters out of 6134842
+ 961648 words of memory out of 5000000
+ 36884 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,77p,10397b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2804,7 +2818,7 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on informeFinal.pdf (94 pages, 1485217 bytes).
+Output written on informeFinal.pdf (94 pages, 1485927 bytes).
 PDF statistics:
  912 PDF objects out of 1000 (max. 8388607)
  591 compressed objects within 6 object streams
