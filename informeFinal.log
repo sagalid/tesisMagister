@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 JAN 2017 02:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JAN 2017 01:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1534,7 +1534,7 @@ File: MarcoTeorico/imagenes/trajectory-mh.png Graphic file (type png)
 <use MarcoTeorico/imagenes/trajectory-mh.png>
 Package pdftex.def Info: MarcoTeorico/imagenes/trajectory-mh.png used on input 
 line 28.
-(pdftex.def)             Requested size: 401.49902pt x 226.34506pt.
+(pdftex.def)             Requested size: 281.05421pt x 158.4443pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
@@ -1550,7 +1550,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-
+[4 <./MarcoTeorico/imagenes/classification_mh.png> <./MarcoTeorico/imagenes/tra
+jectory-mh.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
@@ -1560,16 +1561,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-) (./MarcoTeorico/SCP/scp.tex [4 <./MarcoTeorico/imagenes/classification_mh.png
->] [5 <./MarcoTeorico/imagenes/trajectory-mh.png>]
-<Introduccion/imagenes/SetCovering.png, id=65, 874.01532pt x 537.50812pt>
+) (./MarcoTeorico/SCP/scp.tex
+<Introduccion/imagenes/SetCovering.png, id=61, 874.01532pt x 537.50812pt>
 File: Introduccion/imagenes/SetCovering.png Graphic file (type png)
 
 <use Introduccion/imagenes/SetCovering.png>
 Package pdftex.def Info: Introduccion/imagenes/SetCovering.png used on input li
 ne 30.
 (pdftex.def)             Requested size: 218.5033pt x 134.3767pt.
-
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
@@ -1589,18 +1589,16 @@ put line 63.
 (./MarcoTeorico/FrameWorkMH/frameWorkMH.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
-) (./MarcoTeorico/HS/TypeOfHS.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./Introduccion/imagenes/SetCovering.png>] [7 <./Introduccion/imagenes/SetC
-overingSolved.png>]
+ [6 <./Introduccion/imagenes/SetCovering.png> <./Introduccion/imagenes/SetCover
+ingSolved.png>])
+(./MarcoTeorico/HS/TypeOfHS.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
@@ -1641,16 +1639,12 @@ Package pdftex.def Info: MarcoTeorico/imagenes/audience.png used on input line
 75.
 (pdftex.def)             Requested size: 10.76247pt x 6.84702pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
 
 [8 <./MarcoTeorico/imagenes/musicos.png> <./MarcoTeorico/imagenes/violin.png> <
-./MarcoTeorico/imagenes/nota.png>]
+./MarcoTeorico/imagenes/nota.png> <./MarcoTeorico/imagenes/audience.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
@@ -1665,7 +1659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
 
-[9 <./MarcoTeorico/imagenes/audience.png>]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 162--165
 
  []
@@ -1682,11 +1676,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
 )) [10] (./Implementacion/implementation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
@@ -1720,7 +1709,7 @@ Package pdftex.def Info: Implementacion/img/p_bernoulli-eps-converted-to.pdf us
 ed on input line 84.
 (pdftex.def)             Requested size: 145.79686pt x 145.44554pt.
 
-Underfull \vbox (badness 1442) has occurred while \output is active []
+Underfull \vbox (badness 1983) has occurred while \output is active []
 
  [11]
 [12 <./Implementacion/img/p_bernoulli-eps-converted-to.pdf>]
@@ -1728,8 +1717,23 @@ Overfull \hbox (15.0pt too wide) detected at line 129
 [][] 
  []
 
-) [13] (./Mejoras/improvements.tex) [14] (./Resultados/Resultados.tex) [15]
-(./Conclusion/Conclusion.tex) [16] (./Anexo/Anexo.tex
+) [13] (./Mejoras/improvements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+) [14] (./Resultados/Resultados.tex) [15] (./Conclusion/Conclusion.tex)
+[16] (./Anexo/Anexo.tex
 Package epstopdf Info: Source file: <Resultados/scp41_sb.eps>
 (epstopdf)                    date: 2016-12-01 02:00:21
 (epstopdf)                    size: 552273 bytes
@@ -2818,7 +2822,7 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on informeFinal.pdf (94 pages, 1485927 bytes).
+Output written on informeFinal.pdf (94 pages, 1487231 bytes).
 PDF statistics:
  912 PDF objects out of 1000 (max. 8388607)
  591 compressed objects within 6 object streams

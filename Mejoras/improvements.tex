@@ -1,1 +1,17 @@
-improvements.tex
+In order to test the correct execution of the metaheuristic, a total of 30 executions were performed for each instance of the benchmark, both with the $p$ parameter of Bernoulli fixed, and with the parameter $p$ variable according to the function previously shown in equation (\ref{ec:variable_p}).\\
+
+Previously an exhaustive work was done, in order to define the most correct parameters for each instance, but on this occasion, only the tests were executed with 10 iterations until an optimal adjustment of the parameters was achieved. A particular issue is that the execution time of the tests ranged from 10 minutes to 3 hours, between instances. Given that motive, the executions were a smaller amount.\\
+
+In the multiple experiments performed, throughout this work, it was verified that it is not convenient to modify the repair operators. For this reason this 
+process was used as is. The ditail can be seen in the aforementioned biography.\\
+
+The main improvement proposal presented in this paper has to do with the modification of the initial population generation at the beginning of metaheuristics, which aims to improve the balance between exploitation and exploration. Mainly, the exploration is improved, making the initial solution population present a much wider variation, starting with solutions where there are many activated columns $x_i = 1$ and ending with solutions that have many inactivated variables $x_i = 0$
+
+\begin{align}
+    	\begin{bmatrix}  1,1,1,1,1,1, \ldots,1,0,1,1\\
+    			     	1,1,0,1,1,1, \ldots,1,0,1,1 \\ 
+                              	1,1,0,0,1,1, \ldots, 1,0,1,1 \\
+				\vdots \\
+    			     	0,0,1,0,0,0, \ldots,1,0,0,0 
+	\end{bmatrix}
+\end{align}
