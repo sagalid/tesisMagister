@@ -5,13 +5,18 @@ Previously an exhaustive work was done, in order to define the most correct para
 In the multiple experiments performed, throughout this work, it was verified that it is not convenient to modify the repair operators. For this reason this 
 process was used as is. The ditail can be seen in the aforementioned biography.\\
 
-The main improvement proposal presented in this paper has to do with the modification of the initial population generation at the beginning of metaheuristics, which aims to improve the balance between exploitation and exploration. Mainly, the exploration is improved, making the initial solution population present a much wider variation, starting with solutions where there are many activated columns $x_i = 1$ and ending with solutions that have many inactivated variables $x_i = 0$
+The main improvement proposal presented in this paper has to do with the modification of the initial population generation at the beginning of metaheuristics, which aims to improve the balance between exploitation and exploration. Mainly, the exploration is improved, making the initial solution population present a much wider variation, starting with solutions where there are many activated columns $x_i = 1$ and ending with solutions that have many inactivated variables $x_i = 0$ in HM, has shown in matrix (\ref{hm_pvariable}).
 
 \begin{align}
-    	\begin{bmatrix}  1,1,1,1,1,1, \ldots,1,0,1,1\\
+    	HM &= \begin{bmatrix}  1,1,1,1,1,1, \ldots,1,0,1,1\\
     			     	1,1,0,1,1,1, \ldots,1,0,1,1 \\ 
                               	1,1,0,0,1,1, \ldots, 1,0,1,1 \\
 				\vdots \\
     			     	0,0,1,0,0,0, \ldots,1,0,0,0 
 	\end{bmatrix}
+	\label{hm_pvariable}
 \end{align}
+
+Obviously each solution must be treated by the repair operator. For the first solutions, which have a greater number of variables activated, a more intense use of DROP functionality will be made, until the solution is made feasible. On the other hand, the last solutions will have a smaller number of columns activated, so it is necessary to make intensive use of the ADD functionality of the repair operator.\\
+
+Independent of the balance that occurs, it was demonstrated throughout the experiments that there is a greater variation in the population which has a positive impact on the convergence of the algorithm.
