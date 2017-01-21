@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 JAN 2017 06:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 JAN 2017 09:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1758,7 +1758,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-[16] (./Conclusion/Conclusion.tex) [17] (./Anexo/Anexo.tex
+[16] (./Conclusion/Conclusion.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 6.
+
+) [17] (./Anexo/Anexo.tex
 Package epstopdf Info: Source file: <Resultados/scp41_sb.eps>
 (epstopdf)                    date: 2016-12-01 02:00:21
 (epstopdf)                    size: 552273 bytes
@@ -2836,10 +2841,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34074 strings out of 493089
- 803310 string characters out of 6134842
- 973648 words of memory out of 5000000
- 36891 multiletter control sequences out of 15000+600000
+ 34075 strings out of 493089
+ 803328 string characters out of 6134842
+ 974649 words of memory out of 5000000
+ 36892 multiletter control sequences out of 15000+600000
  38297 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,77p,10397b,837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2861,7 +2866,7 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on informeFinal.pdf (95 pages, 1470045 bytes).
+Output written on informeFinal.pdf (95 pages, 1470982 bytes).
 PDF statistics:
  926 PDF objects out of 1000 (max. 8388607)
  600 compressed objects within 6 object streams
