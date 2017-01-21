@@ -20,6 +20,7 @@
 \contentsline {section}{\numberline {6}Proposed improvements}{14}
 \contentsline {section}{\numberline {7}Experimental results}{15}
 \contentsline {section}{\numberline {8}Analisys and conclusion}{17}
+\contentsline {subsection}{\numberline {8.1}Comparison of results}{17}
 \contentsline {section}{\numberline {9}Appendix}{18}
 \contentsline {subsection}{\numberline {9.1}Instance 4.1}{40}
 \contentsline {subsection}{\numberline {9.2}Instance 4.2}{41}
