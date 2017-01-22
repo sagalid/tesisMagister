@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 JAN 2017 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JAN 2017 17:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1759,9 +1759,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
 [16] (./Conclusion/Conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 6.
+ []
 
 ) [17] (./Anexo/Anexo.tex
 Package epstopdf Info: Source file: <Resultados/scp41_sb.eps>
@@ -2866,7 +2866,7 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on informeFinal.pdf (95 pages, 1470982 bytes).
+Output written on informeFinal.pdf (95 pages, 1472178 bytes).
 PDF statistics:
  926 PDF objects out of 1000 (max. 8388607)
  600 compressed objects within 6 object streams

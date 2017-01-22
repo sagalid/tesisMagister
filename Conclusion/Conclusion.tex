@@ -1,9 +1,11 @@
 In this chapter we will perform an analysis of the results obtained in the multiple experiments. The analysis will allow us to obtain information regarding the original algorithm and compare it with the improved algorithm. In the same way we will compare the results with those obtained by other metaheuristics.
 
 \subsection{Comparison of results}
+In order to be able to present a correct analysis, a summary table (Table~\ref{tblRpdComparison}) is made comparing the RPDs averages of each value of the groups of instances. These are presented in such a way that allows us to objectively observe the behavior of metaheuristics in the face of a given problem and a set of known data, as already mentioned in the beginning of this work.
 
+In the summary table we can see that each record of the first column identifies the group of instances that was observed and measured. Each record in the second column refers to an average RPD for the BGBHS metaheuristic developed without any improvement. The following column shows the RPD averages for the BGBHS metaheuristic with the improvement associated with the variation of the $ p $ parameter in the Bernoulli trial. The following column refers to the averages of RPD per instance of the BH S-Shape algorithm and finally the BH Improved column refers to the RPD averages of this metaheuristic. Finally the last row, generalizes a total of all RPD for each algorithm tested, in order to make a single final analysis.
 
-\begin{table}[]
+\begin{table}[H]
 \centering
 \begin{tabular}{|c|c|c|c|c|}
 \hline
@@ -20,3 +22,17 @@ D                                                                               
 \caption{RPD comparison}
 \label{tblRpdComparison}
 \end{table}
+
+
+Regarding the group of instances 4, we can see that the worst result (8.55) in averages of RPD was for BGBHS in its version without improvements, whereas the best result (1.12) was for BGBHS with improvements. The best solution was followed closely by BH with improvements (2.28).
+
+In the group of instances 5, a result very similar to 4 is produced. Where the worst RPD average result (20.71) was for BGBHS and the best (2.42) was for improved BGBHS, equally BH improved (4.83) closely follows the best average.
+
+In the grouping of instances 6, the same pattern is followed as with the two cases previously reviewed, where the best RPD average (1.53) is for improved BGBHS and the worst result (16.88) is for traditional BGBHS. In this set of instances, there is a gap between improved BGBHS and BH improved by almost 6 points, although the same order is maintained when ranking from best to worst.
+
+
+
+
+
+
+
