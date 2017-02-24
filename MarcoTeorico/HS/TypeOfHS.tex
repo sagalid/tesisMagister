@@ -89,7 +89,7 @@ The optimization problem is defined as shown in equation \eqref{ec:set-covering-
  x_i^d(t+1) = x_{iL}^d(t) + rand()(x_{iU}^d(t) - x_{iL}^d(t)), ~ \forall i \in \{1,2, \ldots , n\}. \\
 \end{equation}
  
- Where rand() is a random from a uniform distribution of $[0,1]$.\\
+ Where rand() is a random number from a uniform distribution of $[0,1]$.\\
  
 \textbf{Step 3:  Improvise a new harmony.} \\
 Harmonies are generated randomly and the details of the procedure to improvise harmony $x_i^{ \ensuremath{'}}$ can be given in Algorithm \ref{alg:impr_new_harmony}. According to the process, vectors are generated as follows $(x^1,\ldots,x^{HMS})$. Vectors results , make up a matrix such as that shown in (Figure~\ref{mat:sol_mat}):
@@ -188,13 +188,20 @@ The Selection Mechanism is a process in which a new generated harmony vector $x_
 
 \begin{algorithm}[H]{
 	%Selection Mechanism
-	\eIf {fitness($x_{new}$)  > fitness($x_{best}$)}{
+%	\eIf {fitness($x_{new}$)  > fitness($x_{best}$)}{
+%   		$x_{best} = x_{new}$\
+%   	}{
+%		\If{fitness($x_{new}$)  > fitness($x_{worst}$)}{
+%   			$x_{worst} = x_{new}$\
+%   		}		
+%     	}
+	\If {fitness($x_{new}$)  > fitness($x_{best}$)}{
    		$x_{best} = x_{new}$\
-   	}{
-		\If{fitness($x_{new}$)  > fitness($x_{worst}$)}{
+   	}
+	\If{fitness($x_{new}$)  > fitness($x_{worst}$)}{
    			$x_{worst} = x_{new}$\
-   		}		
-     	}
+   	}
+	
 }			
 \caption{Selection Mechanism procedure}\label{alg:SelectionMechanism}
 \end{algorithm}

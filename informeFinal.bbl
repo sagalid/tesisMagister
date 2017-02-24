@@ -19,7 +19,7 @@ M.~Birattari, T.~St{\"{u}}tzle, L.~Paquete, and K.~Varrentrapp, ``A racing
   N.~Jonoska, eds.), pp.~11--18, Morgan Kaufmann, 2002.
 
 \bibitem{citeulike:921349}
-J.~E. Beasley, ``{OR}-library: distributing test problems by electronic mail,''
+J.~Beasley, ``{OR}-library: distributing test problems by electronic mail,''
   {\em Journal of the Operational Research Society}, vol.~41, no.~11,
   pp.~1069--1072, 1990.
 
@@ -29,17 +29,17 @@ M.~Birattari, L.~Paquete, T.~St\"{u}tzle, and K.~Varrentrapp, ``{Classification
   Components}.''
 
 \bibitem{Beheshti:2014:CCA:2563733.2564085}
-Z.~Beheshti and S.~M. Hj.~Shamsuddin, ``Capso: Centripetal accelerated particle
-  swarm optimization,'' {\em Inf. Sci.}, vol.~258, pp.~54--79, Feb. 2014.
+Z.~Beheshti and S.~Mariyam, ``Capso: Centripetal accelerated particle swarm
+  optimization,'' {\em Inf. Sci.}, vol.~258, pp.~54--79, Feb. 2014.
 
 \bibitem{Rubio2016}
-{\'A}.~G. Rubio, B.~Crawford, R.~Soto, A.~Jaramillo, S.~M. Villablanca,
-  J.~Salas, and E.~Olgu{\'\i}n, {\em An Binary Black Hole Algorithm to Solve
-  Set Covering Problem}, pp.~873--883.
+{\'A}.~G{\'o}mez, B.~Crawford, R.~Soto, A.~Jaramillo, S.~Mansilla, J.~Salas,
+  and E.~Olgu{\'\i}n, {\em An Binary Black Hole Algorithm to Solve Set Covering
+  Problem}, pp.~873--883.
 \newblock Cham: Springer International Publishing, 2016.
 
 \bibitem{Duran:2010:CPS:1645454.1645859}
-O.~Dur\'{a}n, N.~Rodriguez, and L.~A. Consalter, ``Collaborative particle swarm
+O.~Dur\'{a}n, N.~Rodriguez, and L.~Consalter, ``Collaborative particle swarm
   optimization with a data mining technique for manufacturing cell design,''
   {\em Expert Syst. Appl.}, vol.~37, pp.~1563--1567, Mar. 2010.
 
@@ -49,8 +49,8 @@ B.~Crawford, R.~Soto, W.~Palma, F.~Johnson, F.~Paredes, and E.~Olgu{\'{\i}}n,
   artificial bee colony algorithm by using genetic algorithm,'' in {\em
   Advances in Swarm Intelligence - 5th International Conference, {ICSI} 2014,
   Hefei, China, October 17-20, 2014, Proceedings, Part {I}} (Y.~Tan, Y.~Shi,
-  and C.~A.~C. Coello, eds.), vol.~8794 of {\em Lecture Notes in Computer
-  Science}, pp.~189--196, Springer, 2014.
+  and C.~Coello, eds.), vol.~8794 of {\em Lecture Notes in Computer Science},
+  pp.~189--196, Springer, 2014.
 
 \bibitem{DBLP:journals/networks/AringhieriGHS16}
 R.~Aringhieri, A.~Grosso, P.~Hosteins, and R.~Scatamacchia, ``Local search
@@ -74,87 +74,85 @@ S.~Aupetit, N.~Monmarch{\'e}, and M.~Slimane, {\em Hidden Markov Models
 \newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2008.
 
 \bibitem{DBLP:journals/eor/VansteenwegenSBO09}
-P.~Vansteenwegen, W.~Souffriau, G.~V. Berghe, and D.~V. Oudheusden, ``A guided
-  local search metaheuristic for the team orienteering problem,'' {\em European
-  Journal of Operational Research}, vol.~196, no.~1, pp.~118--127, 2009.
+P.~Vansteenwegen, W.~Souffriau, G.~Vanden-Berghe, and D.~Van-Oudheusden, ``A
+  guided local search metaheuristic for the team orienteering problem,'' {\em
+  European Journal of Operational Research}, vol.~196, no.~1, pp.~118--127,
+  2009.
 
 \bibitem{DBLP:journals/anor/SarasolaDSA16}
-B.~Sarasola, K.~F. Doerner, V.~Schmid, and E.~Alba, ``Variable neighborhood
-  search for the stochastic and dynamic vehicle routing problem,'' {\em Annals
-  {OR}}, vol.~236, no.~2, pp.~425--461, 2016.
+B.~Sarasola, K.~Doerner, V.~Schmid, and E.~Alba, ``Variable neighborhood search
+  for the stochastic and dynamic vehicle routing problem,'' {\em Annals {OR}},
+  vol.~236, no.~2, pp.~425--461, 2016.
 
 \bibitem{DBLP:books/daglib/p/Karp10}
-R.~M. Karp, ``Reducibility among combinatorial problems,'' in {\em 50 Years of
+M.~Karp, ``Reducibility among combinatorial problems,'' in {\em 50 Years of
   Integer Programming 1958-2008 - From the Early Years to the State-of-the-Art}
-  (M.~J{\"{u}}nger, T.~M. Liebling, D.~Naddef, G.~L. Nemhauser, W.~R.
-  Pulleyblank, G.~Reinelt, G.~Rinaldi, and L.~A. Wolsey, eds.), pp.~219--241,
-  Springer, 2010.
+  (M.~J{\"{u}}nger, T.~Liebling, D.~Naddef, G.~Nemhauser, W.~Pulleyblank,
+  G.~Reinelt, G.~Rinaldi, and L.~Wolsey, eds.), pp.~219--241, Springer, 2010.
 
 \bibitem{ref02}
-A.~I. Ali and H.~Thiagarajan, ``A network relaxation based enumeration
-  algorithm for set partitioning,'' {\em European Journal of Operational
-  Research}, vol.~38, no.~1, pp.~76--85, 1989.
+A.~Ali and H.~Thiagarajan, ``A network relaxation based enumeration algorithm
+  for set partitioning,'' {\em European Journal of Operational Research},
+  vol.~38, no.~1, pp.~76--85, 1989.
 
 \bibitem{ref08}
-J.~J. Bartholdi, ``A guaranteed-accuracy round-off algorithm for cyclic
-  scheduling and set covering,'' {\em Operations Research}, vol.~29, no.~3,
-  pp.~501--510, 1981.
+J.~Bartholdi, ``A guaranteed-accuracy round-off algorithm for cyclic scheduling
+  and set covering,'' {\em Operations Research}, vol.~29, no.~3, pp.~501--510,
+  1981.
 
 \bibitem{ref51}
 W.~Walker, ``Using the set-covering problem to assign fire companies to fire
   houses,'' {\em Operations Research}, vol.~22, pp.~275--277, 1974.
 
 \bibitem{Vasko198485}
-F.~J. Vasko and G.~R. Wilson, ``Using a facility location algorithm to solve
-  large set covering problems,'' {\em Operations Research Letters}, vol.~3,
-  no.~2, pp.~85--90, 1984.
+F.~Vasko and G.~Wilson, ``Using a facility location algorithm to solve large
+  set covering problems,'' {\em Operations Research Letters}, vol.~3, no.~2,
+  pp.~85--90, 1984.
 
 \bibitem{Vasko:1987:OSI:40299.40301}
-F.~J. Vasko, F.~E. Wolf, and K.~L. Stott, ``Optimal selection of ingot sizes
-  via set covering,'' {\em Operations Research}, vol.~35, pp.~346--353, June
-  1987.
+F.~Vasko, F.~Wolf, and K.~Stott, ``Optimal selection of ingot sizes via set
+  covering,'' {\em Operations Research}, vol.~35, pp.~346--353, June 1987.
 
 \bibitem{ref48}
-F.~J. Vasko, F.~E. Wolf, and K.~L. Stott, ``A set covering approach to
-  metallurgical grade assignment,'' {\em European Journal of Operational
-  Research}, vol.~38, no.~1, pp.~27--34, 1989.
+F.~Vasko, F.~Wolf, and K.~Stott, ``A set covering approach to metallurgical
+  grade assignment,'' {\em European Journal of Operational Research}, vol.~38,
+  no.~1, pp.~27--34, 1989.
 
 \bibitem{ref50}
-F.~J. Vasko, F.~E. Wolf, K.~L. Stott, and J.~W. Scheirer, ``Selecting optimal
-  ingot sizes for bethlehem steel,'' {\em Interfaces}, vol.~19, no.~1,
-  pp.~68--84, 1989.
+F.~Vasko, F.~Wolf, K.~Stott, and J.~Scheirer, ``Selecting optimal ingot sizes
+  for bethlehem steel,'' {\em Interfaces}, vol.~19, no.~1, pp.~68--84, 1989.
 
 \bibitem{ref07}
-M.~L. Balinski and R.~E. Quandt, ``On an integer program for a delivery
-  problem,'' {\em Operations Research}, vol.~12, no.~2, pp.~300--304, 1964.
+M.~Balinski and R.~Quandt, ``On an integer program for a delivery problem,''
+  {\em Operations Research}, vol.~12, no.~2, pp.~300--304, 1964.
 
 \bibitem{ref27}
-B.~A. Foster and D.~M. Ryan, ``An integer programming approach to the vehicle
+B.~Foster and D.~Ryan, ``An integer programming approach to the vehicle
   scheduling problem,'' {\em Operations Research}, vol.~27, pp.~367--384, 1976.
 
 \bibitem{ref26}
-M.~L. Fisher and M.~B. Rosenwein, ``An interactive optimization system for
-  bulk-cargo ship scheduling,'' {\em Naval Research Logistics}, vol.~36, no.~1,
+M.~Fisher and M.~Rosenwein, ``An interactive optimization system for bulk-cargo
+  ship scheduling,'' {\em Naval Research Logistics}, vol.~36, no.~1,
   pp.~27--42, 1989.
 
 \bibitem{ref13}
-M.~Bellmore, H.~J. Geenberg, and J.~J. Jarvis, ``Multi-commodity disconnecting
+M.~Bellmore, H.~Geenberg, and J.~Jarvis, ``Multi-commodity disconnecting
   sets,'' {\em Management Science}, vol.~16, no.~6, pp.~B427--B433, 1970.
 
 \bibitem{ref14}
-M.~Bellmore and H.~D. Ratliff, ``Optimal defense of multi-commodity networks,''
+M.~Bellmore and H.~Ratliff, ``Optimal defense of multi-commodity networks,''
   {\em Management Science}, vol.~18, no.~4-part-i, pp.~B174--B185, 1971.
 
 \bibitem{ref28}
-B.~A. Freeman and J.~V. Jucker, ``The line balancing problem,'' {\em Journal of
+B.~Freeman and J.~Jucker, ``The line balancing problem,'' {\em Journal of
   Industrial Engineering}, vol.~18, pp.~361--364, 1967.
 
 \bibitem{ref41}
-M.~E. Salveson, ``The assembly line balancing problem,'' {\em Journal of
+M.~Salveson, ``The assembly line balancing problem,'' {\em Journal of
   Industrial Engineering}, vol.~6, pp.~18--25, 1955.
 
 \bibitem{ref37}
-C.~C. Ribeiro, M.~Minoux, and M.~C. Penna, ``An optimal
+C.~Ribeiro, M.~Minoux, and M.~Penna, ``An optimal
   column-generation-with-ranking algorithm for very large scale set
   partitioning problems in traffic assignment,'' {\em European Journal of
   Operational Research}, vol.~41, no.~2, pp.~232--239, 1989.
@@ -165,22 +163,22 @@ S.~Ceria, P.~Nobili, and A.~Sassano, ``A lagrangian-based heuristic for
   no.~2, pp.~215--228, 1998.
 
 \bibitem{ref16}
-M.~A. Breuer, ``Simplification of the covering problem with application to
-  boolean expressions,'' {\em Journal of the Association for Computing
-  Machinery}, vol.~17, pp.~166--181, Jan. 1970.
+M.~Breuer, ``Simplification of the covering problem with application to boolean
+  expressions,'' {\em Journal of the Association for Computing Machinery},
+  vol.~17, pp.~166--181, Jan. 1970.
 
 \bibitem{ref18}
 N.~Christofides, ``Zero-one programming using non-binary tree-search,'' {\em
   Computer Journal}, vol.~14, no.~4, pp.~418--421, 1971.
 
 \bibitem{ref20}
-R.~H. Day, ``Letter to the editor---on optimal extracting from a multiple file
+R.~Day, ``Letter to the editor---on optimal extracting from a multiple file
   data storage system: An application of integer programming,'' {\em Operations
   Research}, vol.~13, no.~3, pp.~482--494, 1965.
 
 \bibitem{ref29}
-R.~S. Garfinkel and G.~L. Nemhauser, ``Optimal political districting by
-  implicit enumeration techniques,'' {\em Management Science}, vol.~16, no.~8,
+R.~Garfinkel and G.~Nemhauser, ``Optimal political districting by implicit
+  enumeration techniques,'' {\em Management Science}, vol.~16, no.~8,
   pp.~B495--B508, 1970.
 
 \bibitem{doi:10.1287/inte.27.5.68}
@@ -188,12 +186,11 @@ E.~Housos and T.~Elmroth, ``Automatic optimization of subproblems in scheduling
   airline crews,'' {\em Interfaces}, vol.~27, no.~5, pp.~68--77, 1997.
 
 \bibitem{DBLP:journals/simulation/GeemKL01}
-Z.~W. Geem, J.~Kim, and G.~V. Loganathan, ``A new heuristic optimization
-  algorithm: Harmony search,'' {\em Simulation}, vol.~76, no.~2, pp.~60--68,
-  2001.
+Z.~Geem, J.~Kim, and G.~Loganathan, ``A new heuristic optimization algorithm:
+  Harmony search,'' {\em Simulation}, vol.~76, no.~2, pp.~60--68, 2001.
 
 \bibitem{Geem:2009:MHS:1643438}
-Z.~W. Geem, {\em Music-Inspired Harmony Search Algorithm: Theory and
+Z.~Geem, {\em Music-Inspired Harmony Search Algorithm: Theory and
   Applications}.
 \newblock Springer Publishing Company, Incorporated, 1st~ed., 2009.
 
@@ -203,7 +200,7 @@ D.~Zou, L.~Gao, S.~Li, and J.~Wu, ``Solving 0-1 knapsack problem by a novel
   pp.~1556--1564, 2011.
 
 \bibitem{DBLP:journals/amc/OmranM08}
-M.~G.~H. Omran and M.~Mahdavi, ``Global-best harmony search,'' {\em Applied
+M.~Omran and M.~Mahdavi, ``Global-best harmony search,'' {\em Applied
   Mathematics and Computation}, vol.~198, no.~2, pp.~643--656, 2008.
 
 \bibitem{DBLP:journals/eswa/XiangALHZ14}

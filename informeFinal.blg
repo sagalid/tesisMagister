@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: informeFinal.aux
+The style file: ieeetr.bst
+Database file #1: bibliography.bib
+Warning--can't use both author and editor fields in Rubio2016
+Warning--can't use both author and editor fields in Aupetit2008
+You've used 43 entries,
+            1876 wiz_defined-function locations,
+            772 strings with 12165 characters,
+and the built_in function-call counts, 14346 in all, are:
+= -- 1511
+> -- 502
+< -- 0
++ -- 183
+- -- 140
+* -- 1054
+:= -- 1943
+add.period$ -- 46
+call.type$ -- 43
+change.case$ -- 40
+chr.to.int$ -- 0
+cite$ -- 45
+duplicate$ -- 706
+empty$ -- 1283
+format.name$ -- 140
+if$ -- 3521
+int.to.chr$ -- 0
+int.to.str$ -- 43
+missing$ -- 46
+newline$ -- 136
+num.names$ -- 49
+pop$ -- 86
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 577
+stack$ -- 0
+substring$ -- 1232
+swap$ -- 357
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 162
+width$ -- 45
+write$ -- 453
+(There were 2 warnings)
