@@ -213,6 +213,29 @@ M.~Srinivas and L.~Patnaik, ``Adaptive probabilities of crossover and mutation
   in genetic algorithms,'' {\em Systems, Man and Cybernetics, IEEE Transactions
   on}, vol.~24, pp.~656--667, Apr 1994.
 
+\bibitem{DBLP:journals/eswa/Lanza-Gutierrez17}
+J.~Lanza{-}Guti{\'{e}}rrez, B.~Crawford, R.~Soto, N.~Berr{\'\i}os,
+  J.~G{\'{o}}mez, and F.~Paredes, ``Analyzing the effects of binarization
+  techniques when solving the set covering problem through swarm
+  optimization,'' {\em Expert Syst. Appl.}, vol.~70, pp.~67--82, 2017.
+
+\bibitem{DBLP:conf/csoc/CrawfordSAO16}
+B.~Crawford, R.~Soto, G.~Astudillo, and E.~Olgu{\'\i}n, ``Fireworks explosion
+  can solve the set covering problem,'' in {\em Artificial Intelligence
+  Perspectives in Intelligent Systems - Proceedings of the 5th Computer Science
+  On-line Conference 2016 (CSOC2016), Vol 1} (R.~Silhavy, R.~Senkerik, Z.~K.
+  Oplatkov{\'{a}}, P.~Silhavy, and Z.~Prokopova, eds.), vol.~464 of {\em
+  Advances in Intelligent Systems and Computing}, pp.~477--490, Springer, 2016.
+
+\bibitem{DBLP:conf/csoc/CrawfordSBO16}
+B.~Crawford, R.~Soto, N.~Berr{\'\i}os, and E.~Olgu{\'\i}n, ``Cat swarm
+  optimization with different binarization methods for solving set covering
+  problems,'' in {\em Artificial Intelligence Perspectives in Intelligent
+  Systems - Proceedings of the 5th Computer Science On-line Conference 2016
+  (CSOC2016), Vol 1} (R.~Silhavy, R.~Senkerik, Z.~K. Oplatkov{\'{a}},
+  P.~Silhavy, and Z.~Prokopova, eds.), vol.~464 of {\em Advances in Intelligent
+  Systems and Computing}, pp.~511--524, Springer, 2016.
+
 \bibitem{Edge_aretrovirus}
 K.~Edge, G.~Lamont, and R.~Raines, ``A retrovirus inspired algorithm for virus
   detection,'' {\em Optimization, GECCO}, pp.~8--12.
