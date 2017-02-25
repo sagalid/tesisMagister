@@ -5,45 +5,46 @@ The style file: ieeetr.bst
 Database file #1: bibliography.bib
 Warning--can't use both author and editor fields in Rubio2016
 Warning--can't use both author and editor fields in Aupetit2008
-You've used 43 entries,
+Warning--empty year in Edge_aretrovirus
+You've used 49 entries,
             1876 wiz_defined-function locations,
-            772 strings with 12165 characters,
-and the built_in function-call counts, 14346 in all, are:
-= -- 1511
-> -- 502
+            813 strings with 13853 characters,
+and the built_in function-call counts, 16432 in all, are:
+= -- 1721
+> -- 575
 < -- 0
-+ -- 183
-- -- 140
-* -- 1054
-:= -- 1943
-add.period$ -- 46
-call.type$ -- 43
-change.case$ -- 40
++ -- 209
+- -- 160
+* -- 1216
+:= -- 2217
+add.period$ -- 52
+call.type$ -- 49
+change.case$ -- 46
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 706
-empty$ -- 1283
-format.name$ -- 140
-if$ -- 3521
+cite$ -- 52
+duplicate$ -- 818
+empty$ -- 1484
+format.name$ -- 160
+if$ -- 4031
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 46
-newline$ -- 136
-num.names$ -- 49
-pop$ -- 86
+int.to.str$ -- 49
+missing$ -- 52
+newline$ -- 154
+num.names$ -- 57
+pop$ -- 106
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 577
+skip$ -- 658
 stack$ -- 0
-substring$ -- 1232
-swap$ -- 357
+substring$ -- 1403
+swap$ -- 406
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 162
-width$ -- 45
-write$ -- 453
-(There were 2 warnings)
+warning$ -- 3
+while$ -- 184
+width$ -- 51
+write$ -- 518
+(There were 3 warnings)

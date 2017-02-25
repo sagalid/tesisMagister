@@ -213,4 +213,39 @@ M.~Srinivas and L.~Patnaik, ``Adaptive probabilities of crossover and mutation
   in genetic algorithms,'' {\em Systems, Man and Cybernetics, IEEE Transactions
   on}, vol.~24, pp.~656--667, Apr 1994.
 
+\bibitem{Edge_aretrovirus}
+K.~Edge, G.~Lamont, and R.~Raines, ``A retrovirus inspired algorithm for virus
+  detection,'' {\em Optimization, GECCO}, pp.~8--12.
+
+\bibitem{Mehdi:2009:IIM:1569901.1570109}
+B.~Mehdi, K.~Tanwani, and M.~Farooq, ``Imad: In-execution malware analysis and
+  detection,'' in {\em Proceedings of the 11th Annual Conference on Genetic and
+  Evolutionary Computation}, GECCO '09, (New York, NY, USA), pp.~1553--1560,
+  ACM, 2009.
+
+\bibitem{Noreen:2009:EM:1569901.1570111}
+S.~Noreen, S.~Murtaza, Z.~Shafiq, and M.~Farooq, ``Evolvable malware,'' in {\em
+  Proceedings of the 11th Annual Conference on Genetic and Evolutionary
+  Computation}, GECCO '09, (New York, NY, USA), pp.~1569--1576, ACM, 2009.
+
+\bibitem{Shafiq:2009:AER:1570256.1570370}
+Z.~Shafiq, M.~Tabish, and M.~Farooq, ``On the appropriateness of evolutionary
+  rule learning algorithms for malware detection,'' in {\em Proceedings of the
+  11th Annual Conference Companion on Genetic and Evolutionary Computation
+  Conference: Late Breaking Papers}, GECCO '09, (New York, NY, USA),
+  pp.~2609--2616, ACM, 2009.
+
+\bibitem{NajwadiYusoff00000060}
+N.~Yusoff, ``{Optimizing Decision Tree in Malware Classification System by
+  using Genetic Algorithm},'' {\em International Journal of New Computer
+  Architectures and their Applications (IJNCAA)}, vol.~3, no.~1, 2011.
+
+\bibitem{DBLP:conf/iccci/DemertzisI15}
+K.~Demertzis and L.~Iliadis, ``{SAME:} an intelligent anti-malware extension
+  for android {ART} virtual machine,'' in {\em Computational Collective
+  Intelligence - 7th International Conference, {ICCCI} 2015, Madrid, Spain,
+  September 21-23, 2015, Proceedings, Part {II}} (M.~N{\'{u}}{\~{n}}ez,
+  N.~Nguyen, D.~Camacho, and B.~Trawinski, eds.), vol.~9330 of {\em Lecture
+  Notes in Computer Science}, pp.~235--245, Springer, 2015.
+
 \end{thebibliography}
