@@ -22,5 +22,5 @@
 \contentsline {section}{\numberline {8}Analysis of results}{17}
 \contentsline {subsection}{\numberline {8.1}Comparison of results}{17}
 \contentsline {section}{\numberline {9}Conclusion}{19}
-\contentsline {subsection}{\numberline {9.1}Las papitas}{19}
+\contentsline {subsection}{\numberline {9.1}Global analysis}{19}
 \contentsline {section}{\numberline {10}Appendix}{20}
