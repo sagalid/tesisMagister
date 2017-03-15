@@ -5,7 +5,7 @@ As data persistence, a MySql relational database was used, although log files we
 As a source code control system, GIT was used, which allowed to maintain a control of local source code for both the developed algorithm and the documentation associated to this thesis. Constant replicas were performed against a GIT cloud repository, specifically GITHUB.
  
 \subsection{Binary Global-Best Harmony Search Metaheuristic}
-The parameters presented below were the result of exhaustive tests and multiple executions that allowed to probe beyond the random components a correct behavior for metaheuristics, that is to say, presenting a higher degree of effectiveness compared to other metaheuristics.
+The parameters presented below were the result of exhaustive tests and multiple executions that allowed to prove beyond the random components a correct behavior for metaheuristics, that is to say, presenting a higher degree of effectiveness compared to other metaheuristics.
 
 \subsubsection{Improvising a New Harmony}
 The process begins with the generation of an initial population of harmonies that are vectors composed of binary digits $d$, until the amount defined by the HMS. All harmonies are repaired after being created through two-phase repair operator (Algorithm \ref{alg:addAndDrop}).\\
@@ -71,7 +71,7 @@ The detail of the behavior of the metaheuristics can be reviewed in the flow cha
 
 The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation. 
  
-To solve the problem of local exploitation, we propose a variable parameter for the Bernoulli probability $p$ in initial population, which starts from one and decreases with each iteration, tending to zero, presenting a behavior according to the equation (\ref{ec:variable_p}):
+To solve the problem of local exploitation, we propose a variable parameter for the Bernoulli probability $p$ in initial population, which starts from zero and increases with each iteration, tending to one, presenting a behavior according to the equation (\ref{ec:variable_p}):
 
 \begin{equation} \label{ec:variable_p} 
 p(t) = \frac{t}{t+1}

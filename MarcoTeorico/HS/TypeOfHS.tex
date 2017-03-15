@@ -166,7 +166,7 @@ HMCR(t) = HMCR_{min}-\frac{HMCR_{max} - HMCR_{min}}{NI}t
 ~\\
 where $HMCR_{min}$ and $HMCR_{max}$ represent the lower and upper bounds of $HMCR$, respectively.\\
 
-At first, musicians most likely choose a perfect state of a harmony from their memory or harmony memory during the process of improvising a new harmony. Next, they may select a pitch from the current harmony memory randomly and then they would perform a fine tune operation, that is, pitch adjustment, for the chosen pitch to improve the effectiveness of music. For the SCP, the states of a pitch just include $\{0,1\}$, based on this, a genetic mutation is suitable for pitch adjustment \cite{286385}. The process of improvising a new harmony can be given in Algorithm \ref{alg:newHarmonyGreedy}.\\
+At first, musicians most likely choose a perfect state of a harmony from their memory or harmony memory during the process of improvising a new harmony. Next, they may select a pitch from the current harmony memory randomly and then they would perform a fine tune operation, that is, pitch adjustment, for the chosen pitch to improve the effectiveness of music. For the SCP, the values of a pitch just include $\{0,1\}$, based on this, a genetic mutation is suitable for pitch adjustment \cite{286385}, since the genetic mutation delivers binary results. The process of improvising a new harmony can be given in algorithm \ref{alg:newHarmonyGreedy}.\\
 
 \begin{algorithm}
 \For{$j\leftarrow 1$ \KwTo $n$}{    
