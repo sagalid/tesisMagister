@@ -71,7 +71,7 @@ The detail of the behavior of the metaheuristics can be reviewed in the flow cha
 
 The HS is good at identifying the high performance regions of the solution space in a reasonable time, but poor at performing local search \cite{DBLP:journals/eswa/XiangALHZ14}. Namely, there is an unbalance between the exploration and the exploitation. 
  
-To solve the problem of local exploitation, we propose a variable parameter for the Bernoulli probability $p$ in initial population, which starts from zero and increases with each iteration, tending to one, presenting a behavior according to the equation (\ref{ec:variable_p}):
+To solve the problem of local exploitation, we propose a variable parameter for the Bernoulli probability $p$ in initial population, which starts from 0.5 (t=1) and decreases with each iteration, tending to zero, presenting a behavior according to the equation (\ref{ec:variable_p}):
 
 \begin{equation} \label{ec:variable_p} 
 p(t) = \frac{t}{t+1}
