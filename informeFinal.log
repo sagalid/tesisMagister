@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 MAR 2017 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 MAR 2017 10:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1721,7 +1721,7 @@ Package pdftex.def Info: Implementacion/img/p_bernoulli-eps-converted-to.pdf us
 ed on input line 84.
 (pdftex.def)             Requested size: 145.79686pt x 145.44554pt.
 
-Underfull \vbox (badness 1983) has occurred while \output is active []
+Underfull \vbox (badness 1968) has occurred while \output is active []
 
  [11]
 [12 <./Implementacion/img/p_bernoulli-eps-converted-to.pdf>]
@@ -2954,7 +2954,7 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on informeFinal.pdf (51 pages, 1473171 bytes).
+Output written on informeFinal.pdf (51 pages, 1473170 bytes).
 PDF statistics:
  806 PDF objects out of 1000 (max. 8388607)
  517 compressed objects within 6 object streams
